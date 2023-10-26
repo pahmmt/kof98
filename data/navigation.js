@@ -50,7 +50,7 @@ const navigation = [
       {
         label: 'Avatar Chibi',
         href: '/resources/avatar',
-      }
+      },
     ],
   },
   {

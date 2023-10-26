@@ -75,7 +75,7 @@ export default function FighterSection({ fighters, className = '' }) {
       className={`z-10 mx-auto max-w-7xl overflow-visible ${className}`}
       id="fighters"
     >
-      <CardHeader className="h-16 flex-nowrap bg-[url(/assets/custom/bg_head2.png)] bg-right-bottom bg-no-repeat">
+      <CardHeader className="h-14 flex-nowrap bg-[url(/assets/custom/bg_head2.png)] bg-right-bottom bg-no-repeat sm:h-16">
         <div className="flex-1">
           <h2 className="text-stroke font-semibold drop-shadow">Võ sĩ mới nhất</h2>
           <div className="flex items-center gap-2 text-xs">

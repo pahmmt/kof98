@@ -19,7 +19,7 @@ export default function SoulSection({ souls, className = '' }) {
 
   return (
     <Card fullWidth className={`z-0 mx-auto max-w-7xl ${className}`} id="souls">
-      <CardHeader className="h-16 justify-between bg-[url(/assets/custom/bg_soul.png)] bg-right-bottom bg-no-repeat">
+      <CardHeader className="h-14 justify-between bg-[url(/assets/custom/bg_soul.png)] bg-right-bottom bg-no-repeat sm:h-16">
         <h2 className="text-stroke font-semibold drop-shadow">Hồn lực 5</h2>
       </CardHeader>
       <Divider />
