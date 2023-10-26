@@ -29,7 +29,9 @@ export default function Page({ data }) {
         description="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5."
       >
         <OpenGraph
-          url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/awaken-soul`}
+          url={`${
+            process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+          }/resources/awaken-soul`}
           title="Nguyên liệu nâng cấp Hồn lực 5"
           description="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5."
         />
