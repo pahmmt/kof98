@@ -9,7 +9,10 @@ const handleError = (error) => {
 
 const getData = async () => {
   try {
-    const data = await fs.promises.readFile(path.join('data/yaml', 'home.yml'), 'utf-8')
+    const data = await fs.promises.readFile(
+      path.join(process.cwd(), 'data/yaml', 'home.yml'),
+      'utf-8'
+    )
     return await YAML.parse(data)
   } catch (error) {
     return handleError(error)
@@ -18,7 +21,10 @@ const getData = async () => {
 
 const getFighter = async (id) => {
   try {
-    const data = await fs.promises.readFile(path.join('data/yaml/fighters', `${id}.yml`), 'utf-8')
+    const data = await fs.promises.readFile(
+      path.join(process.cwd(), 'data/yaml/fighters', `${id}.yml`),
+      'utf-8'
+    )
     return await YAML.parse(data)
   } catch (error) {
     return handleError(error)
@@ -27,7 +33,10 @@ const getFighter = async (id) => {
 
 const getEightGatesTable = async () => {
   try {
-    const data = await fs.promises.readFile(path.join('data/yaml', 'gates.yml'), 'utf-8')
+    const data = await fs.promises.readFile(
+      path.join(process.cwd(), 'data/yaml', 'gates.yml'),
+      'utf-8'
+    )
     return await YAML.parse(data)
   } catch (error) {
     return handleError(error)
@@ -36,7 +45,10 @@ const getEightGatesTable = async () => {
 
 const getAidTable = async () => {
   try {
-    const data = await fs.promises.readFile(path.join('data/yaml', 'aid.yml'), 'utf-8')
+    const data = await fs.promises.readFile(
+      path.join(process.cwd(), 'data/yaml', 'aid.yml'),
+      'utf-8'
+    )
     return await YAML.parse(data)
   } catch (error) {
     return handleError(error)

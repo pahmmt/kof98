@@ -17,7 +17,10 @@ const getPosts = async () => {
 
     const posts = await Promise.all(
       files.map(async (file) => {
-        const mdWithData = await fs.promises.readFile(path.join(postDir, file), 'utf-8')
+        const mdWithData = await fs.promises.readFile(
+          path.join(process.cwd(), postDir, file),
+          'utf-8'
+        )
         const { data: frontMatter } = matter(mdWithData)
 
         return {
@@ -35,7 +38,10 @@ const getPosts = async () => {
 
 const getPost = async (slug) => {
   try {
-    const markdown = await fs.promises.readFile(path.join(postDir, slug + '.mdx'), 'utf-8')
+    const markdown = await fs.promises.readFile(
+      path.join(process.cwd(), postDir, `${slug}.mdx`),
+      'utf-8'
+    )
     const { data: frontMatter, content } = matter(markdown)
     const mdxSource = await serialize(content)
 
