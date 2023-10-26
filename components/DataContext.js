@@ -12,6 +12,6 @@ export default function DataProvider({ children }) {
   )
 }
 
-export const useDataContext = () => {
+export function useDataContext() {
   return useContext(DataContext)
 }

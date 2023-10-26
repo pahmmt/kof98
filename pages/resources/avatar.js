@@ -3,7 +3,7 @@ import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 
-export const getServerSideProps = async () => {
+export async function getServerSideProps() {
   try {
     const { getYAML } = await import('@/utils/yaml')
     const data = await getYAML('avatar.yml')

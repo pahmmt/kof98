@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import SoulTable from '@/components/SoulTable'
 
-export const getServerSideProps = async () => {
+export async function getServerSideProps() {
   try {
     const { getSoulTable } = await import('@/utils/soul')
     const data = await getSoulTable()
