@@ -3,7 +3,7 @@ import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   try {
     const { getYAML } = await import('@/utils/yaml')
     const data = await getYAML('avatar.yml')
@@ -38,7 +38,7 @@ export default function Page({ data }) {
               {data.map((avatar, index) => (
                 <Image
                   key={index}
-                  src={`/avatar/${avatar}`}
+                  src={`/assets/avatar/${avatar}`}
                   alt="Avatar"
                   width={100}
                   height={100}
