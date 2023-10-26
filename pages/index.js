@@ -46,7 +46,7 @@ export default function Page({ data, posts }) {
 
   return (
     <>
-      <NextHead title={process.env.NEXT_PUBLIC_APP_NAME || 'Untitled'} />
+      <NextHead title={process.env.NEXT_PUBLIC_APP_NAME || 'Untitled'} description="Cập nhật thông tin võ sĩ, tính năng về game KOF'98 UM OL máy chủ Quốc Tế." />
       <main className="mt-4 flex-1 space-y-8 px-4">
         <ArticleSection
           posts={posts}
