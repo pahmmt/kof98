@@ -12,13 +12,13 @@ const handleError = (error) => {
 
 const getPosts = async () => {
   try {
-    let files = await fs.promises.readdir(path.resolve(process.cwd(), postDir))
+    let files = await fs.promises.readdir(path.join(process.cwd(), postDir))
     files = files.filter((file) => file.split('.')[1] === 'mdx')
 
     const posts = await Promise.all(
       files.map(async (file) => {
         const mdWithData = await fs.promises.readFile(
-          path.resolve(process.cwd(), postDir, file),
+          path.join(process.cwd(), postDir, file),
           'utf-8'
         )
         const { data: frontMatter } = matter(mdWithData)
@@ -39,7 +39,7 @@ const getPosts = async () => {
 const getPost = async (slug) => {
   try {
     const markdown = await fs.promises.readFile(
-      path.resolve(process.cwd(), postDir, `${slug}.mdx`),
+      path.join(process.cwd(), postDir, `${slug}.mdx`),
       'utf-8'
     )
     const { data: frontMatter, content } = matter(markdown)

@@ -1,6 +1,4 @@
-import fs from 'fs'
-import path from 'path'
-import YAML from 'yaml'
+import { getYAML } from './yaml'
 
 const handleError = (error) => {
   console.error('Error:', error)
@@ -9,11 +7,7 @@ const handleError = (error) => {
 
 const getData = async () => {
   try {
-    const data = await fs.promises.readFile(
-      path.resolve(process.cwd(), 'data/yaml', 'home.yml'),
-      'utf-8'
-    )
-    return await YAML.parse(data)
+    return await getYAML('home.yml')
   } catch (error) {
     return handleError(error)
   }
@@ -21,11 +15,7 @@ const getData = async () => {
 
 const getFighter = async (id) => {
   try {
-    const data = await fs.promises.readFile(
-      path.resolve(process.cwd(), 'data/yaml/fighters', `${id}.yml`),
-      'utf-8'
-    )
-    return await YAML.parse(data)
+    return await getYAML(`fighters/${id}.yml`)
   } catch (error) {
     return handleError(error)
   }
@@ -33,11 +23,7 @@ const getFighter = async (id) => {
 
 const getEightGatesTable = async () => {
   try {
-    const data = await fs.promises.readFile(
-      path.resolve(process.cwd(), 'data/yaml', 'gates.yml'),
-      'utf-8'
-    )
-    return await YAML.parse(data)
+    return await getYAML('gates.yml')
   } catch (error) {
     return handleError(error)
   }
@@ -45,11 +31,7 @@ const getEightGatesTable = async () => {
 
 const getAidTable = async () => {
   try {
-    const data = await fs.promises.readFile(
-      path.resolve(process.cwd(), 'data/yaml', 'aid.yml'),
-      'utf-8'
-    )
-    return await YAML.parse(data)
+    return await getYAML('aid.yml')
   } catch (error) {
     return handleError(error)
   }

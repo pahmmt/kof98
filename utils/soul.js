@@ -1,6 +1,4 @@
-import fs from 'fs'
-import path from 'path'
-import YAML from 'yaml'
+import { getYAML } from './yaml'
 
 const handleError = (error) => {
   console.error('Error:', error)
@@ -9,11 +7,7 @@ const handleError = (error) => {
 
 const getSoul = async (id) => {
   try {
-    const data = await fs.promises.readFile(
-      path.resolve(process.cwd(), 'data/yaml/souls', `${id}.yml`),
-      'utf-8'
-    )
-    return await YAML.parse(data)
+    return await getYAML(`souls/${id}.yml`)
   } catch (error) {
     return handleError(error)
   }
@@ -21,11 +15,7 @@ const getSoul = async (id) => {
 
 const getSoulTable = async () => {
   try {
-    const data = await fs.promises.readFile(
-      path.resolve(process.cwd(), 'data/yaml', 'awaken-soul.yml'),
-      'utf-8'
-    )
-    return await YAML.parse(data)
+    return await getYAML('awaken-soul.yml')
   } catch (error) {
     return handleError(error)
   }
