@@ -1,0 +1,26 @@
+name: Bảo Hộ
+description: ''
+image: skill_5000004
+levels:
+  - star: 1
+    content: >-
+      Bắt đầu trận đấu, giảm 8% tỉ lệ chí mạng toàn bộ phe địch trong 2 lượt,
+      nhân đôi hiệu quả đối với địch ở hàng sau.
+  - star: 2
+    content: >-
+      Trong 2 lượt đầu, khi chịu sát thương vượt quá 40% HP bản thân trong 1 đòn
+      đánh, lượng sát thương tối đa bản thân nhận phải không vượt quá 40% máu
+      tối đa.
+  - star: 3
+    content: >-
+      Giải trừ hiệu ứng bất lợi (mê hoặc, đóng băng, thiêu hồn, choáng, hóa
+      đá...).
+  - star: 4
+    content: >-
+      Kể từ lượt 3 trờ đi, sát thương phải chịu sẽ không vượt quá 30% máu tối đa
+      của bản thân, tăng 20% tỉ lệ đỡ đòn và kháng chí mạng.
+  - star: 5
+    content: >-
+      Mỗi khi bản thân dính 1 hiệu ứng khống chế (mê hoặc, đóng băng, thiêu hồn,
+      hóa đá, choáng...), sẽ hồi lại 8% máu tối đa bản thân, tối đa 2 lần trong
+      một lượt.

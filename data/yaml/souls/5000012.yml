@@ -1,0 +1,45 @@
+name: Lang Linh
+description: >-
+  Khi bắt đầu trận đấu, nếu phe ta có cả hồn Lang Linh và Dương Linh, sẽ tạo ra
+  hiệu quả "Lá chắn linh hồn" cho toàn bộ phe ta; kích hoạt khi HP của võ sĩ
+  dưới 80%, sát thương nhận vào tối đa không vượt quá 30% HP (1 lượt); cấp sao
+  Hồn Dương Linh càng cao, sát thương nhận vào tối đa càng ít (chỉ có thể kích
+  hoạt 1 lần mỗi trận)
+image: skill_5000012
+levels:
+  - star: 1
+    content: >-
+      Khi bị tấn công bởi kẻ địch và nhận sát thương, kẻ tấn công sẽ bị nuốt
+      chửng 30% tỉ lệ cường hóa sát thương và 30% tỉ lệ kháng sát thương (2
+      lượt, bỏ qua miễn dịch trạng thái xấu, không thể hóa giải, không thể cộng
+      dồn, vô hiệu khi bản thân đang có khiên).
+  - star: 2
+    content: >-
+      Khi bị tấn công bởi kẻ địch và nhận sát thương, kẻ tấn công sẽ bị nuốt
+      chửng 20% công, thủ (2 lượt, bỏ qua miễn dịch trạng thái xấu, không thể
+      hóa giải, không thể cộng dồn, vô hiệu khi bản thân đang có khiên). Hiệu
+      quả gấp đôi nếu chịu sát thương chí mạng, đồng thời nuốt chửng 30% tỉ lệ
+      chí mạng và lực chí mạng của mục tiêu (1 lượt, bỏ qua miễn dịch trạng thái
+      xấu, không thể hóa giải, không thể cộng dồn).
+  - star: 3
+    content: >-
+      Khi bị tấn công bởi kẻ địch và nhận sát thương, người sử dụng hồn lực này
+      có thể gây ra hiệu quả "vết nứt" lên kẻ tấn công (Giảm 50% tốc độ hồi nộ
+      và 60% tỉ lệ chữa trị, bỏ qua miễn dịch trạng thái xấu, không thể hóa
+      giải). Hiệu quả "vết nứt" sẽ biến mất nếu phe ta tấn công vào mục tiêu
+      trong lượt của phe ta. Nếu không bị tấn công, hiệu quả này sẽ tiếp tục
+      tồn tại.
+  - star: 4
+    content: >-
+      Khi hiệu quả "vết nứt" biến mất, giảm 150 nộ của mục tiêu, hóa giải trạng
+      thái bất lợi của người sử dụng hồn Lang Linh và hồn Dương Linh phe ta. Nếu
+      phe ta có người sử dụng hồn Dương Linh, sẽ giảm thêm nộ của mục tiêu
+      (Lượng nộ giảm thêm = Cấp sao hồn Dương Linh*20).
+  - star: 5
+    content: >-
+      Mỗi lượt, Lang Linh sẽ lây lan dịch bệnh cho kẻ địch. Khi kẻ địch bị hạ
+      gục, giảm 1 mục tiêu ngẫu nhiên xung quanh 400 nộ, 30% công thủ (2 lượt,
+      bỏ qua miễn dịch trạng thái xấu, không thể hóa giải). Nếu phe ta có người
+      sử dụng hồn Dương Linh, hiệu quả càng được tiến hóa mạnh mẽ. Khi hồn Dương
+      Linh đạt 3 sao, hiệu quả lây lan dịch bệnh tăng thành 2 người; hồn Dương
+      Linh đạt 5 sao tăng thành 3 người.

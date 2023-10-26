@@ -1,0 +1,20 @@
+name: Chiến Thần
+description: ''
+image: skill_5000002
+levels:
+  - star: 1
+    content: >-
+      Khi trận đấu bắt đầu, thu nhỏ 1 kẻ địch ngẫu nhiên (giảm kích thước cơ
+      thể, giảm 15% thủ, sát thương và kháng sát thương trong 1 lượt.
+  - star: 2
+    content: Khi trận đấu bắt đầu, tăng bản thân 15% tỉ lệ chí mạng, tồn tại hết trận.
+  - star: 3
+    content: Bắt đầu trận đấu, hiệu ứng thu nhỏ tăng tỉ lệ debuff từ 15% lên 30%.
+  - star: 4
+    content: Tăng 60% sát thương đánh thường và độc chiêu lên kẻ địch bị thu nhỏ.
+  - star: 5
+    content: >-
+      Từ lượt thứ 3, nhận hiệu ứng Chiến Thần, các chỉ số tổng thể tăng mạnh (cơ
+      thể siêu to khổng lồ, tăng 20% công, thủ, sát thương và kháng sát thương),
+      tồn tại hết trận, ngay lập tức hồi 30% máu (không thể kích hoạt nếu trước
+      đó võ sĩ hồi sinh hoặc chuyển sinh).

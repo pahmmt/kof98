@@ -1,0 +1,30 @@
+name: Huyết Gai
+description: ''
+image: skill_5000010
+levels:
+  - star: 1
+    content: >-
+      Không thể sử dụng cho võ sĩ Vệ. Với mỗi đồng minh xung quanh, tăng bản
+      thân 10% tỉ lệ phản đòn, đồng thời khiến các đồng minh đó suy giảm 10% tỉ
+      lệ phản đòn.
+  - star: 2
+    content: >-
+      Công thường và độc chiêu sẽ giảm 10% thủ của mục tiêu và gây hiệu ứng chảy
+      máu, đầu mỗi lượt mất 10% HP tối đa và giảm 70% tỉ lệ chữa trị (1 lượt).
+  - star: 3
+    content: >-
+      Khi bản thân bị tấn công xuống dưới 50% HP, cướp 20% HP của 1 võ sĩ ngẫu
+      nhiên có trên 30% HP phe địch (mỗi trận kích hoạt tối đa 3 lần).
+  - star: 4
+    content: >-
+      Lượng tỉ lệ phản đòn nhận được từ đồng minh xung quanh tăng lên thành 20%
+      (tối đa 40%), đồng thời các đồng minh đó sẽ suy giảm thêm 10% tỉ lệ phản
+      đòn. Khi tung tuyệt kĩ có thể gây hiệu ứng chảy máu lên 2 kẻ địch ngẫu
+      nhiên trúng chiêu [Đầu mỗi lượt mất 10% HP tối đa (không thể cộng dồn với
+      hiệu quả 2 sao), giảm 50% tỉ lệ chữa trị, 2 lượt].
+  - star: 5
+    content: >-
+      Khi bị hạ gục, giảm 15% công, thủ toàn bộ phe địch, đồng thời gây hiệu ứng
+      chảy máu lên toàn bộ kẻ địch [Đầu lượt mất 10% HP tối đa (không thể cộng
+      dồn với hiệu quả 4 sao và 2 sao), giảm 50% tỉ lệ chữa trị, 2 lượt, không
+      thể hóa giải].

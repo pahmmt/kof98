@@ -1,0 +1,22 @@
+name: Phục Thù
+description: ''
+image: skill_5000001
+levels:
+  - star: 1
+    content: >-
+      Giảm 50% công thủ của kẻ địch đã giết bản thân trong 2 lượt, không thể
+      giải trừ
+  - star: 2
+    content: Giảm 200 nộ của 2 kẻ địch ngẫu nhiên sau khi tử trận.
+  - star: 3
+    content: >-
+      Sau khi tử trận, hồi máu cho toàn bộ đồng minh từ 20-40% máu tối đa, càng
+      ít võ sĩ hiệu quả hồi HP càng cao.
+  - star: 4
+    content: >-
+      Sau khi tử trận, giảm 20% tỉ lệ chí mạng và đỡ đòn của toàn bộ hàng trước
+      địch trong 2 lượt, không thể giải trừ.
+  - star: 5
+    content: >-
+      Sau khi tử trận, giảm 20% tỉ lệ chí mạng và lực chí mạng của toàn bộ hàng
+      sau địch trong 2 lượt, không thể giải trừ.

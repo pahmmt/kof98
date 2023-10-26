@@ -1,0 +1,49 @@
+name: Đông Lạnh
+description: >-
+  Ức chế sát thương chảy máu, khi võ sĩ kĩ năng đóng băng trang bị thì công năng
+  sách hồn lực này không thể có hiệu lực
+image: skill_5000016
+levels:
+  - star: 1
+    content: >-
+      Khi võ sĩ kĩ năng đóng băng trang bị thì công năng sách hồn lực này không
+      thể có hiệu lực; Khi vào trận giúp bản thân và một người ngẫu nhiên phe ta
+      không phải võ sĩ kĩ năng đóng băng thêm hiệu quả *"Sương băng"*: Tăng 80%
+      kháng sát thương chảy máu, mỗi lượt giảm 20%, thấp nhất về 20%; Khi bản
+      thân tồn tại một loại hiệu quả bất kì trong số chảy máu, thiêu đốt, trúng
+      độc, bản thân tăng 60% tỉ lệ chí mạng và 30% lực chí mạng.
+  - star: 2
+    content: >-
+      Sau khi trang bị khi bắt đầu lượt bản thân hồi 15% HP tối đa, phe ta trên
+      sân mỗi tồn tại một võ sĩ bị khống chế (đóng băng, tê liệt, choáng, câm
+      lặng, thiêu hồn, hoá đá, khiêu khích), lượng hồi tăng 10% HP tối đa; bản
+      thân vĩnh viễn miễn dịch đóng băng và nhận hiệu quả *"Nhũ băng"*: Khi tung
+      tuyệt kĩ bản thân tăng 30% siêu cường hoá sát thương 1 lượt, phe ta trên
+      sân mỗi tồn tại một võ sĩ bị khống chế, hiệu quả tăng 8%.
+  - star: 3
+    content: >-
+      Hiệu quả *"Sương băng"* thêm cho một võ sĩ phe ta nữa; Võ sĩ có *"Sương
+      băng"* khi bắt đầu lượt căn cứ số tầng chảy máu, thiêu đốt, trúng độc của
+      bản thân, mỗi tầng giúp bản thân tăng 10% kháng sát thương chảy máu và 5%
+      tỉ lệ cường hoá sát thương 1 lượt, có thể cộng dồn thuộc tính buff khác
+      cùng loại.
+  - star: 4
+    content: >-
+      Mỗi bắt đầu lượt tấn công bỏ qua 30% tổng thủ của mục tiêu, căn cứ loại
+      hình hiệu quả chảy máu, thiêu đốt, trúng độc của bản thân, mỗi loại hiệu
+      quả tăng thêm 10% *"Sương băng"* hiệu quả tăng cường: Khi bản thân tồn tại 2
+      loại hiệu quả bất kì trong số chảy máu, thiêu đốt, trúng độc, tỉ lệ chí
+      mạng và lực chí mạng gấp đôi; khi võ sĩ tấn công căn cứ bản thân số tầng
+      chảy máu, thiêu đốt, trúng độc, mỗi tầng ngẫu nhiên giảm một kẻ địch 10%
+      siêu kháng sát thương 2 lượt. *"Nhũ băng"* hiệu quả tăng cường: Khi tung
+      tuyệt kĩ căn cứ loại hình hiệu quả chảy máu, thiêu đốt, trúng độc của bản
+      thân, mỗi loại hiệu quả tăng thêm 10% siêu cường hoá sát thương.
+  - star: 5
+    content: >-
+      Hiệu quả *"Sương băng"* thêm cho một võ sĩ phe ta nữa; *"Nhũ băng"* hiệu
+      quả tăng cường: Khi tung tuyệt kĩ phe ta trên sân mỗi tồn tại một võ sĩ bị
+      khống chế, siêu cường hoá sát thương tăng 12%; Khi tung tuyệt kĩ giúp võ
+      sĩ xung quanh tăng siêu cường hoá sát thương 1 lượt, lượng tăng bằng một
+      nửa hiệu quả *"Nhũ băng"*; Khi tung độc chiêu và tuyệt kĩ, có tỉ lệ kích
+      hoạt giúp lần sát thương này bỏ qua khiên chắn (bản thân số tầng chảy máu,
+      thiêu đốt, trúng độc mỗi tầng tăng 30% tỉ lệ).

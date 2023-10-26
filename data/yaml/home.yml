@@ -1,0 +1,859 @@
+fighters:
+  - id: 100001
+    name: Chang
+    type: tank
+    aptitude: 13
+    soul: turtle
+  - id: 100002
+    name: Mary
+    type: tank
+    aptitude: 13
+    soul: bear
+  - id: 100003
+    name: Kyo
+    type: dps
+    aptitude: 13
+    soul: tiger
+  - id: 100004
+    name: Iori
+    type: dps
+    aptitude: 13
+    soul: bear
+  - id: 100005
+    name: Choi
+    type: dps
+    aptitude: 13
+    soul: bear
+  - id: 100006
+    name: Terry
+    type: gank
+    aptitude: 13
+    soul: snake
+  - id: 100007
+    name: Chizuru
+    type: gank
+    aptitude: 13
+    soul: bear
+  - id: 100008
+    name: Ryo
+    type: tank
+    aptitude: 12
+    soul: turtle
+  - id: 100009
+    name: Ryuji
+    type: tank
+    aptitude: 13
+    soul: turtle
+  - id: 100010
+    name: Mature
+    type: dps
+    aptitude: 12
+    soul: bear
+  - id: 100011
+    name: King
+    type: dps
+    aptitude: 12
+    soul: bear
+  - id: 100012
+    name: Benimaru
+    type: gank
+    aptitude: 12
+    soul: snake
+  - id: 100013
+    name: Chin
+    type: gank
+    aptitude: 13
+    soul: bear
+  - id: 100014
+    name: Mai
+    type: gank
+    aptitude: 13
+    soul: tiger
+  - id: 100015
+    name: Joe
+    type: tank
+    aptitude: 12
+    soul: turtle
+  - id: 100016
+    name: Billy
+    type: tank
+    aptitude: 13
+    soul: turtle
+  - id: 100017
+    name: Vice
+    type: dps
+    aptitude: 12
+    soul: bear
+  - id: 100018
+    name: Andy
+    type: gank
+    aptitude: 12
+    soul: snake
+  - id: 100019
+    name: Kensou
+    type: gank
+    aptitude: 12
+    soul: turtle
+  - id: 100020
+    name: Daimon
+    type: tank
+    aptitude: 12
+    soul: turtle
+  - id: 100021
+    name: Kim
+    type: tank
+    aptitude: 11
+    soul: turtle
+  - id: 100022
+    name: Robert
+    type: dps
+    aptitude: 13
+    soul: bear
+  - id: 100023
+    name: Yuri
+    type: dps
+    aptitude: 11
+    soul: snake
+  - id: 100024
+    name: Athena
+    type: gank
+    aptitude: 12
+    soul: tiger
+  - id: 100025
+    name: Shingo
+    type: tank
+    aptitude: 12
+    soul: snake
+  - id: 100026
+    name: Ralf
+    type: tank
+    aptitude: 12
+    soul: turtle
+  - id: 100027
+    name: Leona
+    type: gank
+    aptitude: 13
+    soul: snake
+  - id: 100028
+    name: Clark
+    type: dps
+    aptitude: 13
+    soul: bear
+  - id: 100029
+    name: Chris
+    type: dps
+    aptitude: 13
+    soul: bear
+  - id: 100030
+    name: Yashiro
+    type: tank
+    aptitude: 12
+    soul: turtle
+  - id: 100031
+    name: Shermie
+    type: gank
+    aptitude: 12
+    soul: snake
+  - id: 100032
+    name: Orochi
+    type: gank
+    aptitude: 14
+    soul: bear
+  - id: 100033
+    name: Rugal
+    type: tank
+    aptitude: 14
+    soul: turtle
+  - id: 100034
+    name: Goenitz
+    type: dps
+    aptitude: 14
+    soul: bear
+  - id: 100035
+    name: Eiji
+    type: gank
+    aptitude: 13
+    soul: snake
+  - id: 100036
+    name: Kasumi
+    type: tank
+    aptitude: 13
+    soul: turtle
+  - id: 100037
+    name: Kula
+    type: gank
+    aptitude: 14
+    soul: tiger
+  - id: 100038
+    name: K'
+    type: dps
+    aptitude: 14
+    soul: tiger
+  - id: 100039
+    name: Orochi Chris
+    type: dps
+    aptitude: 13
+    soul: bear
+  - id: 100040
+    name: Orochi Yashiro
+    type: tank
+    aptitude: 13
+    soul: turtle
+  - id: 100041
+    name: Orochi Shermie
+    type: gank
+    aptitude: 13
+    soul: bear
+  - id: 100042
+    name: Geese
+    type: tank
+    aptitude: 14
+    soul: snake
+  - id: 100043
+    name: Mr. Big
+    type: dps
+    aptitude: 13
+    soul: tiger
+  - id: 100044
+    name: Krauser
+    type: dps
+    aptitude: 13
+    soul: bear
+  - id: 100045
+    name: Heavy D
+    type: dps
+    aptitude: 13
+    soul: tiger
+  - id: 100046
+    name: Brian
+    type: tank
+    aptitude: 12
+    soul: turtle
+  - id: 100047
+    name: Lucky
+    type: gank
+    aptitude: 12
+    soul: snake
+  - id: 100048
+    name: Heidern
+    type: gank
+    aptitude: 13
+    soul: snake
+  - id: 100049
+    name: Saisyu
+    type: dps
+    aptitude: 13
+    soul: bear
+  - id: 100050
+    name: Takuma
+    type: tank
+    aptitude: 12
+    soul: bear
+  - id: 100052
+    name: Maxima
+    type: tank
+    aptitude: 13
+    soul: turtle
+  - id: 100053
+    name: Whip
+    type: gank
+    aptitude: 13
+    soul: snake
+  - id: 100054
+    name: Angel
+    type: dps
+    aptitude: 13
+    soul: snake
+  - id: 100055
+    name: Foxy
+    type: gank
+    aptitude: 13
+    soul: snake
+  - id: 100056
+    name: Crazy Iori
+    type: dps
+    aptitude: 14
+    soul: bear
+  - id: 100057
+    name: Orochi Leona
+    type: gank
+    aptitude: 14
+    soul: snake
+  - id: 100058
+    name: Kyo NESTS
+    type: dps
+    aptitude: 14
+    soul: tiger
+  - id: 100059
+    name: Vanessa
+    type: dps
+    aptitude: 14
+    soul: snake
+  - id: 100060
+    name: Bao
+    type: tank
+    aptitude: 13
+    soul: turtle
+  - id: 100061
+    name: Momoko
+    type: dps
+    aptitude: 13
+    soul: snake
+  - id: 100062
+    name: Athena 02UM
+    type: gank
+    aptitude: 14
+    soul: snake
+  - id: 100063
+    name: ZERO
+    type: tank
+    aptitude: 14
+    soul: turtle
+  - id: 100064
+    name: Krizalid
+    type: dps
+    aptitude: 14
+    soul: snake
+  - id: 100065
+    name: Igniz
+    type: gank
+    aptitude: 14
+    soul: vacuum
+  - id: 100066
+    name: Omega Rugal
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100067
+    name: Nakoruru
+    type: gank
+    aptitude: 13
+    soul: bear
+  - id: 100068
+    name: Haohmaru
+    type: tank
+    aptitude: 14
+    soul: turtle
+  - id: 100069
+    name: Ukyo Tachibana
+    type: dps
+    aptitude: 14
+    soul: snake
+  - id: 100070
+    name: Mukai
+    type: gank
+    aptitude: 15
+    soul: tiger
+  - id: 100071
+    name: Magaki
+    type: tank
+    aptitude: 15
+    soul: bear
+  - id: 100072
+    name: Saiki
+    type: tank
+    aptitude: 15
+    soul: snake
+  - id: 100073
+    name: Ash
+    type: dps
+    aptitude: 15
+    soul: snake
+  - id: 100074
+    name: Shion
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100075
+    name: Benimaru 2003
+    type: gank
+    aptitude: 14
+    soul: bear
+  - id: 100076
+    name: Robert 02UM
+    type: dps
+    aptitude: 14
+    soul: tiger
+  - id: 100077
+    name: Terry 2003
+    type: dps
+    aptitude: 14
+    soul: tiger
+  - id: 100078
+    name: New Mr. Karate
+    type: tank
+    aptitude: 14
+    soul: snake
+  - id: 100079
+    name: Mr. Karate
+    type: gank
+    aptitude: 15
+    soul: turtle
+  - id: 100080
+    name: Nameless
+    type: dps
+    aptitude: 14
+    soul: turtle
+  - id: 100082
+    name: May Lee
+    type: gank
+    aptitude: 14
+    soul: tiger
+  - id: 100083
+    name: Jhun Hoon
+    type: dps
+    aptitude: 14
+    soul: tiger
+  - id: 100084
+    name: Hinako
+    type: gank
+    aptitude: 13
+    soul: bear
+  - id: 100085
+    name: Adelheid
+    type: dps
+    aptitude: 14
+    soul: bear
+  - id: 100086
+    name: Maki
+    type: gank
+    aptitude: 14
+    soul: bear
+  - id: 100087
+    name: Instinct Iori
+    type: dps
+    aptitude: 15
+    soul: vacuum
+  - id: 100088
+    name: Flame Kyo
+    type: dps
+    aptitude: 15
+    soul: vacuum
+  - id: 100089
+    name: Nightmare Geese
+    type: gank
+    aptitude: 15
+    soul: bear
+  - id: 100090
+    name: Goeniko
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100091
+    name: Elizabeth
+    type: tank
+    aptitude: 15
+    soul: tiger
+  - id: 100092
+    name: Ramon
+    type: gank
+    aptitude: 13
+    soul: tiger
+  - id: 100093
+    name: Seth
+    type: gank
+    aptitude: 15
+    soul: turtle
+  - id: 100094
+    name: Clone ZERO
+    type: dps
+    aptitude: 14
+    soul: tiger
+  - id: 100095
+    name: Shun'Ei
+    type: dps
+    aptitude: 15
+    soul: tiger
+  - id: 100096
+    name: Tung Fu Rue
+    type: dps
+    aptitude: 15
+    soul: turtle
+  - id: 100097
+    name: Lin
+    type: gank
+    aptitude: 14
+    soul: turtle
+  - id: 100098
+    name: Shen Woo
+    type: dps
+    aptitude: 15
+    soul: turtle
+  - id: 100099
+    name: Oswald
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100100
+    name: Kim XIII
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100101
+    name: Leona XIII
+    type: gank
+    aptitude: 15
+    soul: bear
+  - id: 100102
+    name: Ralf XIII
+    type: tank
+    aptitude: 15
+    soul: bear
+  - id: 100103
+    name: Clark XIII
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100104
+    name: Duo Lon
+    type: tank
+    aptitude: 15
+    soul: snake
+  - id: 100105
+    name: Superstar Athena
+    type: gank
+    aptitude: 15
+    soul: turtle
+  - id: 100106
+    name: Rising Dragon Kensou
+    type: dps
+    aptitude: 15
+    soul: snake
+  - id: 100107
+    name: Death Vice
+    type: gank
+    aptitude: 15
+    soul: tiger
+  - id: 100108
+    name: Cruel Beauty Mature
+    type: dps
+    aptitude: 15
+    soul: turtle
+  - id: 100109
+    name: Extreme Mr. Karate
+    type: tank
+    aptitude: 15
+    soul: tiger
+  - id: 100110
+    name: Mizuchi
+    type: gank
+    aptitude: 15
+    soul: vacuum
+  - id: 100111
+    name: Meitenkun
+    type: gank
+    aptitude: 15
+    soul: bear
+  - id: 100112
+    name: Ice Doll Kula
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100113
+    name: Transcendence K'
+    type: dps
+    aptitude: 15
+    soul: tiger
+  - id: 100114
+    name: Maxima XIV
+    type: tank
+    aptitude: 15
+    soul: bear
+  - id: 100115
+    name: King XIII
+    type: gank
+    aptitude: 15
+    soul: snake
+  - id: 100116
+    name: Chang XIV
+    type: gank
+    aptitude: 15
+    soul: turtle
+  - id: 100117
+    name: Choi XIV
+    type: dps
+    aptitude: 15
+    soul: snake
+  - id: 100118
+    name: Rock Howard
+    type: gank
+    aptitude: 15
+    soul: tiger
+  - id: 100119
+    name: Billy XIV
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100120
+    name: Saiki (Awakened)
+    type: tank
+    aptitude: 15
+    soul: vacuum
+  - id: 100121
+    name: Hunry Wolf Terry
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100122
+    name: Hein
+    type: dps
+    aptitude: 15
+    soul: tiger
+  - id: 100123
+    name: Overlord Geese
+    type: dps
+    aptitude: 15
+    soul: tiger
+  - id: 100124
+    name: Hotaru
+    type: gank
+    aptitude: 15
+    soul: snake
+  - id: 100125
+    name: Verse
+    type: tank
+    aptitude: 15
+    soul: bear
+  - id: 100126
+    name: Kukri
+    type: gank
+    aptitude: 15
+    soul: bear
+  - id: 100127
+    name: Catty Leona
+    type: gank
+    aptitude: 15
+    soul: snake
+  - id: 100128
+    name: Alluring Mai
+    type: gank
+    aptitude: 15
+    soul: snake
+  - id: 100129
+    name: Purple Nakoruru
+    type: gank
+    aptitude: 15
+    soul: tiger
+  - id: 100130
+    name: Cutie Terry
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100144
+    name: Hikage
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100145
+    name: Asuka
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100146
+    name: Homura
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100147
+    name: Yumi
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100150
+    name: Igniz 02UM
+    type: gank
+    aptitude: 15
+    soul: vacuum
+  - id: 100151
+    name: Orochi Chris 02UM
+    type: dps
+    aptitude: 15
+    soul: turtle
+  - id: 100152
+    name: Orochi Shermie 02UM
+    type: gank
+    aptitude: 15
+    soul: tiger
+  - id: 100153
+    name: Orochi Yashiro 02UM
+    type: tank
+    aptitude: 15
+    soul: snake
+  - id: 100154
+    name: Goenitz 02UM
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100156
+    name: Benimaru XIII
+    type: gank
+    aptitude: 15
+    soul: tiger
+  - id: 100157
+    name: Luong
+    type: gank
+    aptitude: 15
+    soul: turtle
+  - id: 100158
+    name: Elizabeth XI
+    type: tank
+    aptitude: 15
+    soul: tiger
+  - id: 100159
+    name: Daimon 02UM
+    type: dps
+    aptitude: 15
+    soul: snake
+  - id: 100160
+    name: Angel XIV
+    type: dps
+    aptitude: 15
+    soul: turtle
+  - id: 100161
+    name: Mai XIV
+    type: gank
+    aptitude: 15
+    soul: bear
+  - id: 100162
+    name: Robert XIV
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100163
+    name: Yuri XIV
+    type: dps
+    aptitude: 15
+    soul: tiger
+  - id: 100164
+    name: Yamazaki XIV
+    type: tank
+    aptitude: 15
+    soul: snake
+  - id: 100165
+    name: Mary XIV
+    type: tank
+    aptitude: 15
+    soul: snake
+  - id: 100166
+    name: Iori XIV
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100168
+    name: Vanessa XIV
+    type: dps
+    aptitude: 15
+    soul: tiger
+  - id: 100169
+    name: Krizalid 99
+    type: gank
+    aptitude: 15
+    soul: bear
+  - id: 100170
+    name: Kyo XIV
+    type: dps
+    aptitude: 15
+    soul: vacuum
+  - id: 100171
+    name: Kula XIII
+    type: gank
+    aptitude: 15
+    soul: tiger
+  - id: 100172
+    name: Athena XI
+    type: gank
+    aptitude: 15
+    soul: turtle
+  - id: 100173
+    name: Kensou XI
+    type: tank
+    aptitude: 15
+    soul: bear
+  - id: 100174
+    name: Duo Lon XIII
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100175
+    name: Shingo 02UM
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100176
+    name: Isla
+    type: gank
+    aptitude: 15
+    soul: snake
+  - id: 100178
+    name: Shun'Ei XV
+    type: dps
+    aptitude: 15
+    soul: tiger
+  - id: 100179
+    name: Heidern XIV
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100180
+    name: Ω ‧ Rugal
+    type: dps
+    aptitude: 15
+    soul: snake
+  - id: 100181
+    name: Leona XV
+    type: gank
+    aptitude: 15
+    soul: bear
+  - id: 100182
+    name: Ralf XV
+    type: tank
+    aptitude: 15
+    soul: tiger
+  - id: 100183
+    name: Clark XV
+    type: dps
+    aptitude: 15
+    soul: bear
+  - id: 100185
+    name: Goddess Athena
+    type: tank
+    aptitude: 15
+    soul: turtle
+  - id: 100186
+    name: Miss X
+    type: gank
+    aptitude: 15
+    soul: turtle
+souls:
+  - id: 5000001
+    name: Phục Thù
+  - id: 5000002
+    name: Chiến Thần
+  - id: 5000003
+    name: Bất Khuất
+  - id: 5000004
+    name: Bảo Hộ
+  - id: 5000005
+    name: Oán Linh
+  - id: 5000006
+    name: Nữ Thần
+  - id: 5000007
+    name: Bão Tố
+  - id: 5000008
+    name: Ác Ma
+  - id: 5000009
+    name: Lửa Kusanagi
+  - id: 5000010
+    name: Huyết Gai
+  - id: 5000011
+    name: Dương Linh
+  - id: 5000012
+    name: Lang Linh
+  - id: 5000013
+    name: Khô Héo
+  - id: 5000014
+    name: Phong Ấn
+  - id: 5000015
+    name: Toạ Thiền
+  - id: 5000016
+    name: Đông Lạnh

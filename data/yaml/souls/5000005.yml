@@ -1,0 +1,26 @@
+name: Oán Linh
+description: ''
+image: skill_5000005
+levels:
+  - star: 1
+    content: >-
+      Khi tung độc chiêu, giảm 20% ST gây ra và tăng 10% ST nhận vào của kẻ địch
+      trong 2 lượt.
+  - star: 2
+    content: >-
+      Vào đầu trận, giảm vĩnh viễn 8% thủ của toàn bộ địch, tăng 50% hiệu quả
+      cho địch hàng trước.
+  - star: 3
+    content: >-
+      Từ đầu trận, vào mỗi lượt lẻ, sẽ gây hiệu ứng xấu (choáng, tê liệt, đóng
+      băng, câm lặng) cho 1 kẻ địch ngẫu nhiên trong 1 lượt.
+  - star: 4
+    content: >-
+      Từ đầu trận, mỗi lượt sẽ giải toàn bộ hiệu ứng có lợi của 1 kẻ địch bất
+      kì.
+  - star: 5
+    content: >-
+      Khi tung tuyệt kĩ, sẽ khiến mục tiêu rơi vào trạng thái Nguyền rủa (giảm
+      100% tỉ lệ chí mạng và đỡ đòn trong 2 lượt. Nếu tuyệt kĩ gây sát thương
+      cho 2 mục tiêu trở lên, hiệu ứng này sẽ gây ra cho 2 kẻ địch ngẫu nhiên,
+      không thể giải trừ.

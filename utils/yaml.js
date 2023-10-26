@@ -1,0 +1,19 @@
+import fs from 'fs'
+import path from 'path'
+import YAML from 'yaml'
+
+const handleError = (error) => {
+  console.error('Error:', error)
+  return []
+}
+
+const getYAML = async (filename) => {
+  try {
+    const data = await fs.promises.readFile(path.join('data/yaml', filename), 'utf-8')
+    return await YAML.parse(data)
+  } catch (error) {
+    return handleError(error)
+  }
+}
+
+export { getYAML }

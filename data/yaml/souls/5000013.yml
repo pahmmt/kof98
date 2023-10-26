@@ -1,0 +1,43 @@
+name: Khô Héo
+description: Người trang bị khi tấn công sẽ có thêm hiệu quả khô héo
+image: skill_5000013
+levels:
+  - star: 1
+    content: >-
+      Người trang bị khi tấn công sẽ có thêm hiệu quả Khô héo, nhưng khi mục
+      tiêu tấn công nhiều hơn 2 người, chỉ thêm hiệu quả này cho ngẫu nhiên 2
+      trong số đó (giảm mục tiêu 50% lượng chữa trị, giảm 150 nộ mục tiêu mỗi
+      lượt trong 2 lượt, không thể tăng thêm hiệu quả này cho các võ sĩ có hiệu
+      quả Khô héo và Mục nát). Sau khi hiệu quả Khô héo kết thúc hoặc bị hóa
+      giải, hiệu quả Khô héo sẽ biến thành hiệu quả Mục nát, kéo dài 1 lượt
+      (giảm mục tiêu 80% lượng chữa trị và 40% tốc độ hồi nộ, bỏ qua miễn dịch
+      trạng thái xấu và không thể hóa giải).
+  - star: 2
+    content: >-
+      Hồn Khô Héo đang trong trận, sau khi mục tiêu dính Khô héo tung độc chiêu
+      sẽ giảm bản thân mục tiêu 30% sát thương và kháng sát thương độc chiêu.
+      Sau khi mục tiêu dính Mục nát tung độc chiêu, giảm sát thương và kháng sát
+      thương độc chiêu của bản thân mục tiêu và võ sĩ xung quanh, đồng thời giảm
+      bản thân mục tiêu 50% tỉ lệ độc chiêu trong 1 lượt, hiệu quả bỏ qua miễn
+      dịch trạng thái xấu và không thể hóa giải. 
+  - star: 3
+    content: >-
+      Hồn Khô Héo đang trong trận, kẻ địch tấn công (trừ kĩ năng phản công) và
+      khi trên sân phe ta có hiệu ứng khống chế (choáng, tê liệt, đóng băng,
+      đông cứng, câm lặng, hóa đá, khiêu khích), ngẫu nhiên giảm 1 kẻ địch 300
+      nộ (ưu tiên võ sĩ đầy nộ, kích hoạt tối đa 1 lần mỗi lượt). Nếu mục tiêu
+      là võ sĩ Dị giới, sẽ giảm thêm 70% tốc độ hồi nộ trong 2 lượt (hiệu quả bỏ
+      qua miễn dịch trạng thái xấu và không thể hóa giải).
+  - star: 4
+    content: >-
+      Hồn Khô Héo đang trong trận, sau khi mục tiêu dính Khô héo tung tuyệt kĩ
+      sẽ giảm bản thân mục tiêu 30% sát thương và kháng sát thương tuyệt kĩ
+      trong 2 lượt. Sau khi mục tiêu dính Mục nát tung tuyệt kĩ, giảm bản thân
+      mục tiêu và võ sĩ xung quanh sát thương và kháng sát thương tuyệt kĩ,
+      đồng thời giảm bản thân mục tiêu 30% công thủ, hiệu quả bỏ qua miễn dịch
+      trạng thái xấu và không thể hóa giải.
+  - star: 5
+    content: >-
+      Hiệu quả giảm nộ ở 3 sao tăng thêm 50% và gây thêm lên 1 mục tiêu. Nếu mục
+      tiêu là võ sĩ Dị giới, đóng băng thanh nộ trong 2 lượt (bỏ qua miễn dịch
+      trạng thái xấu, không thể hóa giải).

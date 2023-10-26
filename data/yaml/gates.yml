@@ -1,0 +1,1182 @@
+apt_15:
+  - name: Nhất môn
+    condition:
+      - Võ sĩ đẳng Cam +1
+      - Võ sĩ đạt 5 sao
+      - Tổng cấp hồn lực đạt 40
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 4
+        gold_cost: 900000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 4
+        gold_cost: 1200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 5
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1400000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1800000
+  - name: Nhị môn
+    condition:
+      - Nhất môn đạt 4 ngọc
+      - Tổng sao trang bị đạt 10
+      - Mở khóa toàn bộ phím, tổng cấp phím >= 600
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1500000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 2100000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 2400000
+  - name: Tam môn
+    condition:
+      - Nhị môn đạt 4 ngọc
+      - Võ sĩ đẳng Cam +2
+      - Tổng cấp hồn lực đạt 60
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1500000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1900000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 2300000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 2700000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+        gold_cost: 3000000
+  - name: Tứ môn
+    condition:
+      - Tam môn đạt 4 ngọc
+      - Võ sĩ đạt 6 sao
+      - Võ sĩ duyên ngầm đẳng Tím +3
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 1800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 2300000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 5
+        gold_cost: 2700000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 5
+        gold_cost: 3200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 15
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+        gold_cost: 3600000
+  - name: Ngũ môn
+    condition:
+      - Tứ môn đạt 5 ngọc
+      - Võ sĩ đẳng Cam +3
+      - Võ sĩ duyên ngầm khai mở Nhị môn
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 2400000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 3000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+        gold_cost: 3600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+        gold_cost: 4200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 21
+          - name: Đá thần
+            image: item_520001
+            amount: 6
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 4800000
+  - name: Lục môn
+    condition:
+      - Ngũ môn đạt 5 ngọc
+      - Mở khóa toàn bộ phím, phẩm chất đạt Cam trở lên
+      - Tổng cấp phím >= 1200
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 16
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 5
+        gold_cost: 3600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 20
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 5
+        gold_cost: 4500000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 24
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 6
+        gold_cost: 5400000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 28
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 3200000
+      - items:
+          - name: Đá thần
+            image: item_520001
+            amount: 10
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 8
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 7200000
+  - name: Thất môn
+    condition:
+      - Lục môn đạt 5 ngọc
+      - Võ sĩ đẳng Cam +4
+      - Tổng sao trang bị đạt 25
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+        gold_cost: 4800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+        gold_cost: 6000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 20
+          - name: Đá thần
+            image: item_520001
+            amount: 10
+        gold_cost: 7200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 20
+          - name: Đá thần
+            image: item_520001
+            amount: 12
+        gold_cost: 8400000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 30
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 9600000
+  - name: Bát môn
+    condition:
+      - Thất môn đạt 5 ngọc
+      - Tổng cấp phím >= 1600
+      - Võ sĩ duyên ngầm khai mở Ngũ môn
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 25
+          - name: Đá thần
+            image: item_520001
+            amount: 15
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 18
+        gold_cost: 6000000
+      - items:
+          - name: Đá thần
+            image: item_520001
+            amount: 15
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 27
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 7500000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 40
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 9000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242013
+            amount: 60
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 10500000
+      - items:
+          - name: Đá thần
+            image: item_520001
+            amount: 26
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 12000000
+apt_14:
+  - name: Nhất môn
+    condition:
+      - Võ sĩ đẳng Cam +1
+      - Võ sĩ đạt 5 sao
+      - Tổng cấp hồn lực đạt 40
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 4
+        gold_cost: 600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 4
+        gold_cost: 600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 5
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 750000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 900000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 1200000
+  - name: Nhị môn
+    condition:
+      - Nhất môn đạt 4 ngọc
+      - Tổng sao trang bị đạt 10
+      - Mở khóa toàn bộ phím, tổng cấp phím >= 600
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 1000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 1200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 1400000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1600000
+  - name: Tam môn
+    condition:
+      - Nhị môn đạt 4 ngọc
+      - Võ sĩ đẳng Cam +2
+      - Tổng cấp hồn lực đạt 60
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 1000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 1250000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1500000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1750000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 2000000
+  - name: Tứ môn
+    condition:
+      - Tam môn đạt 4 ngọc
+      - Võ sĩ đạt 6 sao
+      - Võ sĩ duyên ngầm đẳng Tím +3
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1500000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+        gold_cost: 1800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+        gold_cost: 2100000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 15
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+        gold_cost: 2400000
+  - name: Ngũ môn
+    condition:
+      - Tứ môn đạt 5 ngọc
+      - Võ sĩ đẳng Cam +3
+      - Võ sĩ duyên ngầm khai mở Nhị môn
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 2000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 2400000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 2800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 21
+          - name: Đá thần
+            image: item_520001
+            amount: 5
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 3200000
+  - name: Lục môn
+    condition:
+      - Ngũ môn đạt 5 ngọc
+      - Mở khóa toàn bộ phím, phẩm chất đạt Cam trở lên
+      - Tổng cấp phím >= 1200
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 16
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 3
+        gold_cost: 2400000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 20
+          - name: Đá thần
+            image: item_520001
+            amount: 6
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 3
+        gold_cost: 3000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 24
+          - name: Đá thần
+            image: item_520001
+            amount: 6
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 4
+        gold_cost: 3600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 28
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 4200000
+      - items:
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 5
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 4800000
+  - name: Thất môn
+    condition:
+      - Lục môn đạt 5 ngọc
+      - Võ sĩ đẳng Cam +4
+      - Tổng sao trang bị đạt 25
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 6
+        gold_cost: 3200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 6
+        gold_cost: 4000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 20
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+        gold_cost: 4800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 20
+          - name: Đá thần
+            image: item_520001
+            amount: 10
+        gold_cost: 5600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 30
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 6400000
+  - name: Bát môn
+    condition:
+      - Thất môn đạt 5 ngọc
+      - Tổng cấp phím >= 1600
+      - Võ sĩ duyên ngầm khai mở Ngũ môn
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 25
+          - name: Đá thần
+            image: item_520001
+            amount: 12
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 12
+        gold_cost: 4000000
+      - items:
+          - name: Đá thần
+            image: item_520001
+            amount: 12
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 18
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 5000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 40
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 6000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242012
+            amount: 60
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 7000000
+      - items:
+          - name: Đá thần
+            image: item_520001
+            amount: 21
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 8000000
+apt_13:
+  - name: Nhất môn
+    condition:
+      - Võ sĩ đẳng Cam
+      - Võ sĩ đạt 4 sao
+      - Tổng cấp hồn lực đạt 30
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 3
+        gold_cost: 480000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 3
+        gold_cost: 540000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 4
+        gold_cost: 600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 5
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 660000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 5
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 720000
+  - name: Nhị môn
+    condition:
+      - Nhất môn đạt 4 ngọc
+      - Tổng sao trang bị đạt 5
+      - Mở khóa toàn bộ phím, tổng cấp phím >= 200
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 5
+        gold_cost: 640000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 5
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 720000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 7
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 880000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 7
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 960000
+  - name: Tam môn
+    condition:
+      - Nhị môn đạt 4 ngọc
+      - Võ sĩ đẳng Cam +1
+      - Tổng cấp hồn lực đạt 45
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 6
+        gold_cost: 800000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 6
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 900000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 1000000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1100000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1200000
+  - name: Tứ môn
+    condition:
+      - Tam môn đạt 4 ngọc
+      - Võ sĩ đạt 5 sao
+      - Võ sĩ duyên ngầm đẳng Tím +2
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 8
+        gold_cost: 960000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 8
+          - name: Đá thần
+            image: item_520001
+            amount: 1
+        gold_cost: 1080000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 10
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1320000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 14
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+        gold_cost: 1440000
+  - name: Ngũ môn
+    condition:
+      - Tứ môn đạt 4 ngọc
+      - Võ sĩ đẳng Cam +2
+      - Võ sĩ duyên ngầm khai mở Nhị môn
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 9
+        gold_cost: 1280000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 9
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1440000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 1600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 1760000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 18
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+        gold_cost: 1920000
+  - name: Lục môn
+    condition:
+      - Ngũ môn đạt 4 ngọc
+      - Mở khóa toàn bộ phím, phẩm chất đạt Tím trở lên
+      - Tổng cấp phím >= 800
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 2
+        gold_cost: 1920000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 15
+          - name: Đá thần
+            image: item_520001
+            amount: 3
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 2
+        gold_cost: 1920000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 18
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 3
+        gold_cost: 1920000
+      - items:
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 3
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 1600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 25
+          - name: Đá thần
+            image: item_520001
+            amount: 6
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 1800000
+  - name: Thất môn
+    condition:
+      - Lục môn đạt 4 ngọc
+      - Võ sĩ đẳng Cam +3
+      - Tổng sao trang bị đạt 20
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 2560000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 12
+          - name: Đá thần
+            image: item_520001
+            amount: 2
+        gold_cost: 2880000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 16
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+        gold_cost: 3200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 16
+          - name: Đá thần
+            image: item_520001
+            amount: 4
+        gold_cost: 3520000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 24
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+        gold_cost: 3840000
+  - name: Bát môn
+    condition:
+      - Thất môn đạt 5 ngọc
+      - Mở khóa toàn bộ phím, phẩm chất đạt Cam trở lên
+      - Võ sĩ duyên ngầm khai mở Ngũ môn
+    levels:
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 18
+          - name: Đá thần
+            image: item_520001
+            amount: 6
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 6
+        gold_cost: 3200000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 22
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 6
+        gold_cost: 3600000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 26
+          - name: Mảnh vạn năng
+            image: item_203004
+            amount: 8
+          - name: Hồn hiệu
+            image: item_213008
+            amount: 1
+        gold_cost: 4000000
+      - items:
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+          - name: Hồn sách
+            image: item_213009
+            amount: 1
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 4400000
+      - items:
+          - name: Mảnh võ sĩ
+            image: item_242011
+            amount: 34
+          - name: Đá thần
+            image: item_520001
+            amount: 8
+          - name: Hồn vũ khí
+            image: item_220269
+            amount: 1
+        gold_cost: 4800000

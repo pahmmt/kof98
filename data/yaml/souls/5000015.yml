@@ -1,0 +1,43 @@
+name: Toạ Thiền
+description: >-
+  Giúp bản thân và đồng đội tăng đánh trúng, và khôi phục lại hiệu quả giảm tốc
+  độ hồi nộ và chữa trị không thể hoá giải liên quan đến hồn lực 5
+image: skill_5000015
+levels:
+  - star: 1
+    content: >-
+      Tăng bản thân 30% tỉ lệ đánh trúng, hồn lực mỗi tăng 1 sao tăng 5%, và
+      giúp ngẫu nhiên một đồng minh tăng một nửa hiệu quả tỉ lệ đánh trúng; Khi
+      trên sân chỉ có 1 người tăng 100% tỉ lệ đánh trúng; Bản thân nhận *"Chúc
+      phúc"*: mỗi khi bắt đầu lượt bản thân ngẫu nhiên tăng 1 loại thuộc tính
+      buff 2 lượt không thể bị hóa giải (50% tỉ lệ công, 50% tỉ lệ thủ, 20% siêu
+      kháng sát thương, 20% siêu cường hóa sát thương).
+  - star: 2
+    content: >-
+      Khi độc chiêu và công thường có 40% tỉ lệ cấm chiêu mục tiêu 2 lượt (khi
+      mục tiêu vượt quá 2 người ngẫu nhiên 2 mục tiêu), nếu như mục tiêu là võ
+      sĩ né đòn giảm 30% tỉ lệ né đòn 2 lượt và 50% tỉ lệ miễn khống (bỏ qua
+      miễn dịch); Khi tuyệt kĩ có 40% tỉ lệ giảm 100% tỉ lệ né đòn 1 võ sĩ né
+      đòn trong số mục tiêu đánh trúng 1 lượt (bỏ qua miễn dịch), hồn lực mỗi
+      tăng 1 sao tăng 20% tỉ lệ.
+  - star: 3
+    content: >-
+      Tọa thiền: Khi chịu hiệu quả giảm tốc độ hồi nộ và chữa trị không thể hóa
+      giải từ hồn lực 5 phe địch (bao gồm hiệu quả trong *"vết nứt"*), giúp bản
+      thân kèm theo hiệu quả buff thuộc tính tương đồng (cùng trị số, cùng số
+      lượt), khi thuộc tính xấu biến mất thuộc tính buff đồng thời biến mất.
+
+      #(Vết nứt xuất hiện trong hồn Lang Linh 3★, ngoài ra còn ảnh hưởng tới Khô
+      Héo và Phong Ấn)#
+  - star: 4
+    content: >-
+      Võ sĩ *"Tọa thiền"* mỗi khi bắt đầu lượt tích góp 20% cường hóa sát thương
+      và kháng sát thương, tối đa tích góp 3 lần, khi tung tuyệt kĩ xóa hiệu quả
+      buff tăng cường và giúp đồng minh xung quanh không *"Tọa thiền"* hồi nộ
+      (số lần tích góp x 100), bắt đầu lượt kế tiếp phe ta làm mới tích góp.
+  - star: 5
+    content: >-
+      Khi vào trận giúp ngẫu nhiên 2 đồng đội thêm hiệu quả *"Tọa thiền"* và
+      *"Chúc phúc"* duy trì cả trận, khi võ sĩ *"Tọa thiền"* tử vong lần đầu,
+      giúp một đồng minh (võ sĩ không *"Tọa thiền"* và *"Chúc phúc"*) tăng 100%
+      tỉ lệ đánh trúng 2 lượt và kèm theo hiệu quả *"Chúc phúc"* 2 lượt.

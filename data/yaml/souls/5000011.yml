@@ -1,0 +1,49 @@
+name: Dương Linh
+description: >-
+  Năng lực của sự thức tỉnh, là sự kết hợp của hai linh hồn: Lang Linh và Dương
+  Linh khi xuất hiện cùng một thời điểm. Giúp toàn bộ phe ta nhận được hiệu quả
+  "Gió phục hồi": chuyển đổi 30% sát thương độc chiêu thành HP hồi cho bản thân;
+  cấp sao hồn Lang Linh càng cao, lượng chuyển đổi càng nhiều.
+image: skill_5000011
+levels:
+  - star: 1
+    content: >-
+      Khi bắt đầu trận đấu, Dương Linh tạo ra hiệu quả "Năng lực tử thi" cho
+      toàn bộ phe ta. Khi có võ sĩ phe ta tử vong lần đầu tiên, tăng toàn phe ta
+      20% kháng sát thương độc chiêu và tuyệt kĩ (2 lượt, số người chết càng
+      tăng hiệu quả càng cao, hiệu quả không thể hóa giải).
+  - star: 2
+    content: >-
+      Khi bắt đầu trận đấu, Dương Linh gây ra hiệu quả "Bùa chú tử thi" cho
+      toàn bộ phe địch. Khi có võ sĩ đối phương tử vong lần đầu tiên, giảm toàn
+      phe địch 10% sát thương độc chiêu và tuyệt kĩ (2 lượt, số người chết càng
+      tăng hiệu quả càng cao, hiệu quả không thể hóa giải).
+  - star: 3
+    content: >-
+      Hiến tế: Khi võ sĩ sử dụng hồn Dương Linh bị khống chế, vào đầu lượt phe
+      ta sẽ hồi 10% HP cho 1 võ sĩ phe ta không phải bản thân, vào đầu lượt đối
+      phương sẽ hồi 5% HP cho 1 võ sĩ phe ta không phải bản thân. Khi có hồn
+      Lang Linh trong đội hình, lượng hồi phục được gia tăng thêm 50%.
+  - star: 4
+    content: >-
+      Khi bắt đầu trận đấu, Dương Linh gây ra hiệu quả "Hoán chuyển linh hồn"
+      cho toàn bộ phe địch. Khi một kẻ địch tử vong lần đầu tiên, ngẫu nhiên 1
+      võ sĩ phe ta sẽ được phù hộ. Võ sĩ được phù hộ sẽ tăng 40% kháng sát
+      thương (2 lượt), đồng thời có khả năng hồi sinh với một lượng HP nhất
+      định khi bị hạ gục, kế thừa lượng nộ trước khi bị hạ (hiệu quả vô
+      hiệu với các võ sĩ có khả năng hồi sinh hoặc đã được phù hộ). Khi có hồn
+      Lang Linh trong đội hình, lượng hồi phục sẽ được gia tăng (lượng hồi thêm
+      = cấp sao hồn Lang Linh*5% HP tối đa).
+  - star: 5
+    content: >-
+      Khi bắt đầu trận đấu, Dương Linh tạo ra hiệu quả "Dương Linh quy hồi" cho
+      toàn bộ phe ta, linh hồn của Võ Sĩ đồng minh sẽ được quy hồi khi
+      bị hạ gục lần đầu tiên #(chỉ là văn phong của NPH, không phải
+      hồi sinh)#, người sử dụng hồn Dương Linh sẽ hồi 50% HP đã mất và tăng 30%
+      siêu kháng sát thương cho bản thân và tất cả võ sĩ đứng xung quanh (2
+      lượt, không thể hóa giải). Khi trong đội hình có người sử dụng hồn Lang
+      Linh, ngẫu nhiên 1 võ sĩ xung quanh sẽ được hồi 20% HP; hồn Lang Linh 3
+      sao sẽ giúp thêm 1 người đứng xung quanh được hồi HP, hồn Lang Linh 5 sao
+      sẽ giúp thêm 1 người đứng xung quanh nữa được hồi HP. Khi bản thân bị hạ
+      gục, tất cả hiệu quả được nhân đôi, đồng thời lượng siêu kháng sát thương
+      sẽ tăng cho toàn bộ phe ta.

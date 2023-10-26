@@ -1,0 +1,20 @@
+name: Bất Khuất
+description: ''
+image: skill_5000003
+levels:
+  - star: 1
+    content: Khi HP bản thân dưới 40%, có thể hồi 8% máu mỗi lượt.
+  - star: 2
+    content: Tăng 5% KST bản thân cho mỗi lượt sống sót, tối đa 20%.
+  - star: 3
+    content: >-
+      Khi HP dưới 40%, lượng HP hồi phục tăng lên thành 12%, đồng thời xóa bỏ
+      hiệu ứng xấu của bản thân, ngoại trừ hóa đá.
+  - star: 4
+    content: >-
+      Mỗi lượt sống sót trên sân, tăng thêm 10% sát thương tuyệt kĩ, tối đa
+      100%.
+  - star: 5
+    content: >-
+      Tỉ lệ máu càng thấp, lượng sát thương gây ra từ đòn đánh thường, độc
+      chiêu, tuyệt kĩ càng cao, tối đa 50%.

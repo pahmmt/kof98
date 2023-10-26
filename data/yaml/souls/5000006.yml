@@ -1,0 +1,21 @@
+name: Nữ Thần
+description: ''
+image: skill_5000006
+levels:
+  - star: 1
+    content: >-
+      Khi bắt đầu trận đấu, giảm 8% kháng sát thương và thủ của toàn bộ võ sĩ
+      nam đối phương.
+  - star: 2
+    content: Khi tung độc chiêu, nếu mục tiêu là nam, có 50% xác suất giảm 200 nộ.
+  - star: 3
+    content: Vào lượt 3, 1 võ sĩ nữ ngẫu nhiên phe ta sẽ hồi đầy nộ.
+  - star: 4
+    content: >-
+      Với mỗi võ sĩ nữ phe ta (số lượng võ sĩ nữ được đếm vào đầu mỗi lượt, hồi
+      sinh và viện trợ sẽ không được tính trong lượt), toàn bộ võ sĩ nữ phe ta
+      sẽ tăng 5% sát thương tuyệt kĩ, tối đa 20%.
+  - star: 5
+    content: >-
+      Vào lượt 3, 2 võ sĩ nữ ngẫu nhiên phe ta sẽ hồi đầy nộ và tăng cho họ 20%
+      tỉ lệ CHST và KST trong 1 lượt.

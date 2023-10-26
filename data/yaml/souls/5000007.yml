@@ -1,0 +1,27 @@
+name: Bão Tố
+description: ''
+image: skill_5000007
+levels:
+  - star: 1
+    content: Tăng bản thân 20% tỉ lệ tung độc chiêu, 25% sát thương độc chiêu.
+  - star: 2
+    content: >-
+      Khi võ sĩ mang hồn lực tung độc chiêu, sẽ gây kèm hiệu ứng Xé Gió lên kẻ
+      địch (gây sát thương bằng 8% HP tối đa mỗi lượt, duy trì hết trận, có thể
+      cộng dồn, có thể bị giải trừ).
+  - star: 3
+    content: >-
+      Võ sĩ mang hồn Bão tố sẽ có thể nhận hiệu ứng Cuồng Phong. Sau khi tung
+      tuyệt kĩ, có 50% tỉ lệ tái sử dụng tuyệt kĩ, nhưng sát thương gây ra chỉ
+      còn 50% (chỉ thi triển một lần mỗi lượt). Nếu Cuồng Phong được thi triển,
+      võ sĩ sẽ không thể hồi nộ trong lượt này.
+  - star: 4
+    content: >-
+      Đòn đánh thường có thể kèm hiệu ứng Xé Gió. Sát thương của Xé Gió sẽ tăng
+      lên thành 12% HP tối đa, không thể giải trừ.
+  - star: 5
+    content: >-
+      Tỉ lệ và sát thương của Cuồng Phong sẽ được tăng lên thành 75%. Thi triển
+      hiệu ứng Cuồng Phong không gây ảnh hưởng đến việc hồi nộ. Nếu mục tiêu
+      không bị hạ gục, sẽ giảm 15% thủ, cường hóa sát thương và kháng sát thương
+      trong 1 lượt.

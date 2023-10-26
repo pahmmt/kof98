@@ -1,0 +1,29 @@
+name: Lửa Kusanagi
+description: ''
+image: skill_5000009
+levels:
+  - star: 1
+    content: >-
+      Chỉ các Võ Sĩ Sử dụng lửa nhưng không thuộc tộc Kusanagi sẽ nhận được
+      hiệu quả khi sử dụng Hồn lực này. Sau khi trang bị, tăng cho bản thân hiệu
+      quả Tránh lửa (Tăng 10% KST và phản đòn, bản thân miễn nhiễm Thiêu đốt &
+      Thiêu hồn).
+  - star: 2
+    content: >-
+      Tung Độc chiêu và Tuyệt kĩ sẽ gây hiệu quả Thiêu hồn (1 lượt, giảm 8% HP
+      và 200 nộ, nếu tấn công nhiều hơn 2 mục tiêu, ngẫu nhiên 2 mục tiêu sẽ bị
+      Thiêu hồn).
+  - star: 3
+    content: >-
+      Tăng cho tất cả Võ sĩ sử dụng lửa phe ta 20% KST Tuyệt Kĩ và KST Độc
+      chiêu.
+  - star: 4
+    content: >-
+      Hiệu quả Thiêu hồn được nâng cấp thành hiệu quả Thiêu hồn Lửa Kusanagi
+      (đóng băng thanh nộ của mục tiêu trong 1 lượt, đồng thời giảm 50% tỉ lệ
+      chữa trị).
+  - star: 5
+    content: >-
+      Với mỗi Võ sĩ sử dụng lửa phe ta trên sân và viện trợ, Tất cả các Võ Sĩ Sử
+      dụng lửa phe ta sẽ tăng tỉ lệ chí mạng 8% (tối đa 24%) và lực chí mạng 4%
+      (tối đa 12%).

@@ -1,0 +1,223 @@
+- star: 1
+  levels:
+    - items:
+        - name: Sách hồn lực
+          image: item_fivesoulbox
+          amount: 1
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 100
+      attr_bonus: ATK +3000, DEF +1200, HP +24000
+      gold_cost: 500000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 40
+      attr_bonus: ATK +3600, DEF +1440, HP +28800
+      gold_cost: 100000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 40
+        - name: Đá thần
+          image: item_520001
+          amount: 1
+      attr_bonus: ATK +4200, DEF +1680, HP +33600
+      gold_cost: 200000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 40
+        - name: Đá thần
+          image: item_520001
+          amount: 1
+      attr_bonus: ATK +4800, DEF +1920, HP +38400
+      gold_cost: 300000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 40
+        - name: Đá thần
+          image: item_520001
+          amount: 2
+      attr_bonus: ATK +5400, DEF +2160, HP +43200
+      gold_cost: 400000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 40
+        - name: Đá thần
+          image: item_520001
+          amount: 2
+      attr_bonus: ATK +6000, DEF +2400, HP +48000
+      gold_cost: 500000
+- star: 2
+  levels:
+    - items:
+        - name: Sách hồn lực
+          image: item_fivesoulbox
+          amount: 1
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 100
+      attr_bonus: '-'
+      gold_cost: 1000000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 60
+        - name: Đá thần
+          image: item_520001
+          amount: 2
+      attr_bonus: ATK +6600, DEF +2640, HP +52800
+      gold_cost: 900000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 60
+        - name: Đá thần
+          image: item_520001
+          amount: 3
+      attr_bonus: ATK +7200, DEF +2880, HP +57600
+      gold_cost: 1050000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 60
+        - name: Đá thần
+          image: item_520001
+          amount: 3
+      attr_bonus: ATK +7800, DEF +3120, HP +62400
+      gold_cost: 1200000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 60
+        - name: Đá thần
+          image: item_520001
+          amount: 4
+      attr_bonus: ATK +8400, DEF +3360, HP +67200
+      gold_cost: 1350000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 60
+        - name: Đá thần
+          image: item_520001
+          amount: 4
+      attr_bonus: ATK +9000, DEF +3600, HP +72000
+      gold_cost: 1500000
+- star: 3
+  levels:
+    - items:
+        - name: Sách hồn lực
+          image: item_fivesoulbox
+          amount: 2
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 100
+      attr_bonus: '-'
+      gold_cost: 2000000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 60
+        - name: Đá thần
+          image: item_520001
+          amount: 4
+      attr_bonus: ATK +9600, DEF +3840, HP +76800
+      gold_cost: 2200000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 60
+        - name: Đá thần
+          image: item_520001
+          amount: 5
+      attr_bonus: ATK +10200, DEF +4080, HP +81600
+      gold_cost: 2400000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 40
+        - name: Đá thần
+          image: item_520001
+          amount: 5
+      attr_bonus: ATK +10800, DEF +4320, HP +86400
+      gold_cost: 2600000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 40
+        - name: Đá thần
+          image: item_520001
+          amount: 6
+      attr_bonus: ATK +11400, DEF +4560, HP +91200
+      gold_cost: 2800000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 40
+        - name: Đá thần
+          image: item_520001
+          amount: 6
+      attr_bonus: ATK +12000, DEF +4800, HP +96000
+      gold_cost: 3000000
+- star: 4
+  levels:
+    - items:
+        - name: Sách hồn lực
+          image: item_fivesoulbox
+          amount: 2
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 100
+      attr_bonus: '-'
+      gold_cost: 4000000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 80
+        - name: Đá thần
+          image: item_520001
+          amount: 6
+      attr_bonus: ATK +12600, DEF +5040, HP +100800
+      gold_cost: 4000000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 80
+        - name: Đá thần
+          image: item_520001
+          amount: 7
+      attr_bonus: ATK +13200, DEF +5280, HP +105600
+      gold_cost: 4250000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 80
+        - name: Đá thần
+          image: item_520001
+          amount: 7
+      attr_bonus: ATK +13800, DEF +5520, HP +110400
+      gold_cost: 4500000
+    - items:
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 80
+        - name: Đá thần
+          image: item_520001
+          amount: 8
+      attr_bonus: ATK +14400, DEF +5760, HP +115200
+      gold_cost: 4750000
+- star: 5
+  levels:
+    - items:
+        - name: Sách hồn lực
+          image: item_fivesoulbox
+          amount: 3
+        - name: Máu Orochi
+          image: item_5000000
+          amount: 200
+      attr_bonus: ATK +15000, DEF +6000, HP +120000
+      gold_cost: 8000000

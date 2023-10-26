@@ -1,0 +1,500 @@
+apt_15:
+  - description: Có thể tham chiến từ lượt thứ 3 trở đi
+    progress:
+      from:
+        name: Ban đầu
+        className: bg-white text-black
+      to:
+        name: Trắng
+        className: bg-white text-black
+    items:
+      - name: Hồn viện trợ
+        image: item_242023
+        amount: 100
+    gold_cost: 5000000
+  - description: Mở ô 1 sách viện trợ
+    progress:
+      from:
+        name: Trắng
+        className: bg-white text-black
+      to:
+        name: Lục
+        className: bg-emerald-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242023
+        amount: 50
+    gold_cost: 5000000
+  - description: Mở ô 2 sách viện trợ. Số lần hỗ trợ tối đa +1
+    progress:
+      from:
+        name: Lục
+        className: bg-emerald-500 text-white
+      to:
+        name: Lam
+        className: bg-blue-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242023
+        amount: 50
+    gold_cost: 5000000
+  - description: Mở ô 3 sách viện trợ
+    progress:
+      from:
+        name: Lam
+        className: bg-blue-500 text-white
+      to:
+        name: Tím
+        className: bg-purple-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242023
+        amount: 50
+    gold_cost: 5000000
+  - description: Có thể tham chiến từ lượt thứ 1 trở đi
+    progress:
+      from:
+        name: Tím
+        className: bg-purple-500 text-white
+      to:
+        name: Cam
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242023
+        amount: 50
+    gold_cost: 5000000
+  - description: Số lần hỗ trợ tối đa +1
+    progress:
+      from:
+        name: Cam
+        className: bg-orange-500 text-white
+      to:
+        name: Đỏ
+        className: bg-red-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242023
+        amount: 100
+    gold_cost: 5000000
+apt_14:
+  - description: '-'
+    progress:
+      from:
+        name: Ban đầu
+        className: bg-white text-black
+      to:
+        name: Trắng
+        className: bg-white text-black
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 100
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 1
+    gold_cost: 300000
+  - description: Mở ô 1 sách viện trợ
+    progress:
+      from:
+        name: Trắng
+        className: bg-white text-black
+      to:
+        name: Lục
+        className: bg-emerald-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 3
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 5
+    gold_cost: 450000
+  - description: '-'
+    progress:
+      from:
+        name: Lục
+        className: bg-emerald-500 text-white
+      to:
+        name: Lục +1
+        className: bg-emerald-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 6
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 10
+    gold_cost: 750000
+  - description: Số lần hỗ trợ tối đa +1
+    progress:
+      from:
+        name: Lục +1
+        className: bg-emerald-500 text-white
+      to:
+        name: Lam
+        className: bg-blue-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 15
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 15
+    gold_cost: 1200000
+  - description: '-'
+    progress:
+      from:
+        name: Lam
+        className: bg-blue-500 text-white
+      to:
+        name: Lam +1
+        className: bg-blue-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 27
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 15
+    gold_cost: 1800000
+  - description: Mở ô 2 sách viện trợ
+    progress:
+      from:
+        name: Lam +1
+        className: bg-blue-500 text-white
+      to:
+        name: Tím
+        className: bg-purple-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 42
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 20
+    gold_cost: 2400000
+  - description: '-'
+    progress:
+      from:
+        name: Tím
+        className: bg-purple-500 text-white
+      to:
+        name: Tím +1
+        className: bg-purple-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 60
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 20
+    gold_cost: 3000000
+  - description: Có thể tham chiến từ lượt thứ 3 trở đi
+    progress:
+      from:
+        name: Tím +1
+        className: bg-purple-500 text-white
+      to:
+        name: Tím +2
+        className: bg-purple-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 81
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 25
+    gold_cost: 3600000
+  - description: Mở ô 3 sách viện trợ
+    progress:
+      from:
+        name: Tím +2
+        className: bg-purple-500 text-white
+      to:
+        name: Cam
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 105
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 25
+    gold_cost: 4000000
+  - description: '-'
+    progress:
+      from:
+        name: Cam
+        className: bg-orange-500 text-white
+      to:
+        name: Cam +1
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 130
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 30
+    gold_cost: 6000000
+  - description: '-'
+    progress:
+      from:
+        name: Cam +1
+        className: bg-orange-500 text-white
+      to:
+        name: Cam +2
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 160
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 30
+    gold_cost: 7500000
+  - description: Có thể tham chiến từ lượt thứ 1 trở đi
+    progress:
+      from:
+        name: Cam +2
+        className: bg-orange-500 text-white
+      to:
+        name: Cam +3
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 200
+      - name: Mảnh võ sĩ
+        image: item_242012
+        amount: 40
+    gold_cost: 9000000
+  - description: '-'
+    progress:
+      from:
+        name: Cam +3
+        className: bg-orange-500 text-white
+      to:
+        name: Đỏ
+        className: bg-red-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 100
+      - name: Hồn hiệu
+        image: item_213008
+        amount: 1
+      - name: Hồn sách
+        image: item_213009
+        amount: 1
+    gold_cost: 10000000
+  - description: Số lần hỗ trợ tối đa +1
+    progress:
+      from:
+        name: Đỏ
+        className: bg-red-500 text-white
+      to:
+        name: Đỏ +1
+        className: bg-red-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242022
+        amount: 100
+      - name: Hồn vũ khí
+        image: item_220269
+        amount: 1
+    gold_cost: 10000000
+apt_13:
+  - description: '-'
+    progress:
+      from:
+        name: Ban đầu
+        className: bg-white text-black
+      to:
+        name: Trắng
+        className: bg-white text-black
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 50
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 1
+    gold_cost: 200000
+  - description: Mở ô 1 sách viện trợ
+    progress:
+      from:
+        name: Trắng
+        className: bg-white text-black
+      to:
+        name: Lục
+        className: bg-emerald-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 2
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 5
+    gold_cost: 300000
+  - description: '-'
+    progress:
+      from:
+        name: Lục
+        className: bg-emerald-500 text-white
+      to:
+        name: Lục +1
+        className: bg-emerald-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 5
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 10
+    gold_cost: 500000
+  - description: Số lần hỗ trợ tối đa +1
+    progress:
+      from:
+        name: Lục +1
+        className: bg-emerald-500 text-white
+      to:
+        name: Lam
+        className: bg-blue-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 12
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 10
+    gold_cost: 800000
+  - description: '-'
+    progress:
+      from:
+        name: Lam
+        className: bg-blue-500 text-white
+      to:
+        name: Lam +1
+        className: bg-blue-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 24
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 15
+    gold_cost: 1200000
+  - description: Mở ô 2 sách viện trợ
+    progress:
+      from:
+        name: Lam +1
+        className: bg-blue-500 text-white
+      to:
+        name: Tím
+        className: bg-purple-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 36
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 15
+    gold_cost: 1600000
+  - description: '-'
+    progress:
+      from:
+        name: Tím
+        className: bg-purple-500 text-white
+      to:
+        name: Tím +1
+        className: bg-purple-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 50
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 20
+    gold_cost: 2000000
+  - description: Có thể tham chiến từ lượt thứ 3 trở đi
+    progress:
+      from:
+        name: Tím +1
+        className: bg-purple-500 text-white
+      to:
+        name: Tím +2
+        className: bg-purple-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 75
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 20
+    gold_cost: 2400000
+  - description: Mở ô 3 sách viện trợ
+    progress:
+      from:
+        name: Tím +2
+        className: bg-purple-500 text-white
+      to:
+        name: Cam
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 100
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 25
+    gold_cost: 3000000
+  - description: '-'
+    progress:
+      from:
+        name: Cam
+        className: bg-orange-500 text-white
+      to:
+        name: Cam +1
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 120
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 25
+    gold_cost: 4000000
+  - description: '-'
+    progress:
+      from:
+        name: Cam +1
+        className: bg-orange-500 text-white
+      to:
+        name: Cam +2
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 150
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 30
+    gold_cost: 5000000
+  - description: Có thể tham chiến từ lượt thứ 1 trở đi
+    progress:
+      from:
+        name: Cam +2
+        className: bg-orange-500 text-white
+      to:
+        name: Cam +3
+        className: bg-orange-500 text-white
+    items:
+      - name: Hồn viện trợ
+        image: item_242021
+        amount: 180
+      - name: Mảnh võ sĩ
+        image: item_242011
+        amount: 30
+    gold_cost: 6000000

@@ -1,0 +1,28 @@
+name: Ác Ma
+description: ''
+image: skill_5000008
+levels:
+  - star: 1
+    content: >-
+      Khi bắt đầu chiến đấu, tăng bản thân 10% thủ và tự giảm bản thân 20% công.
+      Mỗi 2 lượt, 2 kẻ địch ngẫu nhiên sẽ bị ma ám (không bao gồm kẻ địch sử
+      dụng hồn Ác Ma đối phương). Kẻ địch bị ma ám sẽ nhận hiệu quả tăng ích và
+      bất lợi giống như bản thân.
+  - star: 2
+    content: >-
+      Khi bắt đầu chiến đấu, tăng bản thân 10% kháng sát thương tuyệt kĩ và tự
+      giảm bản thân 20% sát thương tuyệt kĩ.
+  - star: 3
+    content: >-
+      Khi bắt đầu chiến đấu, tự giảm bản thân 20% tỉ lệ miễn khống. Nếu bản thân
+      bị khống chế (choáng, tê liệt, đóng băng, câm lặng, mê hoặc, hóa đá) sẽ
+      truyền hiệu ứng tương tự lên kẻ địch bị ma ám trong 1 lượt. Tuy nhiên,
+      không thể truyền hiệu ứng lên kẻ địch đang sử dụng hồn Thủ Hộ 3★ trở lên.
+  - star: 4
+    content: >-
+      Hiệu quả giảm công tăng thêm 50% lên các võ sĩ Đả và Kĩ bị ma ám, hiệu quả
+      tăng thủ tăng thêm 50% lên các võ sĩ Vệ bị ma ám.
+  - star: 5
+    content: >-
+      Hồi 10% HP tối đa đầu mỗi lượt. Khi nhận sát thương không phải chí tử sẽ
+      gây 50% sát thương đó lên các kẻ địch bị ma ám.
