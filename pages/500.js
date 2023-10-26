@@ -7,7 +7,7 @@ export default function Custom500() {
             <h1 className="mb-4 text-6xl font-extrabold tracking-tight text-secondary-500 lg:text-8xl">
               500
             </h1>
-            <p className="mb-4 text-lg font-light text-gray-400">Internal Server Error</p>
+            <p className="mb-4 text-lg font-semibold text-gray-400">Internal Server Error</p>
           </div>
         </div>
       </div>
