@@ -12,7 +12,7 @@ const handleError = (error) => {
 
 const getPosts = async () => {
   try {
-    let files = await fs.promises.readdir(path.join(postDir))
+    let files = await fs.promises.readdir(path.join(process.cwd(), postDir))
     files = files.filter((file) => file.split('.')[1] === 'mdx')
 
     const posts = await Promise.all(
