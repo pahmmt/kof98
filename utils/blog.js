@@ -14,27 +14,22 @@ const handleError = (error) => {
 
 const getPaths = async () => {
   const files = fs.readdirSync(path.join(postDir))
-  const paths = files.map((file) => {
+  return files.map((fileName) => {
     return {
       params: {
-        slug: file.replace('.mdx', ''),
+        slug: fileName.replace(/\.mdx$/, ''),
       },
     }
   })
-
-  return paths
 }
 
 const getPaginatePaths = async () => {
   const posts = await getPosts()
   const numPages = Math.ceil(posts.length / postsPerPage)
 
-  const paths = []
-  for (let i = 1; i <= numPages; i++) {
-    paths.push({ params: { page: i.toString() } })
-  }
-
-  return paths
+  return Array.from({ length: numPages }, (_, i) => ({
+    params: { page: (i + 1).toString() },
+  }))
 }
 
 const getPosts = async () => {

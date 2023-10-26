@@ -5,7 +5,7 @@ import BlogPageList from '@/components/BlogPageList'
 
 export async function getStaticPaths() {
   const { getPaginatePaths } = await import('@/utils/blog')
-  const paths = getPaginatePaths()
+  const paths = await getPaginatePaths()
 
   return {
     paths,

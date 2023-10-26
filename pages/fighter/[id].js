@@ -22,8 +22,8 @@ import { SkillState, skillStateMap, skillTypeMap } from '@/utils/text'
 
 export async function getStaticPaths() {
   const { getPaths } = await import('@/utils/fighter')
-  const paths = getPaths()
-  
+  const paths = await getPaths()
+
   return {
     paths,
     fallback: false,

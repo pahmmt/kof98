@@ -8,16 +8,15 @@ const handleError = (error) => {
 }
 
 const getPaths = async () => {
-  const files = fs.readdirSync(path.join('data/yaml/souls'))
-  const paths = files.map((file) => {
+  const fileNames = fs.readdirSync(path.join('data/yaml/souls'))
+
+  return fileNames.map((fileName) => {
     return {
       params: {
-        id: file.replace('.yml', ''),
+        id: fileName.replace(/\.yml$/, ''),
       },
     }
   })
-
-  return paths
 }
 
 const getSoul = async (id) => {

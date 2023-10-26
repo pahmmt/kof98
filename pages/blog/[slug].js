@@ -5,7 +5,7 @@ import NextHead from '@/components/NextHead'
 
 export async function getStaticPaths() {
   const { getPaths } = await import('@/utils/blog')
-  const paths = getPaths()
+  const paths = await getPaths()
 
   return {
     paths,

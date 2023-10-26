@@ -6,7 +6,7 @@ import { highlightText } from '@/utils/text'
 
 export async function getStaticPaths() {
   const { getPaths } = await import('@/utils/soul')
-  const paths = getPaths()
+  const paths = await getPaths()
 
   return {
     paths,
