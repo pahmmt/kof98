@@ -1,8 +1,26 @@
+import fs from 'fs'
+import path from 'path'
 import { getYAML } from './yaml'
 
 const handleError = (error) => {
   console.error('Error:', error)
   return []
+}
+
+const getPaths = () => {
+  const files = fs.readdirSync(path.join('data/yaml/souls'))
+  const paths = files.map((file) => {
+    return {
+      params: {
+        id: file.replace('.yml', ''),
+      },
+    }
+  })
+
+  return {
+    paths,
+    fallback: false,
+  }
 }
 
 const getSoul = async (id) => {
@@ -21,4 +39,4 @@ const getSoulTable = async () => {
   }
 }
 
-export { getSoul, getSoulTable }
+export { getPaths, getSoul, getSoulTable }

@@ -4,6 +4,12 @@ import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import { highlightText } from '@/utils/text'
 
+export async function getStaticPaths() {
+  const { getPaths } = await import('@/utils/soul')
+  const paths = getPaths()
+  return paths
+}
+
 export async function getStaticProps({ params }) {
   try {
     const { getSoul } = await import('@/utils/soul')

@@ -20,6 +20,12 @@ import NextHead from '@/components/NextHead'
 import { highlightText } from '@/utils/text'
 import { SkillState, skillStateMap, skillTypeMap } from '@/utils/text'
 
+export async function getStaticPaths() {
+  const { getPaths } = await import('@/utils/fighter')
+  const paths = getPaths()
+  return paths
+}
+
 export async function getStaticProps({ params }) {
   try {
     const { getFighter } = await import('@/utils/fighter')

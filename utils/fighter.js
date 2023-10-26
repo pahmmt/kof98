@@ -1,8 +1,26 @@
+import fs from 'fs'
+import path from 'path'
 import { getYAML } from './yaml'
 
 const handleError = (error) => {
   console.error('Error:', error)
   return []
+}
+
+const getPaths = () => {
+  const files = fs.readdirSync(path.join('data/yaml/fighters'))
+  const paths = files.map((file) => {
+    return {
+      params: {
+        id: file.replace('.yml', ''),
+      },
+    }
+  })
+
+  return {
+    paths,
+    fallback: false,
+  }
 }
 
 const getData = async () => {
@@ -37,4 +55,4 @@ const getAidTable = async () => {
   }
 }
 
-export { getData, getFighter, getAidTable, getEightGatesTable }
+export { getPaths, getData, getFighter, getAidTable, getEightGatesTable }
