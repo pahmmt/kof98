@@ -24,6 +24,27 @@ export default function Page({ data }) {
   return (
     <>
       <NextHead title="Nguyên liệu nâng cấp Hồn lực 5" />
+      <NextHead
+        title="Nguyên liệu nâng cấp Hồn lực 5"
+        description="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5."
+      >
+        <meta
+          property="og:url"
+          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/soul`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Nguyên liệu nâng cấp Hồn lực 5" />
+        <meta
+          property="og:description"
+          content="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5."
+        />
+        <meta
+          property="og:image"
+          content={`${
+            process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+          }/assets/cover/og_img.jpg`}
+        />
+      </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

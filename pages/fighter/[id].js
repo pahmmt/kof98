@@ -104,7 +104,29 @@ export default function Page({ fighter }) {
 
   return (
     <>
-      <NextHead title={`Thông tin võ sĩ: ${fighter.name}`} />
+      <NextHead
+        title={`Thông tin võ sĩ: ${fighter.name}`}
+        description={`Thông tin về kỹ năng, viện trợ và hình ảnh của võ sĩ: ${fighter.name}`}
+      >
+        <meta
+          property="og:url"
+          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/fighter/${
+            fighter.id
+          }`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={`Thông tin võ sĩ: ${fighter.name}`} />
+        <meta
+          property="og:description"
+          content={`Thông tin về kỹ năng, viện trợ và hình ảnh của võ sĩ: ${fighter.name}`}
+        />
+        <meta
+          property="og:image"
+          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/assets/heros/${
+            fighter.id
+          }/large/largepic_${fighter.id}.png`}
+        />
+      </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

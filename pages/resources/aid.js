@@ -23,7 +23,27 @@ export async function getStaticProps() {
 export default function Page({ data }) {
   return (
     <>
-      <NextHead title="Nguyên liệu nâng cấp Viện trợ" />
+      <NextHead
+        title="Nguyên liệu nâng cấp Viện trợ"
+        description="Bảng nguyên liệu nâng cấp viện trợ võ sĩ tư chất 13, 14, 15..."
+      >
+        <meta
+          property="og:url"
+          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/aid`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Nguyên liệu nâng cấp Viện trợ" />
+        <meta
+          property="og:description"
+          content="Bảng nguyên liệu nâng cấp viện trợ võ sĩ tư chất 13, 14, 15..."
+        />
+        <meta
+          property="og:image"
+          content={`${
+            process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+          }/assets/cover/og_img.jpg`}
+        />
+      </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

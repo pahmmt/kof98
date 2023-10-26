@@ -23,7 +23,21 @@ export async function getStaticProps() {
 export default function Page({ data }) {
   return (
     <>
-      <NextHead title="Avatar Chibi" />
+      <NextHead title="Avatar Chibi" description="Tổng hợp hình ảnh avatar chibi của các võ sĩ.">
+        <meta
+          property="og:url"
+          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/avatar`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Avatar Chibi" />
+        <meta property="og:description" content="Tổng hợp hình ảnh avatar chibi của các võ sĩ." />
+        <meta
+          property="og:image"
+          content={`${
+            process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+          }/assets/cover/og_img.jpg`}
+        />
+      </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

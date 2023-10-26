@@ -23,7 +23,29 @@ export async function getStaticProps() {
 export default function Page({ data }) {
   return (
     <>
-      <NextHead title="Nguyên liệu / Điều kiện khai mở Bát Môn" />
+      <NextHead
+        title="Nguyên liệu / Điều kiện khai mở Bát Môn"
+        description="Bảng nguyên liệu / Điều kiện để khai mở bát môn cho các võ sĩ tư chất 13, 14, 15..."
+      >
+        <meta
+          property="og:url"
+          content={`${
+            process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+          }/resources/eight-gates`}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Nguyên liệu / Điều kiện khai mở Bát Môn" />
+        <meta
+          property="og:description"
+          content="Bảng nguyên liệu / Điều kiện để khai mở bát môn cho các võ sĩ tư chất 13, 14, 15..."
+        />
+        <meta
+          property="og:image"
+          content={`${
+            process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
+          }/assets/cover/og_img.jpg`}
+        />
+      </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

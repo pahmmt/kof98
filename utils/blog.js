@@ -64,6 +64,7 @@ const getPost = async (slug) => {
     return {
       frontMatter,
       mdxSource,
+      slug,
     }
   } catch (error) {
     return handleError(error)

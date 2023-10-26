@@ -21,6 +21,15 @@ export const highlightText = (text) => {
   return <>{parts}</>
 }
 
+export const formatUrl = (input) => {
+  const pattern = /^((http|https):\/\/)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,6}(\:[0-9]{1,5})?(\/\S*)?$/
+  if (!pattern.test(input)) {
+    input = `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/${input}`
+  }
+
+  return input
+}
+
 export const colorMap = {
   15: 'bg-red-300',
   14: 'bg-orange-200',
