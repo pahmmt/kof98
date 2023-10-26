@@ -7,6 +7,8 @@ export default function NextHead({ title, description, children }) {
       {children}
       <meta name="description" content={description || ''} />
       <meta name="viewport" content="width=device-width, initial-scale=1" key="viewport" />
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       <title>{title}</title>
     </Head>
   )
