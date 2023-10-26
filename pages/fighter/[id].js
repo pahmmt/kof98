@@ -23,7 +23,11 @@ import { SkillState, skillStateMap, skillTypeMap } from '@/utils/text'
 export async function getStaticPaths() {
   const { getPaths } = await import('@/utils/fighter')
   const paths = getPaths()
-  return paths
+  
+  return {
+    paths,
+    fallback: false,
+  }
 }
 
 export async function getStaticProps({ params }) {

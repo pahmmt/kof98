@@ -6,7 +6,11 @@ import NextHead from '@/components/NextHead'
 export async function getStaticPaths() {
   const { getPaths } = await import('@/utils/blog')
   const paths = getPaths()
-  return paths
+
+  return {
+    paths,
+    fallback: false,
+  }
 }
 
 export async function getStaticProps({ params }) {

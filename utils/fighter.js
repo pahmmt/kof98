@@ -17,10 +17,7 @@ const getPaths = async () => {
     }
   })
 
-  return {
-    paths,
-    fallback: false,
-  }
+  return paths
 }
 
 const getData = async () => {

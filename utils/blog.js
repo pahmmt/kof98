@@ -22,10 +22,7 @@ const getPaths = async () => {
     }
   })
 
-  return {
-    paths,
-    fallback: false,
-  }
+  return paths
 }
 
 const getPaginatePaths = async () => {
@@ -37,10 +34,7 @@ const getPaginatePaths = async () => {
     paths.push({ params: { page: i.toString() } })
   }
 
-  return {
-    paths,
-    fallback: false,
-  }
+  return paths
 }
 
 const getPosts = async () => {
