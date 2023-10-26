@@ -3,10 +3,16 @@ import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 
-export async function getServerSideProps(context) {
+export async function getStaticPaths() {
+  const { getPaths } = await import('@/utils/blog')
+  const paths = getPaths()
+  return paths
+}
+
+export async function getStaticProps({ params }) {
   try {
     const { getPost } = await import('@/utils/blog')
-    const postData = await getPost(context.params.slug)
+    const postData = await getPost(params.slug)
     if (!postData || postData.length <= 0) {
       return {
         notFound: true,

@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { useRouter } from 'next/router'
-import NextLink from 'next/link'
 import { Card, CardBody, CardHeader, Divider, Link, Pagination } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'

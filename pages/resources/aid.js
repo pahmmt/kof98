@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import AidTable from '@/components/AidTable'
 import NextHead from '@/components/NextHead'
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   try {
     const { getAidTable } = await import('@/utils/fighter')
     const data = await getAidTable()

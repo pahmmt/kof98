@@ -4,10 +4,10 @@ import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import { highlightText } from '@/utils/text'
 
-export async function getServerSideProps(context) {
+export async function getStaticProps({ params }) {
   try {
     const { getSoul } = await import('@/utils/soul')
-    const data = await getSoul(context.params.id)
+    const data = await getSoul(params.id)
     if (!data || data.length <= 0) {
       return {
         notFound: true,

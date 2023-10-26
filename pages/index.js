@@ -5,7 +5,7 @@ import FighterSection from '@/components/FighterSection'
 import SoulSection from '@/components/SoulSection'
 import { useDataContext } from '@/components/DataContext'
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   try {
     const { getData } = await import('@/utils/fighter')
     const data = await getData()

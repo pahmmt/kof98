@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/Breadcrumb'
 import GateTable from '@/components/GateTable'
 import NextHead from '@/components/NextHead'
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   try {
     const { getEightGatesTable } = await import('@/utils/fighter')
     const data = await getEightGatesTable()

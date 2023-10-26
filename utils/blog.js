@@ -10,6 +10,22 @@ const handleError = (error) => {
   return []
 }
 
+const getPaths = () => {
+  const files = fs.readdirSync(path.join(postDir))
+  const paths = files.map((file) => {
+    return {
+      params: {
+        slug: file.replace('.mdx', ''),
+      },
+    }
+  })
+
+  return {
+    paths,
+    fallback: false,
+  }
+}
+
 const getPosts = async () => {
   try {
     let files = await fs.promises.readdir(path.join(postDir))
@@ -48,4 +64,4 @@ const getPost = async (slug) => {
   }
 }
 
-export { getPosts, getPost }
+export { getPaths, getPosts, getPost }

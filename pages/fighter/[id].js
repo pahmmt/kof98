@@ -20,10 +20,10 @@ import NextHead from '@/components/NextHead'
 import { highlightText } from '@/utils/text'
 import { SkillState, skillStateMap, skillTypeMap } from '@/utils/text'
 
-export async function getServerSideProps(context) {
+export async function getStaticProps({ params }) {
   try {
     const { getFighter } = await import('@/utils/fighter')
-    const data = await getFighter(context.params.id)
+    const data = await getFighter(params.id)
     if (!data || data.length <= 0) {
       return {
         notFound: true,
