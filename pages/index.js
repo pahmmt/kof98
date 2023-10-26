@@ -57,7 +57,7 @@ export default function Page({ data, posts }) {
           property="og:description"
           content="Cập nhật thông tin võ sĩ, tính năng về game KOF'98 UM OL máy chủ Quốc Tế."
         />
-        <meta property="og:image" content="/assets/custom/bg_large.jpg" />
+        <meta property="og:image" content="/assets/cover/og_img.jpg" />
       </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
         <ArticleSection
