@@ -5,7 +5,7 @@ import YAML from 'yaml'
 const getYAML = async (filename) => {
   try {
     const data = await fs.promises.readFile(
-      path.join(process.cwd(), 'data/yaml', filename),
+      path.join('data/yaml', filename),
       'utf-8'
     )
     return await YAML.parse(data)
