@@ -46,11 +46,12 @@ export default function Page({ data }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`Thông tin hồn lực: ${data.name}`} />
         <meta property="og:description" content={`Thông chi tiết về hồn lực 5: ${data.name}`} />
+
         <meta
           property="og:image"
           content={`${
             process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
-          }/assets/items/skill_${data.id}.png`}
+          }/assets/cover/og_img.jpg`}
         />
       </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
