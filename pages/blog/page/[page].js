@@ -3,17 +3,27 @@ import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import BlogPageList from '@/components/BlogPageList'
 
-export async function getStaticProps() {
+export async function getStaticPaths() {
+  const { getPaginatePaths } = await import('@/utils/blog')
+  const paths = getPaginatePaths()
+  return paths
+}
+
+export async function getStaticProps({ params }) {
   try {
     const { getPosts, postsPerPage } = await import('@/utils/blog')
     const posts = await getPosts()
-    const paginatedPosts = posts.slice(0, postsPerPage)
+    const page = parseInt(params.page, 10) || 1
+    const start = (page - 1) * postsPerPage
+    const end = page * postsPerPage
+    const paginatedPosts = posts.slice(start, end)
     const numPages = Math.ceil(posts.length / postsPerPage)
 
     return {
       props: {
         paginatedPosts,
         numPages,
+        currentPage: page,
       },
     }
   } catch (error) {
@@ -37,7 +47,11 @@ export default function Page({ paginatedPosts, numPages, currentPage }) {
           </CardHeader>
           <Divider />
           <CardBody>
-            <BlogPageList paginatedPosts={paginatedPosts} numPages={numPages} />
+            <BlogPageList
+              paginatedPosts={paginatedPosts}
+              numPages={numPages}
+              currentPage={currentPage}
+            />
           </CardBody>
         </Card>
       </main>

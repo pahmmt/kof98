@@ -5,12 +5,14 @@ import { serialize } from 'next-mdx-remote/serialize'
 
 const postDir = 'data/posts'
 
+export const postsPerPage = 10
+
 const handleError = (error) => {
   console.error('Error:', error)
   return []
 }
 
-const getPaths = () => {
+const getPaths = async () => {
   const files = fs.readdirSync(path.join(postDir))
   const paths = files.map((file) => {
     return {
@@ -19,6 +21,21 @@ const getPaths = () => {
       },
     }
   })
+
+  return {
+    paths,
+    fallback: false,
+  }
+}
+
+const getPaginatePaths = async () => {
+  const posts = await getPosts()
+  const numPages = Math.ceil(posts.length / postsPerPage)
+
+  const paths = []
+  for (let i = 1; i <= numPages; i++) {
+    paths.push({ params: { page: i.toString() } })
+  }
 
   return {
     paths,
@@ -64,4 +81,4 @@ const getPost = async (slug) => {
   }
 }
 
-export { getPaths, getPosts, getPost }
+export { getPaths, getPaginatePaths, getPosts, getPost }

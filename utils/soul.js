@@ -7,7 +7,7 @@ const handleError = (error) => {
   return []
 }
 
-const getPaths = () => {
+const getPaths = async () => {
   const files = fs.readdirSync(path.join('data/yaml/souls'))
   const paths = files.map((file) => {
     return {
