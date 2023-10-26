@@ -46,7 +46,19 @@ export default function Page({ data, posts }) {
 
   return (
     <>
-      <NextHead title={process.env.NEXT_PUBLIC_APP_NAME || 'Untitled'} description="Cập nhật thông tin võ sĩ, tính năng về game KOF'98 UM OL máy chủ Quốc Tế." />
+      <NextHead
+        title={process.env.NEXT_PUBLIC_APP_NAME || 'Untitled'}
+        description="Cập nhật thông tin võ sĩ, tính năng về game KOF'98 UM OL máy chủ Quốc Tế."
+      >
+        <meta property="og:url" content="https://kof98um.online/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={process.env.NEXT_PUBLIC_APP_NAME || 'Untitled'} />
+        <meta
+          property="og:description"
+          content="Cập nhật thông tin võ sĩ, tính năng về game KOF'98 UM OL máy chủ Quốc Tế."
+        />
+        <meta property="og:image" content="/assets/custom/bg_large.jpg" />
+      </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
         <ArticleSection
           posts={posts}
