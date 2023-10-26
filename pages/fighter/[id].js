@@ -39,7 +39,7 @@ export async function getStaticProps({ params }) {
       props: { fighter: data },
     }
   } catch (e) {
-    console.error('Error fetching post:', e)
+    console.error('Error fetching data:', e)
   }
 }
 
@@ -104,7 +104,7 @@ export default function Page({ fighter }) {
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>
-            <BreadCrumb data={[{ name: 'Thông tin võ sĩ: ' + fighter.name }]} />
+            <BreadCrumb data={[{ name: fighter.name }]} />
           </CardHeader>
           <Divider />
           <CardBody>

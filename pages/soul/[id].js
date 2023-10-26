@@ -23,7 +23,7 @@ export async function getStaticProps({ params }) {
       props: { data },
     }
   } catch (e) {
-    console.error('Error fetching post:', e)
+    console.error('Error fetching data:', e)
   }
 }
 
@@ -34,7 +34,7 @@ export default function Page({ data }) {
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>
-            <Breadcrumb data={[{ name: `Thông tin hồn lực: ${data.name}` }]} />
+            <Breadcrumb data={[{ name: `Hồn lực 5: ${data.name}` }]} />
           </CardHeader>
           <Divider />
           <CardBody>
