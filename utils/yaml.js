@@ -10,7 +10,7 @@ const handleError = (error) => {
 const getYAML = async (filename) => {
   try {
     const data = await fs.promises.readFile(
-      path.join(process.cwd(), 'data/yaml', filename),
+      path.resolve(process.cwd(), 'data/yaml', filename),
       'utf-8'
     )
     return await YAML.parse(data)

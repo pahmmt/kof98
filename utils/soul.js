@@ -10,7 +10,7 @@ const handleError = (error) => {
 const getSoul = async (id) => {
   try {
     const data = await fs.promises.readFile(
-      path.join(process.cwd(), 'data/yaml/souls', `${id}.yml`),
+      path.resolve(process.cwd(), 'data/yaml/souls', `${id}.yml`),
       'utf-8'
     )
     return await YAML.parse(data)
@@ -22,7 +22,7 @@ const getSoul = async (id) => {
 const getSoulTable = async () => {
   try {
     const data = await fs.promises.readFile(
-      path.join(process.cwd(), 'data/yaml', 'awaken-soul.yml'),
+      path.resolve(process.cwd(), 'data/yaml', 'awaken-soul.yml'),
       'utf-8'
     )
     return await YAML.parse(data)
