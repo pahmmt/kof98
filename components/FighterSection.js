@@ -84,7 +84,7 @@ export default function FighterSection({ fighters, className = '' }) {
                 {[15, 14, 13, 12, 11].map((apti, index) => (
                   <button
                     key={index}
-                    className={`px-1 outline-none drop-shadow ${
+                    className={`text-stroke px-1 outline-none drop-shadow ${
                       aptiFilter === apti ? 'font-medium' : 'text-slate-200/50'
                     }`}
                     onClick={() => handleAptiFilterClick(apti)}

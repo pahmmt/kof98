@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { font } from '@/pages/_app'
 
 export default function PictureCard({ pictureSrc, frameSrc, title, className = '' }) {
   const canvasRef = useRef(null)
@@ -52,7 +53,7 @@ export default function PictureCard({ pictureSrc, frameSrc, title, className = '
           frame.src = frameSrc
           frame.onload = () => {
             ctx.drawImage(frame, -5, 5, frame.width, frame.height)
-            ctx.font = 'italic bold 20px "Segoe UI", sans-serif'
+            ctx.font = `italic bold 20px ${font.style.fontFamily}`
             ctx.fillStyle = 'white'
             ctx.strokeStyle = 'black'
             ctx.lineWidth = 4
