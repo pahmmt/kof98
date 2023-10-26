@@ -2,6 +2,7 @@ import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import BlogPageList from '@/components/BlogPageList'
+import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticProps() {
   try {
@@ -29,7 +30,13 @@ export async function getStaticProps() {
 export default function Page({ paginatedPosts, numPages, currentPage }) {
   return (
     <>
-      <NextHead title="Blog" />
+      <NextHead title="Blog">
+        <OpenGraph
+          url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/blog`}
+          title="Blog"
+          description="Tổng hợp các bài viết liên quan đến game KOF'98 UM OL."
+        />
+      </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

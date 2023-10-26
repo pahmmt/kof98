@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
+import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticProps() {
   try {
@@ -24,18 +25,10 @@ export default function Page({ data }) {
   return (
     <>
       <NextHead title="Avatar Chibi" description="Tổng hợp hình ảnh avatar chibi của các võ sĩ.">
-        <meta
-          property="og:url"
-          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/avatar`}
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Avatar Chibi" />
-        <meta property="og:description" content="Tổng hợp hình ảnh avatar chibi của các võ sĩ." />
-        <meta
-          property="og:image"
-          content={`${
-            process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
-          }/assets/cover/og_img.jpg`}
+        <OpenGraph
+          url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/avatar`}
+          title="Avatar Chibi"
+          description="Tổng hợp hình ảnh avatar chibi của các võ sĩ."
         />
       </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">

@@ -2,6 +2,7 @@ import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import SoulTable from '@/components/SoulTable'
+import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticProps() {
   try {
@@ -23,26 +24,14 @@ export async function getStaticProps() {
 export default function Page({ data }) {
   return (
     <>
-      <NextHead title="Nguyên liệu nâng cấp Hồn lực 5" />
       <NextHead
         title="Nguyên liệu nâng cấp Hồn lực 5"
         description="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5."
       >
-        <meta
-          property="og:url"
-          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/soul`}
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Nguyên liệu nâng cấp Hồn lực 5" />
-        <meta
-          property="og:description"
-          content="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5."
-        />
-        <meta
-          property="og:image"
-          content={`${
-            process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
-          }/assets/cover/og_img.jpg`}
+        <OpenGraph
+          url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/awaken-soul`}
+          title="Nguyên liệu nâng cấp Hồn lực 5"
+          description="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5."
         />
       </NextHead>
       <main className="mt-4 flex-1 space-y-8 px-4">

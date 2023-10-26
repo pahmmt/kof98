@@ -45,7 +45,7 @@ const navigation = [
       },
       {
         label: 'Hồn lực 5',
-        href: '/resources/soul',
+        href: '/resources/awaken-soul',
       },
       {
         label: 'Avatar Chibi',

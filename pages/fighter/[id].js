@@ -19,6 +19,7 @@ import BreadCrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import { highlightText } from '@/utils/text'
 import { SkillState, skillStateMap, skillTypeMap } from '@/utils/text'
+import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticPaths() {
   const { getPaths } = await import('@/utils/fighter')
@@ -108,21 +109,13 @@ export default function Page({ fighter }) {
         title={`Thông tin võ sĩ: ${fighter.name}`}
         description={`Thông tin về kỹ năng, viện trợ và hình ảnh của võ sĩ: ${fighter.name}`}
       >
-        <meta
-          property="og:url"
-          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/fighter/${
+        <OpenGraph
+          url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/fighter/${
             fighter.id
           }`}
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={`Thông tin võ sĩ: ${fighter.name}`} />
-        <meta
-          property="og:description"
-          content={`Thông tin về kỹ năng, viện trợ và hình ảnh của võ sĩ: ${fighter.name}`}
-        />
-        <meta
-          property="og:image"
-          content={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/assets/heros/${
+          title={`Thông tin võ sĩ: ${fighter.name}`}
+          description={`Thông tin về kỹ năng, viện trợ và hình ảnh của võ sĩ: ${fighter.name}`}
+          image={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/assets/heros/${
             fighter.id
           }/large/largepic_${fighter.id}.png`}
         />
