@@ -46,7 +46,7 @@ export default function Header() {
         <NavbarBrand>
           <Link as={NextLink} color="foreground" href="/" className="flex items-center gap-2">
             <Image
-              src="/custom/icon.png"
+              src="/assets/custom/icon.png"
               alt="Site Icon"
               width={40}
               height={40}

@@ -34,7 +34,7 @@ export default function Page({ data }) {
           <CardBody>
             <div className="mb-8 mt-3 flex flex-col items-center gap-2">
               <Image
-                src={`/items/${data.image}.png`}
+                src={`/assets/items/${data.image}.png`}
                 alt=""
                 width={100}
                 height={100}
@@ -63,7 +63,7 @@ export default function Page({ data }) {
                           {[...Array(item.star)].map((_, index) => (
                             <Image
                               key={index}
-                              src="/ui/light_star.png"
+                              src="/assets/ui/light_star.png"
                               alt="Star"
                               width={30}
                               height={30}

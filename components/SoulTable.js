@@ -38,7 +38,7 @@ export default function SoulTable({ data }) {
                         {[...Array(item.star)].map((_, index) => (
                           <Image
                             key={index}
-                            src="/ui/light_star.png"
+                            src="/assets/ui/light_star.png"
                             alt="Star"
                             width={30}
                             height={30}
@@ -59,7 +59,7 @@ export default function SoulTable({ data }) {
                           className="flex items-center gap-2"
                         >
                           <Image
-                            src={`/items/${item.image}.png`}
+                            src={`/assets/items/${item.image}.png`}
                             alt={item.name}
                             width={100}
                             height={100}
@@ -73,7 +73,7 @@ export default function SoulTable({ data }) {
                   <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
                     <div className="flex items-center gap-2">
                       <Image
-                        src="/ui/zc_icon/zc_ico_main_gb.png"
+                        src="/assets/ui/zc_icon/zc_ico_main_gb.png"
                         alt="Gold"
                         width={49}
                         height={47}

@@ -75,7 +75,7 @@ export default function FighterSection({ fighters, className = '' }) {
       className={`z-10 mx-auto max-w-7xl overflow-visible ${className}`}
       id="fighters"
     >
-      <CardHeader className="h-16 flex-nowrap bg-[url(/custom/bg_head2.png)] bg-right-bottom bg-no-repeat">
+      <CardHeader className="h-16 flex-nowrap bg-[url(/assets/custom/bg_head2.png)] bg-right-bottom bg-no-repeat">
         <div className="flex-1">
           <h2 className="text-stroke font-semibold drop-shadow">Võ sĩ mới nhất</h2>
           <div className="flex items-center gap-2 text-xs">
@@ -160,7 +160,7 @@ export default function FighterSection({ fighters, className = '' }) {
               }`}
             >
               <Image
-                src={`/items/skill_battlesoul_${soul.image}.png`}
+                src={`/assets/items/skill_battlesoul_${soul.image}.png`}
                 alt={soul.name}
                 width={100}
                 height={100}
@@ -183,14 +183,14 @@ export default function FighterSection({ fighters, className = '' }) {
               title={fighter.name}
             >
               <Image
-                src={`/custom/heroType/${fighter.type}.png`}
+                src={`/assets/custom/heroType/${fighter.type}.png`}
                 alt=""
                 width={48}
                 height={28}
                 className="absolute left-1 top-1 h-auto w-9"
               />
               <Image
-                src={`/heros/${fighter.id}/large/largepic_${fighter.id}.png`}
+                src={`/assets/heros/${fighter.id}/large/largepic_${fighter.id}.png`}
                 alt={fighter.name}
                 width={872}
                 height={640}

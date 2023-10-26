@@ -824,6 +824,11 @@ fighters:
     type: gank
     aptitude: 15
     soul: turtle
+  - id: 100189
+    name: Benimaru XV
+    type: tank
+    aptitude: 15
+    soul: bear
 souls:
   - id: 5000001
     name: Phục Thù

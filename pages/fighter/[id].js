@@ -105,8 +105,8 @@ export default function Page({ fighter }) {
             <div className="space-y-4 md:flex md:gap-4 md:space-y-0">
               {fighter.galleries[0] && (
                 <PictureCard
-                  pictureSrc={`/ui/kapai/bg/${fighter.galleries[0].image}.png`}
-                  frameSrc={`/custom/cardFrame/${fighter.aptitude}_${fighter.type}.png`}
+                  pictureSrc={`/assets/ui/kapai/bg/${fighter.galleries[0].image}.png`}
+                  frameSrc={`/assets/custom/cardFrame/${fighter.aptitude}_${fighter.type}.png`}
                   title={fighter.name}
                   info={fighter.about}
                   className="mx-auto w-full max-w-[300px]"
@@ -155,7 +155,7 @@ export default function Page({ fighter }) {
                           {fighter.element_fates.map((fate, index) => (
                             <Link href={`/fighter/${fate.id}`} title={fate.name} key={index}>
                               <Image
-                                src={`/heros/${fate.id}/smallpic_${fate.id}.png`}
+                                src={`/assets/heros/${fate.id}/smallpic_${fate.id}.png`}
                                 alt={fate.name}
                                 width={100}
                                 height={100}
@@ -176,7 +176,7 @@ export default function Page({ fighter }) {
                                 onClick={() => handleToggle(index, true)}
                               >
                                 <Image
-                                  src={`/items/skill_hero${(fighter.id - 100000)
+                                  src={`/assets/items/skill_hero${(fighter.id - 100000)
                                     .toString()
                                     .padStart(3, '0')}_${skill.type}.png`}
                                   alt=""
@@ -204,7 +204,7 @@ export default function Page({ fighter }) {
                                       <ModalHeader className="flex flex-col gap-2">
                                         <div className="flex flex-1 items-center gap-2">
                                           <Image
-                                            src={`/items/skill_hero${(fighter.id - 100000)
+                                            src={`/assets/items/skill_hero${(fighter.id - 100000)
                                               .toString()
                                               .padStart(3, '0')}_${skill.type}.png`}
                                             alt=""
@@ -254,7 +254,7 @@ export default function Page({ fighter }) {
                         <h3 className="font-semibold">Hồn lực</h3>
                         <div className="flex cursor-pointer items-center rounded-br-lg rounded-tl-lg border border-orange-400/25 p-2 drop-shadow hover:bg-orange-400/25">
                           <Image
-                            src={`/items/${fighter.soul_info.image}.png`}
+                            src={`/assets/items/${fighter.soul_info.image}.png`}
                             alt=""
                             width={100}
                             height={100}
@@ -278,7 +278,7 @@ export default function Page({ fighter }) {
                               className="flex cursor-pointer items-center gap-2 rounded-br-lg rounded-tl-lg border border-orange-400/25 p-2 drop-shadow hover:bg-orange-400/25"
                             >
                               <Image
-                                src={`/items/${equipment.image}.png`}
+                                src={`/assets/items/${equipment.image}.png`}
                                 alt=""
                                 width={100}
                                 height={100}
@@ -300,7 +300,7 @@ export default function Page({ fighter }) {
                         <h3 className="font-semibold">Kỹ năng viện trợ</h3>
                         <div className="flex cursor-pointer items-center gap-2 rounded-br-lg rounded-tl-lg border border-orange-400/25 p-2 drop-shadow hover:bg-orange-400/25">
                           <Image
-                            src={`/items/skill_hero${(fighter.id - 100000)
+                            src={`/assets/items/skill_hero${(fighter.id - 100000)
                               .toString()
                               .padStart(3, '0')}_a2.png`}
                             alt=""
@@ -400,7 +400,7 @@ export default function Page({ fighter }) {
                           {fighter.galleries.map((picture, index) => (
                             <div key={index} className="flex flex-col justify-between">
                               <PictureCard
-                                pictureSrc={`/ui/kapai/bg/${picture.image}.png`}
+                                pictureSrc={`/assets/ui/kapai/bg/${picture.image}.png`}
                                 className="max-w-full"
                               />
                               <div className="w-full text-center text-xs font-medium text-yellow-500 sm:text-base">
