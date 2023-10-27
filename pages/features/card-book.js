@@ -41,52 +41,52 @@ export default function Page() {
               <ul>
                 <li>
                   <p>
-                    <strong>Fatal Fury</strong>: Tăng thưởng nhận được của chế độ Nữ vs Nữ (%).
+                    <strong>Fatal Fury</strong>: Tăng thưởng nhận được của chế độ Nữ vs Nữ (%)
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>Art of Fighting</strong>: Tăng số lượt đấu trường miên phí.
+                    <strong>Art of Fighting</strong>: Tăng số lượt đấu trường miên phí
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>Three Clans</strong>: Tăng thưởng nhận được của chế độ Tháo xe vàng.
+                    <strong>Three Clans</strong>: Tăng thưởng nhận được của chế độ Tháo xe vàng
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>Hakkesshu</strong>: Tăng thưởng nhân được của chế độ Xóa ảo ảnh.
+                    <strong>Hakkesshu</strong>: Tăng thưởng nhân được của chế độ Xóa ảo ảnh
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>Chinese Kung Fu</strong>: Tăng EXP trong Tập luyện hội quán.
+                    <strong>Chinese Kung Fu</strong>: Tăng EXP trong Tập luyện hội quán
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>Ikari Team</strong>: Giảm vàng tiêu hao trong Tinh luyện Thần khí.
+                    <strong>Ikari Team</strong>: Giảm vàng tiêu hao trong Tinh luyện Thần khí
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>All Leaders</strong>: Tăng thưởng nhận được của chế độ Gỡ thùng EXP.
+                    <strong>All Leaders</strong>: Tăng thưởng nhận được của chế độ Gỡ thùng EXP
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>Classic Group</strong>: Giảm thời gian chờ đấu trường.
+                    <strong>Classic Group</strong>: Giảm thời gian chờ đấu trường
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>Nests Characters</strong>: Tăng công thủ trong Vượt tháp.
+                    <strong>Nests Characters</strong>: Tăng công thủ trong Vượt tháp
                   </p>
                 </li>
                 <li>
                   <p>
-                    <strong>Distant Land</strong>: Nhận rương mảnh Sách sưu tập hàng ngày.
+                    <strong>Distant Land</strong>: Nhận rương mảnh Sách sưu tập hàng ngày
                   </p>
                 </li>
               </ul>
