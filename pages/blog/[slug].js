@@ -51,10 +51,10 @@ export default function Page({ frontMatter, mdxSource, slug }) {
             <Divider />
             <CardBody>
               <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
-                <h2 className="text-center text-lg font-bold">{frontMatter.title}</h2>
+                <h2 className="text-center text-xl font-bold sm:text-2xl">{frontMatter.title}</h2>
                 <div className="text-sm text-slate-200/50">Published {frontMatter.date}</div>
               </div>
-              <div className="prose prose-sm prose-invert max-w-none md:px-4">
+              <div className="prose prose-invert max-w-none">
                 <MDXRemote {...mdxSource} />
               </div>
             </CardBody>

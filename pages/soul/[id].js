@@ -60,7 +60,7 @@ export default function Page({ data }) {
                 height={100}
                 className="h-16 w-16 sm:h-20 sm:w-20"
               />
-              <h2 className="text-center text-lg font-bold">{data.name}</h2>
+              <h2 className="text-center text-xl font-bold sm:text-2xl">{data.name}</h2>
               <div className="whitespace-pre-wrap">{highlightText(data.description)}</div>
             </div>
             <div className="w-full overflow-x-auto rounded-br-lg rounded-tl-lg border border-orange-400/25">

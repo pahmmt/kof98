@@ -44,7 +44,9 @@ export default function Page({ data }) {
           <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
-              <h2 className="text-center text-lg font-bold">Nguyên liệu nâng cấp Hồn lực 5</h2>
+              <h2 className="text-center text-xl font-bold sm:text-2xl">
+                Nguyên liệu nâng cấp Hồn lực 5
+              </h2>
             </div>
             <SoulTable data={data} />
           </CardBody>

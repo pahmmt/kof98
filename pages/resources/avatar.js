@@ -39,7 +39,7 @@ export default function Page({ data }) {
           <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
-              <h2 className="text-center text-lg font-bold">Avatar Chibi</h2>
+              <h2 className="text-center text-xl font-bold sm:text-2xl">Avatar Chibi</h2>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-2">
               {data.map((avatar, index) => (

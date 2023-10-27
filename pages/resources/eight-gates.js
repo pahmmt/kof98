@@ -44,7 +44,7 @@ export default function Page({ data }) {
           <Divider />
           <CardBody>
             <div className="mb-4 mt-3 flex flex-col items-center">
-              <h2 className="text-center text-lg font-bold">
+              <h2 className="text-center text-xl font-bold sm:text-2xl">
                 Nguyên liệu / Điều kiện khai mở Bát Môn
               </h2>
             </div>

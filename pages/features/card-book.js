@@ -15,9 +15,9 @@ export default function Page() {
           <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
-              <h2 className="text-center text-lg font-bold">Sách sưu tập</h2>
+              <h2 className="text-center text-xl font-bold sm:text-2xl">Sách sưu tập</h2>
             </div>
-            <div className="prose prose-sm prose-invert max-w-none md:px-4">
+            <div className="prose prose-invert max-w-none">
               <p>
                 Sách sưu tập là một tính năng tăng nhẹ lực chiến dựa trên các võ sĩ đã sở hữu, đồng
                 thời hỗ trợ người chơi trong các chế độ khác nhau.
