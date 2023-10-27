@@ -50,8 +50,8 @@ export default function Page({ frontMatter, mdxSource, slug }) {
             </CardHeader>
             <Divider />
             <CardBody>
-              <div className="mb-6 mt-2 sm:mb-8 sm:mt-3 flex flex-col items-center">
-                <h2 className="text-lg font-semibold text-center">{frontMatter.title}</h2>
+              <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
+                <h2 className="text-center text-lg font-bold">{frontMatter.title}</h2>
                 <div className="text-sm text-slate-200/50">Published {frontMatter.date}</div>
               </div>
               <div className="prose prose-sm prose-invert max-w-none md:px-4">

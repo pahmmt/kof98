@@ -42,7 +42,7 @@ export default function Page({ data }) {
           <Divider />
           <CardBody>
             <div className="mb-4 mt-3 flex flex-col items-center">
-              <h2 className="text-lg font-semibold text-center">Nguyên liệu nâng cấp Viện trợ</h2>
+              <h2 className="text-center text-lg font-bold">Nguyên liệu nâng cấp Viện trợ</h2>
             </div>
             <Accordion defaultExpandedKeys={['15']}>
               <AccordionItem key="15" aria-label="Tư chất 15" title="Tư chất 15">

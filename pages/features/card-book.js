@@ -15,7 +15,7 @@ export default function Page() {
           <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
-              <h2 className="text-center text-lg font-semibold">Sách sưu tập</h2>
+              <h2 className="text-center text-lg font-bold">Sách sưu tập</h2>
             </div>
             <div className="prose prose-sm prose-invert max-w-none md:px-4">
               <p>
