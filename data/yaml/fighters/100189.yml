@@ -1,0 +1,99 @@
+id: 100189
+name: Benimaru XV
+type: tank
+aptitude: 15
+soul: bear
+soul_info:
+  name: Thunder Bear
+  description: In all gameplays, gain additional 115 rage when attacking. Recivers additional 55 rage when get hit.
+  image: skill_battlesoul_thorbear
+feature:
+  description: The lightning disintegrates, the thunder annihilates.
+  tags:
+    - Damage Sharing
+    - Iron Wall
+    - Hidden
+    - Posture Conversion
+    - Armor Break
+fates:
+  - name: Benimaru
+    conditions:
+      - Benimaru XV
+      - Benimaru XIII
+      - Benimaru 2003
+      - Benimaru
+    bonus: Tăng 25% ATK
+  - name: Lightning
+    conditions:
+      - Benimaru XV
+      - Sylvie Paula Paula
+      - Orochi Shermie 02UM
+    bonus: Tăng 25% HP
+  - name: Hero Team
+    conditions:
+      - Benimaru XV
+      - Shun'Ei XV
+      - Meitenkun XV
+    bonus: Tăng 25% HP
+  - name: Thức tỉnh vũ khí
+    conditions:
+      - Vòng Tay Sấm Sét
+    bonus: Tuyệt kỹ được nâng cấp thành MAX.Benimaru Rising Shot
+  - name: Hồn hiệu
+    conditions:
+      - Huy Hiệu Lực Lượng
+    bonus: Tăng 15% HP
+  - name: Hồn sách
+    conditions:
+      - Sách Judo
+    bonus: Tăng 15% ATK
+element_fates:
+  - id: 100111
+    name: Meitenkun
+  - id: 100095
+    name: Shun'Ei
+  - id: 100003
+    name: Kyo
+skills:
+  - type: a1
+    detail:
+      - name: Raimeitou
+        state: normal
+        content: ''
+      - name: MAX.Raimeitou
+        state: thunder_element
+        content: ''
+  - type: a2
+    detail:
+      - name: Benimaru Rising Shot
+        state: normal
+        content: ''
+      - name: MAX.Benimaru Rising Shot
+        state: weapon_awaken
+        content: ''
+      - name: 'SMAX-'
+        state: water_element
+        content: ''
+  - type: p1
+    detail:
+      - name: Thunder of Annihilation.
+        state: normal
+        content: ''
+      - name: MAX.Thunder of Annihilation.
+        state: lake_element
+        content: ''
+equipments:
+  - name: Vòng Tay Sấm Sét
+    description: Nâng cấp kỹ năng tuyệt kỹ
+    image: item_514289
+  - name: Huy Hiệu Lực Lượng
+    description: Tăng chỉ số % ATK
+    image: item_504505
+  - name: Sách Judo
+    description: Tăng chỉ số % HP
+    image: item_504607
+galleries:
+  - name: Mặc định
+    image: ka_BG_100189image
+  - name: Summer Time
+    image: ka_BG_10018901image

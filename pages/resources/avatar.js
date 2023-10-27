@@ -38,8 +38,8 @@ export default function Page({ data }) {
           </CardHeader>
           <Divider />
           <CardBody>
-            <div className="mb-8 mt-3 flex flex-col items-center">
-              <h2 className="text-xl font-semibold">Avatar Chibi</h2>
+            <div className="mb-6 mt-2 sm:mb-8 sm:mt-3 flex flex-col items-center">
+              <h2 className="text-lg font-semibold text-center">Avatar Chibi</h2>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-2">
               {data.map((avatar, index) => (

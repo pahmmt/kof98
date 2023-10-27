@@ -13,8 +13,8 @@ export default function Page() {
           </CardHeader>
           <Divider />
           <CardBody>
-            <div className="mb-8 mt-3 flex flex-col items-center">
-              <h2 className="text-xl font-semibold">Chip</h2>
+            <div className="mb-6 mt-2 sm:mb-8 sm:mt-3 flex flex-col items-center">
+              <h2 className="text-lg font-semibold text-center">Chip</h2>
             </div>
           </CardBody>
         </Card>

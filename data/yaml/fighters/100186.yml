@@ -25,13 +25,13 @@ fates:
       - Iori
       - Crazy Iori
       - Iori XIV
-    bonus: Tăng 25% công
+    bonus: Tăng 25% ATK
   - name: Foreign Aid
     conditions:
       - Miss X
       - Goddess Athena
       - Lilly Kane
-    bonus: Tăng 25% công
+    bonus: Tăng 25% ATK
   - name: Fire Controller
     conditions:
       - Miss X
@@ -49,7 +49,7 @@ fates:
   - name: Hồn sách
     conditions:
       - Sách Bùng Cháy
-    bonus: Tăng 15% công
+    bonus: Tăng 15% ATK
 element_fates:
   - id: 100010
     name: Mature
@@ -209,8 +209,8 @@ equipments:
   - name: Con Rối Kyo
     description: Nâng cấp kỹ năng tuyệt kỹ
     image: item_514286
-  - name: Huy Hiệu Rực lửa
-    description: Tăng chỉ số % công
+  - name: Huy Hiệu Rực Lửa
+    description: Tăng chỉ số % ATK
     image: item_504501
   - name: Sách Bùng Cháy
     description: Tăng chỉ số % HP

@@ -52,7 +52,7 @@ export default function Page({ data }) {
           </CardHeader>
           <Divider />
           <CardBody>
-            <div className="mb-8 mt-3 flex flex-col items-center gap-2">
+            <div className="mb-6 mt-2 sm:mb-8 sm:mt-3 flex flex-col items-center gap-2">
               <Image
                 src={`/assets/items/${data.image}.png`}
                 alt=""
@@ -60,7 +60,7 @@ export default function Page({ data }) {
                 height={100}
                 className="h-16 w-16 sm:h-20 sm:w-20"
               />
-              <h2 className="text-xl font-semibold">{data.name}</h2>
+              <h2 className="text-lg font-semibold text-center">{data.name}</h2>
               <div className="whitespace-pre-wrap">{highlightText(data.description)}</div>
             </div>
             <div className="w-full overflow-x-auto rounded-br-lg rounded-tl-lg border border-orange-400/25">
