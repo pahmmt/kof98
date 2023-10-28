@@ -48,12 +48,9 @@ fates:
       - Sách Judo
     bonus: Tăng 15% ATK
 element_fates:
-  - id: 100111
-    name: Meitenkun
-  - id: 100095
-    name: Shun'Ei
-  - id: 100003
-    name: Kyo
+  - 100111
+  - 100095
+  - 100003
 skills:
   - type: a1
     detail:

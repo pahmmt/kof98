@@ -7,3 +7,11 @@ export const getRunes = async () => {
     return handleError(error)
   }
 }
+
+export const fateFiles = async () => {
+  try {
+    return await getYAML('fate-files.yml')
+  } catch (error) {
+    return handleError(error)
+  }
+}

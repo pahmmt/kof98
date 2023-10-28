@@ -1,9 +1,28 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from 'next/image'
+import Link from 'next/link'
 import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 
-export default function Page() {
+export async function getStaticProps() {
+  try {
+    const { fateFiles } = await import('@/utils/features')
+    const data = await fateFiles()
+    if (!data || data.length <= 0) {
+      return {
+        notFound: true,
+      }
+    }
+    return {
+      props: { data },
+    }
+  } catch (e) {
+    console.error('Error fetching data:', e)
+  }
+}
+
+export default function Page({ data }) {
   return (
     <>
       <NextHead title="Sách sưu tập" />
@@ -17,14 +36,20 @@ export default function Page() {
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
               <h2 className="text-center text-xl font-bold sm:text-2xl">Sách sưu tập</h2>
             </div>
-            <div className="prose prose-invert max-w-none">
+            <div className="prose prose-invert mb-6 max-w-none sm:mb-8">
               <p>
                 Sách sưu tập là một tính năng tăng nhẹ lực chiến dựa trên các võ sĩ đã sở hữu, đồng
                 thời hỗ trợ người chơi trong các chế độ khác nhau.
               </p>
               <h3>Card Book - Sách sưu tập</h3>
               <p>
-                <img src="https://i.imgur.com/wzK469m.png" alt="" className="h-auto w-full" />
+                <Image
+                  src="/assets/pages/cardbook_1.jpg"
+                  alt=""
+                  className="h-auto w-full"
+                  width={1920}
+                  height={886}
+                />
               </p>
               <p>Có 10 bộ sách tất cả, mỗi bộ sách bao gồm các võ sĩ riêng biệt. </p>
               <p>
@@ -90,9 +115,15 @@ export default function Page() {
                   </p>
                 </li>
               </ul>
-              <h3>Hồ sơ Số mệnh - Fate File</h3>
+              <h3>Hồ Sơ Số mệnh - Fate File</h3>
               <p>
-                <img src="https://i.imgur.com/E0rOciS.png" alt="" className="h-auto w-full" />
+                <Image
+                  src="/assets/pages/cardbook_2.jpg"
+                  alt=""
+                  className="h-auto w-full"
+                  width={1920}
+                  height={886}
+                />
               </p>
               <p>
                 Chỉ võ sĩ đã sở hữu mới xuất hiện, nếu sở hữu nhiều phiên bản của 1 võ sĩ, chỉ hiển
@@ -100,8 +131,8 @@ export default function Page() {
               </p>
               <p>Mỗi trang có 2 nhánh đỏ - xanh riêng biệt, độc lập với nhau.</p>
               <p>
-                Sử dụng Mảnh Dữ liệu để mở khóa các ô (nhận được từ Võ đài), các ô phải được mở khóa
-                theo thứ tự, càng về sau số mảnh yêu cầu để mở 1 ô càng nhiều.
+                Sử dụng [Mảnh Dữ liệu] để mở khóa các ô (nhận được từ võ đài), các ô phải được mở
+                khóa theo thứ tự, càng về sau số mảnh yêu cầu để mở 1 ô càng nhiều.
               </p>
               <p>
                 Khi đáp ứng được các bộ trong cùng nhánh, kích hoạt hiệu quả và hiển thị ở góc phải
@@ -113,8 +144,49 @@ export default function Page() {
               </p>
               <p>Chỉ số nhóm được tăng thêm dựa trên tư chất các võ sĩ có trong nhóm.</p>
               <p>
-                Chi tiết về các nhóm võ sĩ có thể xem tại phần <strong>Group List</strong>.
+                <strong>Danh sách các nhóm võ sĩ:</strong>
               </p>
+            </div>
+            <div className="w-full overflow-x-auto rounded-br-lg rounded-tl-lg border border-orange-400/25">
+              <table className="w-full text-left">
+                <thead>
+                  <tr className="border-b border-orange-400/25">
+                    <th className="border-r border-orange-400/25 px-4 py-2 text-center font-medium last:border-r-0">
+                      Nhóm võ sĩ
+                    </th>
+                    <th className="border-r border-orange-400/25 px-4 py-2 font-medium last:border-r-0">
+                      Thông tin
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {data.map((item, index) => (
+                    <tr key={index} className="border-b border-orange-400/25 last:border-b-0">
+                      <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
+                        <div className="flex items-center justify-center gap-2">
+                          {item.fates.map((fate, index) => (
+                            <Link href={`/fighter/${fate}`} title={fate} key={index}>
+                              <Image
+                                src={`/assets/heros/${fate}/smallpic_${fate}.png`}
+                                alt={fate}
+                                width={100}
+                                height={100}
+                                className="mx-auto h-8 w-8 cursor-pointer rounded-lg border border-orange-400/25 hover:bg-orange-400/25 sm:h-14 sm:w-14"
+                              />
+                            </Link>
+                          ))}
+                        </div>
+                      </td>
+                      <td className="whitespace-pre-wrap border-r border-orange-400/25 px-4 py-2 last:border-r-0">
+                        <div className="flex flex-col gap-1">
+                          <div className="font-semibold text-yellow-500">{item.name}</div>
+                          <div>{item.attr_bonus}</div>
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </CardBody>
         </Card>

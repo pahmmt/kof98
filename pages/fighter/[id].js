@@ -33,8 +33,8 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   try {
-    const { getFighter } = await import('@/utils/fighter')
-    const data = await getFighter(params.id)
+    const { getFighterData } = await import('@/utils/fighter')
+    const data = await getFighterData(params.id)
     if (!data || data.length <= 0) {
       return {
         notFound: true,
@@ -176,7 +176,7 @@ export default function Page({ fighter }) {
                       <Divider className="my-4" />
                       <div className="space-y-3">
                         <h3 className="font-semibold">Duyên ngầm</h3>
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center gap-2 sm:gap-4">
                           {fighter.element_fates.map((fate, index) => (
                             <Link href={`/fighter/${fate.id}`} title={fate.name} key={index}>
                               <Image
@@ -184,7 +184,7 @@ export default function Page({ fighter }) {
                                 alt={fate.name}
                                 width={100}
                                 height={100}
-                                className="mx-auto h-14 w-14 cursor-pointer rounded-lg border border-orange-400/25 hover:bg-orange-400/25 sm:h-16 sm:w-16"
+                                className="mx-auto h-12 w-12 cursor-pointer rounded-lg border border-orange-400/25 hover:bg-orange-400/25 sm:h-14 sm:w-14"
                               />
                             </Link>
                           ))}
@@ -207,7 +207,7 @@ export default function Page({ fighter }) {
                                   alt=""
                                   width={100}
                                   height={100}
-                                  className="h-10 w-10 rounded-lg border border-slate-400/25 sm:h-14 sm:w-14"
+                                  className="h-12 w-12 rounded-lg border border-slate-400/25 sm:h-14 sm:w-14"
                                 />
                                 <div className="flex-1 space-y-1">
                                   <div className="font-medium text-slate-200">
@@ -235,7 +235,7 @@ export default function Page({ fighter }) {
                                             alt=""
                                             width={100}
                                             height={100}
-                                            className="h-10 w-10 rounded-lg border border-slate-400/25 sm:h-14 sm:w-14"
+                                            className="h-12 w-12 rounded-lg border border-slate-400/25 sm:h-14 sm:w-14"
                                           />
                                           <div className="flex-1 space-y-1">
                                             <div className="text-sm font-medium text-slate-200 sm:text-base">
@@ -307,7 +307,7 @@ export default function Page({ fighter }) {
                                 alt=""
                                 width={100}
                                 height={100}
-                                className="h-10 w-10 rounded-lg sm:h-14 sm:w-14"
+                                className="h-12 w-12 rounded-lg sm:h-14 sm:w-14"
                               />
                               <div className="space-y-1">
                                 <div className="font-medium text-slate-200">{equipment.name}</div>
@@ -331,7 +331,7 @@ export default function Page({ fighter }) {
                             alt=""
                             width={100}
                             height={100}
-                            className="h-10 w-10 rounded-lg border border-slate-400/25 sm:h-14 sm:w-14"
+                            className="h-12 w-12 rounded-lg border border-slate-400/25 sm:h-14 sm:w-14"
                           />
                           <div className="flex-1 space-y-1">
                             <div className="font-medium text-slate-200">
@@ -350,14 +350,14 @@ export default function Page({ fighter }) {
                         <h3 className="font-semibold">Đẳng viện trợ</h3>
                         <div className="flex cursor-pointer flex-col gap-2 rounded-br-lg rounded-tl-lg border border-orange-400/25 px-2 py-4 drop-shadow">
                           <div className="flex items-center gap-4">
-                            <div className="w-20 truncate rounded-md bg-white py-0.5 text-center text-sm text-black">
+                            <div className="w-20 rounded-md bg-white py-0.5 text-center text-sm text-black">
                               Trắng
                             </div>
                             <div className="flex-1">Kích hoạt kỹ năng viện trợ</div>
                           </div>
                           <Divider className="my-2" />
                           <div className="flex items-center gap-4">
-                            <div className="w-20 truncate rounded-md bg-emerald-500 py-0.5 text-center text-sm text-white">
+                            <div className="w-20 rounded-md bg-emerald-500 py-0.5 text-center text-sm text-white">
                               Lục
                             </div>
                             <div className="flex-1">
@@ -368,7 +368,7 @@ export default function Page({ fighter }) {
                           </div>
                           <Divider className="my-2" />
                           <div className="flex items-center gap-4">
-                            <div className="w-20 truncate rounded-md bg-blue-500 py-0.5 text-center text-sm text-white">
+                            <div className="w-20 rounded-md bg-blue-500 py-0.5 text-center text-sm text-white">
                               Lam
                             </div>
                             <div className="flex-1">
@@ -378,7 +378,7 @@ export default function Page({ fighter }) {
                           </div>
                           <Divider className="my-2" />
                           <div className="flex items-center gap-4">
-                            <div className="w-20 truncate rounded-md bg-purple-500 py-0.5 text-center text-sm text-white">
+                            <div className="w-20 rounded-md bg-purple-500 py-0.5 text-center text-sm text-white">
                               Tím
                             </div>
                             <div className="flex-1">
@@ -389,7 +389,7 @@ export default function Page({ fighter }) {
                           </div>
                           <Divider className="my-2" />
                           <div className="flex items-center gap-4">
-                            <div className="w-20 truncate rounded-md bg-orange-500 py-0.5 text-center text-sm text-white">
+                            <div className="w-20 rounded-md bg-orange-500 py-0.5 text-center text-sm text-white">
                               Cam
                             </div>
                             <div className="flex-1">
@@ -400,7 +400,7 @@ export default function Page({ fighter }) {
                           </div>
                           <Divider className="my-2" />
                           <div className="flex items-center gap-4">
-                            <div className="w-20 truncate rounded-md bg-red-500 py-0.5 text-center text-sm text-white">
+                            <div className="w-20 rounded-md bg-red-500 py-0.5 text-center text-sm text-white">
                               Đỏ
                             </div>
                             <div className="flex-1">

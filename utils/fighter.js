@@ -27,9 +27,22 @@ const getData = async () => {
   }
 }
 
-const getFighter = async (id) => {
+const getFighterInfo = async (id) => {
   try {
-    return await getYAML(`fighters/${id}.yml`)
+    const data = await getData()
+    return data.fighters.find((fighter) => fighter.id == id)
+  } catch (error) {
+    return handleError(error)
+  }
+}
+
+const getFighterData = async (id) => {
+  try {
+    const fighter = await getYAML(`fighters/${id}.yml`)
+    fighter.element_fates = await Promise.all(
+      fighter.element_fates.map(async (fate_id) => await getFighterInfo(fate_id))
+    )
+    return fighter
   } catch (error) {
     return handleError(error)
   }
@@ -51,4 +64,4 @@ const getAidTable = async () => {
   }
 }
 
-export { getPaths, getData, getFighter, getAidTable, getEightGatesTable }
+export { getPaths, getData, getFighterData, getAidTable, getEightGatesTable }

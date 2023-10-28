@@ -1,0 +1,5 @@
+- name: Heaven and Hell
+  fates:
+    - 100010
+    - 100017
+  attr_bonus: Tăng 1% HP, 0.4% ATK

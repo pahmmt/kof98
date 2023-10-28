@@ -76,6 +76,7 @@ export default function Page({ data }) {
                       alt="Rune"
                       width={137}
                       height={77}
+                      className="h-auto w-24 sm:w-32"
                     />
                   }
                 >
