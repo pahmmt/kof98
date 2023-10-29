@@ -45,7 +45,7 @@ fates:
     bonus: Tăng 15% HP
   - name: Hồn sách
     conditions:
-      - Sách Judo
+      - Sách Võ Judo
     bonus: Tăng 15% ATK
 element_fates:
   - 100111
@@ -86,7 +86,7 @@ equipments:
   - name: Huy Hiệu Lực Lượng
     description: Tăng chỉ số % ATK
     image: item_504505
-  - name: Sách Judo
+  - name: Sách Võ Judo
     description: Tăng chỉ số % HP
     image: item_504607
 galleries:

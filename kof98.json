@@ -1,0 +1,1102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "idDefinition": {
+      "type": "integer",
+      "oneOf": [
+        {
+          "const": 100001,
+          "description": "Chang"
+        },
+        {
+          "const": 100002,
+          "description": "Mary"
+        },
+        {
+          "const": 100003,
+          "description": "Kyo"
+        },
+        {
+          "const": 100004,
+          "description": "Iori"
+        },
+        {
+          "const": 100005,
+          "description": "Choi"
+        },
+        {
+          "const": 100006,
+          "description": "Terry"
+        },
+        {
+          "const": 100007,
+          "description": "Chizuru"
+        },
+        {
+          "const": 100008,
+          "description": "Ryo"
+        },
+        {
+          "const": 100009,
+          "description": "Ryuji"
+        },
+        {
+          "const": 100010,
+          "description": "Mature"
+        },
+        {
+          "const": 100011,
+          "description": "King"
+        },
+        {
+          "const": 100012,
+          "description": "Benimaru"
+        },
+        {
+          "const": 100013,
+          "description": "Chin"
+        },
+        {
+          "const": 100014,
+          "description": "Mai"
+        },
+        {
+          "const": 100015,
+          "description": "Joe"
+        },
+        {
+          "const": 100016,
+          "description": "Billy"
+        },
+        {
+          "const": 100017,
+          "description": "Vice"
+        },
+        {
+          "const": 100018,
+          "description": "Andy"
+        },
+        {
+          "const": 100019,
+          "description": "Kensou"
+        },
+        {
+          "const": 100020,
+          "description": "Daimon"
+        },
+        {
+          "const": 100021,
+          "description": "Kim"
+        },
+        {
+          "const": 100022,
+          "description": "Robert"
+        },
+        {
+          "const": 100023,
+          "description": "Yuri"
+        },
+        {
+          "const": 100024,
+          "description": "Athena"
+        },
+        {
+          "const": 100025,
+          "description": "Shingo"
+        },
+        {
+          "const": 100026,
+          "description": "Ralf"
+        },
+        {
+          "const": 100027,
+          "description": "Leona"
+        },
+        {
+          "const": 100028,
+          "description": "Clark"
+        },
+        {
+          "const": 100029,
+          "description": "Chris"
+        },
+        {
+          "const": 100030,
+          "description": "Yashiro"
+        },
+        {
+          "const": 100031,
+          "description": "Shermie"
+        },
+        {
+          "const": 100032,
+          "description": "Orochi"
+        },
+        {
+          "const": 100033,
+          "description": "Rugal"
+        },
+        {
+          "const": 100034,
+          "description": "Goenitz"
+        },
+        {
+          "const": 100035,
+          "description": "Eiji"
+        },
+        {
+          "const": 100036,
+          "description": "Kasumi"
+        },
+        {
+          "const": 100037,
+          "description": "Kula"
+        },
+        {
+          "const": 100038,
+          "description": "K'"
+        },
+        {
+          "const": 100039,
+          "description": "Orochi Chris"
+        },
+        {
+          "const": 100040,
+          "description": "Orochi Yashiro"
+        },
+        {
+          "const": 100041,
+          "description": "Orochi Shermie"
+        },
+        {
+          "const": 100042,
+          "description": "Geese"
+        },
+        {
+          "const": 100043,
+          "description": "Mr. Big"
+        },
+        {
+          "const": 100044,
+          "description": "Krauser"
+        },
+        {
+          "const": 100045,
+          "description": "Heavy D"
+        },
+        {
+          "const": 100046,
+          "description": "Brian"
+        },
+        {
+          "const": 100047,
+          "description": "Lucky"
+        },
+        {
+          "const": 100048,
+          "description": "Heidern"
+        },
+        {
+          "const": 100049,
+          "description": "Saisyu"
+        },
+        {
+          "const": 100050,
+          "description": "Takuma"
+        },
+        {
+          "const": 100052,
+          "description": "Maxima"
+        },
+        {
+          "const": 100053,
+          "description": "Whip"
+        },
+        {
+          "const": 100054,
+          "description": "Angel"
+        },
+        {
+          "const": 100055,
+          "description": "Foxy"
+        },
+        {
+          "const": 100056,
+          "description": "Crazy Iori"
+        },
+        {
+          "const": 100057,
+          "description": "Orochi Leona"
+        },
+        {
+          "const": 100058,
+          "description": "Kyo NESTS"
+        },
+        {
+          "const": 100059,
+          "description": "Vanessa"
+        },
+        {
+          "const": 100060,
+          "description": "Bao"
+        },
+        {
+          "const": 100061,
+          "description": "Momoko"
+        },
+        {
+          "const": 100062,
+          "description": "Athena 02UM"
+        },
+        {
+          "const": 100063,
+          "description": "ZERO"
+        },
+        {
+          "const": 100064,
+          "description": "Krizalid"
+        },
+        {
+          "const": 100065,
+          "description": "Igniz"
+        },
+        {
+          "const": 100066,
+          "description": "Omega Rugal"
+        },
+        {
+          "const": 100067,
+          "description": "Nakoruru"
+        },
+        {
+          "const": 100068,
+          "description": "Haohmaru"
+        },
+        {
+          "const": 100069,
+          "description": "Ukyo Tachibana"
+        },
+        {
+          "const": 100070,
+          "description": "Mukai"
+        },
+        {
+          "const": 100071,
+          "description": "Magaki"
+        },
+        {
+          "const": 100072,
+          "description": "Saiki"
+        },
+        {
+          "const": 100073,
+          "description": "Ash"
+        },
+        {
+          "const": 100074,
+          "description": "Shion"
+        },
+        {
+          "const": 100075,
+          "description": "Benimaru 2003"
+        },
+        {
+          "const": 100076,
+          "description": "Robert 02UM"
+        },
+        {
+          "const": 100077,
+          "description": "Terry 2003"
+        },
+        {
+          "const": 100078,
+          "description": "New Mr. Karate"
+        },
+        {
+          "const": 100079,
+          "description": "Mr. Karate"
+        },
+        {
+          "const": 100080,
+          "description": "Nameless"
+        },
+        {
+          "const": 100082,
+          "description": "May Lee"
+        },
+        {
+          "const": 100083,
+          "description": "Jhun Hoon"
+        },
+        {
+          "const": 100084,
+          "description": "Hinako"
+        },
+        {
+          "const": 100085,
+          "description": "Adelheid"
+        },
+        {
+          "const": 100086,
+          "description": "Maki"
+        },
+        {
+          "const": 100087,
+          "description": "Instinct Iori"
+        },
+        {
+          "const": 100088,
+          "description": "Flame Kyo"
+        },
+        {
+          "const": 100089,
+          "description": "Nightmare Geese"
+        },
+        {
+          "const": 100090,
+          "description": "Goeniko"
+        },
+        {
+          "const": 100091,
+          "description": "Elizabeth"
+        },
+        {
+          "const": 100092,
+          "description": "Ramon"
+        },
+        {
+          "const": 100093,
+          "description": "Seth"
+        },
+        {
+          "const": 100094,
+          "description": "Clone ZERO"
+        },
+        {
+          "const": 100095,
+          "description": "Shun'Ei"
+        },
+        {
+          "const": 100096,
+          "description": "Tung Fu Rue"
+        },
+        {
+          "const": 100097,
+          "description": "Lin"
+        },
+        {
+          "const": 100098,
+          "description": "Shen Woo"
+        },
+        {
+          "const": 100099,
+          "description": "Oswald"
+        },
+        {
+          "const": 100100,
+          "description": "Kim XIII"
+        },
+        {
+          "const": 100101,
+          "description": "Leona XIII"
+        },
+        {
+          "const": 100102,
+          "description": "Ralf XIII"
+        },
+        {
+          "const": 100103,
+          "description": "Clark XIII"
+        },
+        {
+          "const": 100104,
+          "description": "Duo Lon"
+        },
+        {
+          "const": 100105,
+          "description": "Superstar Athena"
+        },
+        {
+          "const": 100106,
+          "description": "Rising Dragon Kensou"
+        },
+        {
+          "const": 100107,
+          "description": "Death Vice"
+        },
+        {
+          "const": 100108,
+          "description": "Cruel Beauty Mature"
+        },
+        {
+          "const": 100109,
+          "description": "Extreme Mr. Karate"
+        },
+        {
+          "const": 100110,
+          "description": "Mizuchi"
+        },
+        {
+          "const": 100111,
+          "description": "Meitenkun"
+        },
+        {
+          "const": 100112,
+          "description": "Ice Doll Kula"
+        },
+        {
+          "const": 100113,
+          "description": "Transcendence K'"
+        },
+        {
+          "const": 100114,
+          "description": "Maxima XIV"
+        },
+        {
+          "const": 100115,
+          "description": "King XIII"
+        },
+        {
+          "const": 100116,
+          "description": "Chang XIV"
+        },
+        {
+          "const": 100117,
+          "description": "Choi XIV"
+        },
+        {
+          "const": 100118,
+          "description": "Rock Howard"
+        },
+        {
+          "const": 100119,
+          "description": "Billy XIV"
+        },
+        {
+          "const": 100120,
+          "description": "Saiki (Awakened)"
+        },
+        {
+          "const": 100121,
+          "description": "Hunry Wolf Terry"
+        },
+        {
+          "const": 100122,
+          "description": "Hein"
+        },
+        {
+          "const": 100123,
+          "description": "Overlord Geese"
+        },
+        {
+          "const": 100124,
+          "description": "Hotaru"
+        },
+        {
+          "const": 100125,
+          "description": "Verse"
+        },
+        {
+          "const": 100126,
+          "description": "Kukri"
+        },
+        {
+          "const": 100127,
+          "description": "Catty Leona"
+        },
+        {
+          "const": 100128,
+          "description": "Alluring Mai"
+        },
+        {
+          "const": 100129,
+          "description": "Purple Nakoruru"
+        },
+        {
+          "const": 100130,
+          "description": "Cutie Terry"
+        },
+        {
+          "const": 100144,
+          "description": "Hikage"
+        },
+        {
+          "const": 100145,
+          "description": "Asuka"
+        },
+        {
+          "const": 100146,
+          "description": "Homura"
+        },
+        {
+          "const": 100147,
+          "description": "Yumi"
+        },
+        {
+          "const": 100150,
+          "description": "Igniz 02UM"
+        },
+        {
+          "const": 100151,
+          "description": "Orochi Chris 02UM"
+        },
+        {
+          "const": 100152,
+          "description": "Orochi Shermie 02UM"
+        },
+        {
+          "const": 100153,
+          "description": "Orochi Yashiro 02UM"
+        },
+        {
+          "const": 100154,
+          "description": "Goenitz 02UM"
+        },
+        {
+          "const": 100156,
+          "description": "Benimaru XIII"
+        },
+        {
+          "const": 100157,
+          "description": "Luong"
+        },
+        {
+          "const": 100158,
+          "description": "Elizabeth XI"
+        },
+        {
+          "const": 100159,
+          "description": "Daimon 02UM"
+        },
+        {
+          "const": 100160,
+          "description": "Angel XIV"
+        },
+        {
+          "const": 100161,
+          "description": "Mai XIV"
+        },
+        {
+          "const": 100162,
+          "description": "Robert XIV"
+        },
+        {
+          "const": 100163,
+          "description": "Yuri XIV"
+        },
+        {
+          "const": 100164,
+          "description": "Yamazaki XIV"
+        },
+        {
+          "const": 100165,
+          "description": "Mary XIV"
+        },
+        {
+          "const": 100166,
+          "description": "Iori XIV"
+        },
+        {
+          "const": 100168,
+          "description": "Vanessa XIV"
+        },
+        {
+          "const": 100169,
+          "description": "Krizalid 99"
+        },
+        {
+          "const": 100170,
+          "description": "Kyo XIV"
+        },
+        {
+          "const": 100171,
+          "description": "Kula XIII"
+        },
+        {
+          "const": 100172,
+          "description": "Athena XI"
+        },
+        {
+          "const": 100173,
+          "description": "Kensou XI"
+        },
+        {
+          "const": 100174,
+          "description": "Duo Lon XIII"
+        },
+        {
+          "const": 100175,
+          "description": "Shingo 02UM"
+        },
+        {
+          "const": 100176,
+          "description": "Isla"
+        },
+        {
+          "const": 100178,
+          "description": "Shun'Ei XV"
+        },
+        {
+          "const": 100179,
+          "description": "Heidern XIV"
+        },
+        {
+          "const": 100180,
+          "description": "Ω ‧ Rugal"
+        },
+        {
+          "const": 100181,
+          "description": "Leona XV"
+        },
+        {
+          "const": 100182,
+          "description": "Ralf XV"
+        },
+        {
+          "const": 100183,
+          "description": "Clark XV"
+        },
+        {
+          "const": 100185,
+          "description": "Goddess Athena"
+        },
+        {
+          "const": 100186,
+          "description": "Miss X"
+        },
+        {
+          "const": 100189,
+          "description": "Benimaru XV"
+        }
+      ]
+    },
+    "nameDefinition": {
+      "type": "string",
+      "enum": [
+        "Chang",
+        "Mary",
+        "Kyo",
+        "Iori",
+        "Choi",
+        "Terry",
+        "Chizuru",
+        "Ryo",
+        "Ryuji",
+        "Mature",
+        "King",
+        "Benimaru",
+        "Chin",
+        "Mai",
+        "Joe",
+        "Billy",
+        "Vice",
+        "Andy",
+        "Kensou",
+        "Daimon",
+        "Kim",
+        "Robert",
+        "Yuri",
+        "Athena",
+        "Shingo",
+        "Ralf",
+        "Leona",
+        "Clark",
+        "Chris",
+        "Yashiro",
+        "Shermie",
+        "Orochi",
+        "Rugal",
+        "Goenitz",
+        "Eiji",
+        "Kasumi",
+        "Kula",
+        "K'",
+        "Orochi Chris",
+        "Orochi Yashiro",
+        "Orochi Shermie",
+        "Geese",
+        "Mr. Big",
+        "Krauser",
+        "Heavy D",
+        "Brian",
+        "Lucky",
+        "Heidern",
+        "Saisyu",
+        "Takuma",
+        "Maxima",
+        "Whip",
+        "Angel",
+        "Foxy",
+        "Crazy Iori",
+        "Orochi Leona",
+        "Kyo NESTS",
+        "Vanessa",
+        "Bao",
+        "Momoko",
+        "Athena 02UM",
+        "ZERO",
+        "Krizalid",
+        "Igniz",
+        "Omega Rugal",
+        "Nakoruru",
+        "Haohmaru",
+        "Ukyo Tachibana",
+        "Mukai",
+        "Magaki",
+        "Saiki",
+        "Ash",
+        "Shion",
+        "Benimaru 2003",
+        "Robert 02UM",
+        "Terry 2003",
+        "New Mr. Karate",
+        "Mr. Karate",
+        "Nameless",
+        "May Lee",
+        "Jhun Hoon",
+        "Hinako",
+        "Adelheid",
+        "Maki",
+        "Instinct Iori",
+        "Flame Kyo",
+        "Nightmare Geese",
+        "Goeniko",
+        "Elizabeth",
+        "Ramon",
+        "Seth",
+        "Clone ZERO",
+        "Shun'Ei",
+        "Tung Fu Rue",
+        "Lin",
+        "Shen Woo",
+        "Oswald",
+        "Kim XIII",
+        "Leona XIII",
+        "Ralf XIII",
+        "Clark XIII",
+        "Duo Lon",
+        "Superstar Athena",
+        "Rising Dragon Kensou",
+        "Death Vice",
+        "Cruel Beauty Mature",
+        "Extreme Mr. Karate",
+        "Mizuchi",
+        "Meitenkun",
+        "Ice Doll Kula",
+        "Transcendence K'",
+        "Maxima XIV",
+        "King XIII",
+        "Chang XIV",
+        "Choi XIV",
+        "Rock Howard",
+        "Billy XIV",
+        "Saiki (Awakened)",
+        "Hunry Wolf Terry",
+        "Hein",
+        "Overlord Geese",
+        "Hotaru",
+        "Verse",
+        "Kukri",
+        "Catty Leona",
+        "Alluring Mai",
+        "Purple Nakoruru",
+        "Cutie Terry",
+        "Hikage",
+        "Asuka",
+        "Homura",
+        "Yumi",
+        "Igniz 02UM",
+        "Orochi Chris 02UM",
+        "Orochi Shermie 02UM",
+        "Orochi Yashiro 02UM",
+        "Goenitz 02UM",
+        "Benimaru XIII",
+        "Luong",
+        "Elizabeth XI",
+        "Daimon 02UM",
+        "Angel XIV",
+        "Mai XIV",
+        "Robert XIV",
+        "Yuri XIV",
+        "Yamazaki XIV",
+        "Mary XIV",
+        "Iori XIV",
+        "Vanessa XIV",
+        "Krizalid 99",
+        "Kyo XIV",
+        "Kula XIII",
+        "Athena XI",
+        "Kensou XI",
+        "Duo Lon XIII",
+        "Shingo 02UM",
+        "Isla",
+        "Shun'Ei XV",
+        "Heidern XIV",
+        "Ω ‧ Rugal",
+        "Leona XV",
+        "Ralf XV",
+        "Clark XV",
+        "Goddess Athena",
+        "Miss X",
+        "Benimaru XV",
+        "--------------------------",
+        "Ash XIII",
+        "Meitenkun XV",
+        "Lilly Kane",
+        "Sylvie Paula Paula"
+      ]
+    },
+    "equipmentNameDefinition": {
+      "type": "string",
+      "enum": [
+        "Huy Hiệu Rực Lửa",
+        "Huy Hiệu Bão Tố",
+        "Huy Hiệu Động Đất",
+        "Huy Hiệu Thần Tộc",
+        "Huy Hiệu Lực Lượng",
+        "Huy Hiệu Nữ Trang",
+        "Sách Bùng Cháy",
+        "Sách Võ Tự Do",
+        "Sách Muay Thái",
+        "Sách Võ Karate",
+        "Sácg Siêu Năng",
+        "Sách Võ Taekwondo",
+        "Sách Võ Judo",
+        "Sách Thần Lực"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "id": {
+      "$ref": "#/definitions/idDefinition"
+    },
+    "name": {
+      "$ref": "#/definitions/nameDefinition"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["dps", "gank", "tank"]
+    },
+    "aptitude": {
+      "type": "integer",
+      "enum": [11, 12, 13, 14, 15]
+    },
+    "soul": {
+      "type": "string",
+      "enum": ["bear", "tiger", "snake", "turtle", "vacuum"]
+    },
+    "soul_info": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        }
+      },
+      "required": ["name", "description", "image"]
+    },
+    "feature": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Acting",
+              "Another World",
+              "Armor Break",
+              "Blunt",
+              "Captain",
+              "Chase Attack",
+              "Counter",
+              "DOA6",
+              "Damage Breakthrough",
+              "Damage Sharing",
+              "Deterrence",
+              "Dispel",
+              "Disturber",
+              "Domain",
+              "Flame",
+              "Frozen Skill",
+              "Healing Power",
+              "Hidden",
+              "Ikari Team",
+              "Injury Limit",
+              "Iron Wall",
+              "Kyokugenryu",
+              "Leaders",
+              "Orochi Incarnation",
+              "Orochi's Blood",
+              "Overlimit Rage",
+              "Posture Conversion",
+              "Power Strike",
+              "Protagonist",
+              "Purifier",
+              "Rage Aid",
+              "Rage Suppression",
+              "Scene",
+              "Sepsis",
+              "Sepsis Cure",
+              "Seran Kagura",
+              "Shield",
+              "Shield Penetration",
+              "Special Control",
+              "Sustain Damage",
+              "Tactical Retreat",
+              "Thorn Protect"
+            ]
+          }
+        }
+      },
+      "required": ["description", "tags"]
+    },
+    "fates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "anyOf": [
+              {
+                "enum": ["Hồn hiệu", "Hồn sách", "Hồn vũ khí"]
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "conditions": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "$ref": "#/definitions/nameDefinition"
+                },
+                {
+                  "$ref": "#/definitions/equipmentNameDefinition"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "bonus": {
+            "type": "string"
+          }
+        },
+        "required": ["name", "conditions", "bonus"]
+      }
+    },
+    "element_fates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/idDefinition"
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["a1", "a2", "p1"]
+          },
+          "detail": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string",
+                  "enum": [
+                    "normal",
+                    "weapon_awaken",
+                    "lake_element",
+                    "thunder_element",
+                    "water_element"
+                  ]
+                },
+                "content": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "state", "content"]
+            }
+          }
+        },
+        "required": ["type", "detail"]
+      }
+    },
+    "equipments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/equipmentNameDefinition"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "description": {
+            "type": "string",
+            "enum": ["Tăng chỉ số % ATK", "Tăng chỉ số % HP", "Nâng cấp kỹ năng tuyệt kỹ"]
+          },
+          "image": {
+            "type": "string"
+          }
+        },
+        "required": ["name", "description", "image"]
+      }
+    },
+    "galleries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string"
+          }
+        },
+        "required": ["name", "image"]
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "type",
+    "aptitude",
+    "soul",
+    "soul_info",
+    "feature",
+    "fates",
+    "element_fates",
+    "skills",
+    "equipments",
+    "galleries"
+  ]
+}

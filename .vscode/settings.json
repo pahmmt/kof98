@@ -1,4 +1,11 @@
 {
   "git.ignoreLimitWarning": true,
-  "yaml.format.singleQuote": true
+  "yaml.format.singleQuote": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "yaml.schemas": {
+    "./kof98.json": "/data/yaml/fighters/*.yml"
+  }
 }
