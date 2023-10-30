@@ -31,10 +31,6 @@
         ]
       }
     },
-    "required": [
-      "name",
-      "fates",
-      "attr_bonus"
-    ]
+    "required": ["name", "fates", "attr_bonus"]
   }
 }

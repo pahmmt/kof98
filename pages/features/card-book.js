@@ -148,7 +148,7 @@ export default function Page({ data }) {
               </p>
             </div>
             <div className="w-full overflow-x-auto rounded-br-lg rounded-tl-lg border border-orange-400/25">
-              <table className="w-full text-left">
+              <table className="w-full min-w-max text-left">
                 <thead>
                   <tr className="border-b border-orange-400/25">
                     <th className="border-r border-orange-400/25 px-4 py-2 text-center font-medium last:border-r-0">
