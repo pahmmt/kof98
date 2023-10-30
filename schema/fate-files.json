@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "fates": {
+        "type": "array",
+        "items": {
+          "$ref": "definition.json#/definitions/nameDefinition"
+        }
+      },
+      "attr_bonus": {
+        "type": "string",
+        "enum": [
+          "Tăng 1% HP, 0.4% ATK",
+          "Tăng 2% HP, 2% ATK",
+          "Tăng 1.6% HP, 0.64% ATK",
+          "Tăng 0.4% HP, 1% DEF",
+          "Tăng 0.64% HP, 1.6% DEF",
+          "Tăng 0.4% DEF, 1% ATK",
+          "Tăng 0.64% DEF, 1.6% ATK",
+          "Tăng 1.31% Anti-Crit, 0.37% Crit",
+          "Tăng 0.52% Anti-Crit, 0.92% Crit",
+          "Tăng 0.84% Anti-Crit, 1.47% Crit",
+          "Tăng 1.9% Pierce Rate, 0.53% Block",
+          "Tăng 3.04% Pierce Rate, 0.85% Block"
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "fates",
+      "attr_bonus"
+    ]
+  }
+}

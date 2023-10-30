@@ -165,10 +165,10 @@ export default function Page({ data }) {
                       <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
                         <div className="flex items-center justify-center gap-2">
                           {item.fates.map((fate, index) => (
-                            <Link href={`/fighter/${fate}`} title={fate} key={index}>
+                            <Link href={`/fighter/${fate.id}`} title={fate.name} key={index}>
                               <Image
-                                src={`/assets/heros/${fate}/smallpic_${fate}.png`}
-                                alt={fate}
+                                src={`/assets/heros/${fate.id}/smallpic_${fate.id}.png`}
+                                alt={fate.name}
                                 width={100}
                                 height={100}
                                 className="mx-auto h-8 w-8 cursor-pointer rounded-lg border border-orange-400/25 hover:bg-orange-400/25 sm:h-14 sm:w-14"
@@ -177,7 +177,7 @@ export default function Page({ data }) {
                           ))}
                         </div>
                       </td>
-                      <td className="whitespace-pre-wrap border-r border-orange-400/25 px-4 py-2 last:border-r-0">
+                      <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
                         <div className="flex flex-col gap-1">
                           <div className="font-semibold text-yellow-500">{item.name}</div>
                           <div>{item.attr_bonus}</div>

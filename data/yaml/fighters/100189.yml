@@ -48,9 +48,9 @@ fates:
       - Sách Võ Judo
     bonus: Tăng 15% ATK
 element_fates:
-  - 100111
-  - 100095
-  - 100003
+  - Meitenkun
+  - Shun'Ei
+  - Kyo
 skills:
   - type: a1
     detail:

@@ -1,5 +1,419 @@
 - name: Heaven and Hell
   fates:
-    - 100010
-    - 100017
+    - Vice
+    - Mature
   attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Metal Slug
+  fates:
+    - Ralf
+    - Clark
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Superpower Warrior
+  fates:
+    - Kensou
+    - Athena
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Art of Fighting
+  fates:
+    - Ryo
+    - Robert
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Final Awaken
+  fates:
+    - Orochi
+    - Chris
+  attr_bonus: Tăng 0.4% DEF, 1% ATK
+- name: C.Y.S
+  fates:
+    - Yashiro
+    - Shermie
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Fatal Fury
+  fates:
+    - Terry
+    - Mary
+  attr_bonus: Tăng 0.4% DEF, 1% ATK
+- name: Kyokugenryu Clan
+  fates:
+    - Takuma
+    - Yuri
+    - Ryo
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Reborn
+  fates:
+    - Chang
+    - Choi
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Shiranui Type
+  fates:
+    - Mai
+    - Andy
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Fate Battle
+  fates:
+    - Kyo
+    - Iori
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Silent Soldier
+  fates:
+    - Leona
+    - Heidern
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Extreme Opponent
+  fates:
+    - Kasumi
+    - Eiji
+  attr_bonus: Tăng 0.4% DEF, 1% ATK
+- name: Inheritance
+  fates:
+    - Rugal
+    - Adelheid
+  attr_bonus: Tăng 0.4% DEF, 1% ATK
+- name: Clones
+  fates:
+    - Krizalid
+    - Nameless
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Flame and Ice
+  fates:
+    - K'
+    - Kula
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: NESTS Leaders
+  fates:
+    - Igniz
+    - ZERO
+  attr_bonus: Tăng 0.4% DEF, 1% ATK
+- name: Hakkyokuseiken
+  fates:
+    - Tung Fu Rue
+    - Shun'Ei
+  attr_bonus: Tăng 1.31% Anti-Crit, 0.37% Crit
+- name: Psychic Group
+  fates:
+    - Chin
+    - Bao
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Twin Sisters
+  fates:
+    - Maki
+    - Chizuru
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Space Shuttle
+  fates:
+    - Magaki
+    - Shion
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Blood Frenzy
+  fates:
+    - Goenitz
+    - Ryuji
+  attr_bonus: Tăng 1.31% Anti-Crit, 0.37% Crit
+- name: Fight in the Rain
+  fates:
+    - Kyo
+    - K'
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Distant Land Leader
+  fates:
+    - Saiki
+    - Mukai
+  attr_bonus: Tăng 0.52% Anti-Crit, 0.92% Crit
+- name: Only Memory
+  fates:
+    - Ash
+    - Elizabeth
+  attr_bonus: Tăng 0.52% Anti-Crit, 0.92% Crit
+- name: Halfway Mentorship
+  fates:
+    - Saisyu
+    - Shingo
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Powerful Soldier
+  fates:
+    - Whip
+    - Maxima
+  attr_bonus: Tăng 0.4% DEF, 1% ATK
+- name: NESTS Cadres
+  fates:
+    - Angel
+    - Foxy
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Southtown Ruler
+  fates:
+    - Krauser
+    - Mr. Big
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Emperor's Assistant
+  fates:
+    - Geese
+    - Billy
+  attr_bonus: Tăng 0.4% DEF, 1% ATK
+- name: Taekwondo Group
+  fates:
+    - Kim
+    - May Lee
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: True and Fake
+  fates:
+    - K'
+    - Krizalid
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Thai Boxing Enthusiast
+  fates:
+    - Joe
+    - King
+  attr_bonus: Tăng 0.4% DEF, 1% ATK
+- name: Classic Japan Team
+  fates:
+    - Daimon
+    - Benimaru
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Female Student
+  fates:
+    - Momoko
+    - Hinako
+  attr_bonus: Tăng 1% HP, 0.4% ATK
+- name: Fellow Brothers
+  fates:
+    - Jhun Hoon
+    - Kim
+  attr_bonus: Tăng 0.4% HP, 1% DEF
+- name: Flying Brigands
+  fates:
+    - Duo Lon
+    - Lin
+  attr_bonus: Tăng 1.31% Anti-Crit, 0.37% Crit
+- name: Connected Destiny
+  fates:
+    - Terry
+    - Rock Howard
+  attr_bonus: Tăng 1.9% Pierce Rate, 0.53% Block
+- name: Sports Team
+  fates:
+    - Heavy D
+    - Lucky
+    - Brian
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Outerspace Guests
+  fates:
+    - Haohmaru
+    - Ukyo Tachibana
+    - Nakoruru
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Supervisor
+  fates:
+    - Goenitz
+    - Vice
+    - Mature
+  attr_bonus: Tăng 0.64% DEF, 1.6% ATK
+- name: Talented Fighter
+  fates:
+    - Shun'Ei
+    - Kensou
+    - Bao
+  attr_bonus: Tăng 0.64% DEF, 1.6% ATK
+- name: Throw & Wrestle
+  fates:
+    - Clark
+    - Daimon
+    - Hinako
+  attr_bonus: Tăng 3.04% Pierce Rate, 0.85% Block
+- name: Popular Girls
+  fates:
+    - Athena
+    - Kula
+    - Yuri
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Clan Mission
+  fates:
+    - Elizabeth
+    - Maki
+    - Chizuru
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Passionate Youth
+  fates:
+    - Kensou
+    - Shingo
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Flame Type
+  fates:
+    - Kyo
+    - Saisyu
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Special Flame
+  fates:
+    - Iori
+    - Saiki
+    - Ash
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Real Men
+  fates:
+    - Ralf
+    - Rugal
+    - Yashiro
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Grand Master
+  fates:
+    - Tung Fu Rue
+    - Kim
+    - Chin
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Sturdy Body
+  fates:
+    - Mukai
+    - Maxima
+    - Chang
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Masked Man
+  fates:
+    - Takuma
+    - Eiji
+    - Lin
+  attr_bonus: Tăng 0.64% DEF, 1.6% ATK
+- name: Sunglasses Collector
+  fates:
+    - Oswald
+    - Mr. Big
+    - Choi
+  attr_bonus: Tăng 0.64% DEF, 1.6% ATK
+- name: Raging Waves
+  fates:
+    - Mai
+    - Shermie
+    - Angel
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Clang Rose
+  fates:
+    - Leona
+    - Vanessa
+    - Whip
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Dark Side
+  fates:
+    - Geese
+    - Krauser
+    - Ryuji
+  attr_bonus: Tăng 0.64% DEF, 1.6% ATK
+- name: High-tech Weapons
+  fates:
+    - ZERO
+    - K'
+    - Nameless
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Rising Star
+  fates:
+    - Ryo
+    - Adelheid
+    - Kasumi
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Weapon User
+  fates:
+    - Shion
+    - Billy
+    - Foxy
+  attr_bonus: Tăng 0.64% DEF, 1.6% ATK
+- name: Cool Guy
+  fates:
+    - Benimaru
+    - Terry
+    - Robert
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Bare-breasted Fighter
+  fates:
+    - Mukai
+    - Orochi
+    - Joe
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: New China Team
+  fates:
+    - Meitenkun
+    - Tung Fu Rue
+    - Shun'Ei
+  attr_bonus: Tăng 1.6% HP, 0.64% ATK
+- name: Boy and Girl
+  fates:
+    - Meitenkun
+    - Bao
+    - Momoko
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Unique Weapon
+  fates:
+    - Meitenkun
+    - Oswald
+    - Mai
+  attr_bonus: Tăng 0.64% HP, 1.6% DEF
+- name: Complex Emotions
+  fates:
+    - Terry
+    - Rock Howard
+    - Geese
+  attr_bonus: Tăng 0.84% Anti-Crit, 1.47% Crit
+- name: C.Y.S
+  fates:
+    - Chris
+    - Shermie
+    - Yashiro
+  attr_bonus: Tăng 0.64% DEF, 1.6% ATK
+- name: Superpower Team
+  fates:
+    - Athena
+    - Kensou
+    - Bao
+    - Chin
+  attr_bonus: Tăng 2% HP, 2% ATK
+- name: Distant Land
+  fates:
+    - Saiki
+    - Mukai
+    - Magaki
+    - Shion
+  attr_bonus: Tăng 2% HP, 2% ATK
+- name: Three Artifact Seal
+  fates:
+    - Kyo
+    - Iori
+    - Chizuru
+  attr_bonus: Tăng 2% HP, 2% ATK
+- name: Ikari Team
+  fates:
+    - Leona
+    - Ralf
+    - Clark
+    - Heidern
+  attr_bonus: Tăng 2% HP, 2% ATK
+- name: Kyokugenryu Team
+  fates:
+    - Takuma
+    - Ryo
+    - Yuri
+    - Robert
+  attr_bonus: Tăng 2% HP, 2% ATK
+- name: Distant Land Investigator
+  fates:
+    - Elizabeth
+    - Ash
+    - Oswald
+    - Shen Woo
+  attr_bonus: Tăng 2% HP, 2% ATK
+- name: Orochi Hakkesshu
+  fates:
+    - Vice
+    - Mature
+    - Goenitz
+    - Ryuji
+  attr_bonus: Tăng 2% HP, 2% ATK
+- name: NESTS Investigator
+  fates:
+    - K'
+    - Kula
+    - Maxima
+    - Whip
+  attr_bonus: Tăng 2% HP, 2% ATK
+- name: Blue Hair Girl
+  fates:
+    - Hotaru
+    - Kasumi
+    - Kula
+    - Leona
+  attr_bonus: Tăng 2% HP, 2% ATK

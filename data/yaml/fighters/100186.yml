@@ -51,9 +51,9 @@ fates:
       - Sách Bùng Cháy
     bonus: Tăng 15% ATK
 element_fates:
-  - 100010
-  - 100017
-  - 100056
+  - Mature
+  - Vice
+  - Crazy Iori
 skills:
   - type: a1
     detail:
