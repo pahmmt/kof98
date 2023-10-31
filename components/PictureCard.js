@@ -41,7 +41,7 @@ export default function PictureCard({ pictureSrc, frameSrc, title, className = '
         const data = new Uint8ClampedArray(imageData.data.buffer)
         for (var y = 0; y < canvas.height; y++) {
           for (var x = 0; x < canvas.width; x++) {
-            if (x < 11 || x >= 356 || y < 43 || y >= 507) {
+            if (x < 12 || x >= 356 || y < 43 || y >= 507) {
               var i = (y * canvas.width + x) * 4
               data[i + 3] = 0 // alpha = 0
             }

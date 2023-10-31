@@ -4,8 +4,7 @@ import matter from 'gray-matter'
 import { serialize } from 'next-mdx-remote/serialize'
 
 const postDir = 'data/posts'
-
-export const postsPerPage = 10
+const postsPerPage = 10
 
 const handleError = (error) => {
   console.error('Error:', error)
@@ -71,4 +70,4 @@ const getPost = async (slug) => {
   }
 }
 
-export { getPaths, getPaginatePaths, getPosts, getPost }
+export { getPaths, getPaginatePaths, getPosts, getPost, postsPerPage, postDir }
