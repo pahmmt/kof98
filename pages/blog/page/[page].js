@@ -44,7 +44,10 @@ export async function getStaticProps({ params }) {
 export default function Page({ paginatedPosts, numPages, currentPage }) {
   return (
     <>
-      <NextHead title="Blog">
+      <NextHead
+        title={`Blog - Trang ${currentPage}`}
+        description={`Trang ${currentPage} - Tổng hợp các bài viết liên quan đến game KOF'98 UM OL.`}
+      >
         <OpenGraph
           url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/blog/${currentPage}`}
           title={`Blog - Trang ${currentPage}`}
