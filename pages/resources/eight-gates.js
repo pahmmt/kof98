@@ -2,7 +2,6 @@ import { Accordion, AccordionItem, Card, CardBody, CardHeader, Divider } from '@
 import Breadcrumb from '@/components/Breadcrumb'
 import GateTable from '@/components/GateTable'
 import NextHead from '@/components/NextHead'
-import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticProps() {
   try {
@@ -27,15 +26,15 @@ export default function Page({ data }) {
       <NextHead
         title="Nguyên liệu / Điều kiện khai mở Bát Môn"
         description="Bảng nguyên liệu / Điều kiện để khai mở bát môn cho các võ sĩ tư chất 13, 14, 15..."
-      >
-        <OpenGraph
-          url={`${
+        openGraphData={{
+          url: `${
             process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
-          }/resources/eight-gates`}
-          title="Nguyên liệu / Điều kiện khai mở Bát Môn"
-          description="Bảng nguyên liệu / Điều kiện để khai mở bát môn cho các võ sĩ tư chất 13, 14, 15..."
-        />
-      </NextHead>
+          }/resources/eight-gates`,
+          title: 'Nguyên liệu / Điều kiện khai mở Bát Môn',
+          description:
+            'Bảng nguyên liệu / Điều kiện để khai mở bát môn cho các võ sĩ tư chất 13, 14, 15...',
+        }}
+      />
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

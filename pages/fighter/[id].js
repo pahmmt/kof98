@@ -19,7 +19,6 @@ import BreadCrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import { highlightText } from '@/utils/text'
 import { SkillState, skillStateMap, skillTypeMap } from '@/utils/text'
-import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticPaths() {
   const { getPaths } = await import('@/utils/fighter')
@@ -108,18 +107,17 @@ export default function Page({ fighter }) {
       <NextHead
         title={`Thông tin võ sĩ: ${fighter.name}`}
         description={`Thông tin về kỹ năng, viện trợ và hình ảnh của võ sĩ: ${fighter.name}`}
-      >
-        <OpenGraph
-          url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/fighter/${
+        openGraphData={{
+          url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/fighter/${
             fighter.id
-          }`}
-          title={`Thông tin võ sĩ: ${fighter.name}`}
-          description={`Thông tin về kỹ năng, viện trợ và hình ảnh của võ sĩ: ${fighter.name}`}
-          image={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/assets/heros/${
+          }`,
+          title: `Thông tin võ sĩ: ${fighter.name}`,
+          description: `Thông tin về kỹ năng, viện trợ và hình ảnh của võ sĩ: ${fighter.name}`,
+          image: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/assets/heros/${
             fighter.id
-          }/large/largepic_${fighter.id}.png`}
-        />
-      </NextHead>
+          }/large/largepic_${fighter.id}.png`,
+        }}
+      />
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

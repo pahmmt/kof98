@@ -2,7 +2,6 @@ import { MDXRemote } from 'next-mdx-remote'
 import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
-import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticPaths() {
   const { getPaths } = await import('@/utils/blog')
@@ -27,7 +26,7 @@ export async function getStaticProps({ params }) {
       props: postData,
     }
   } catch (e) {
-    console.error('Error fetching post:', e)
+    console.error('Error fetching data:', e)
   }
 }
 
@@ -35,14 +34,16 @@ export default function Page({ frontMatter, mdxSource, slug }) {
   return (
     frontMatter && (
       <>
-        <NextHead title={frontMatter.title} description={frontMatter.description}>
-          <OpenGraph
-            url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/blog/${slug}`}
-            title={frontMatter.title}
-            description={frontMatter.description}
-            image={frontMatter.cover}
-          />
-        </NextHead>
+        <NextHead
+          title={frontMatter.title}
+          description={frontMatter.description}
+          openGraphData={{
+            url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/blog/${slug}`,
+            title: frontMatter.title,
+            description: frontMatter.description,
+            image: frontMatter.cover,
+          }}
+        />
         <main className="mt-4 flex-1 space-y-8 px-4">
           <Card fullWidth className="mx-auto max-w-7xl">
             <CardHeader>

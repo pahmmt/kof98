@@ -4,7 +4,6 @@ import ArticleSection from '@/components/ArticleSection'
 import FighterSection from '@/components/FighterSection'
 import SoulSection from '@/components/SoulSection'
 import { useDataContext } from '@/components/DataContext'
-import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticProps() {
   try {
@@ -50,9 +49,7 @@ export default function Page({ data, posts }) {
       <NextHead
         title={process.env.NEXT_PUBLIC_APP_NAME || 'Untitled'}
         description="Cập nhật thông tin võ sĩ, tính năng về game KOF'98 UM OL máy chủ Quốc Tế."
-      >
-        <OpenGraph />
-      </NextHead>
+      />
       <main className="mt-4 flex-1 space-y-8 px-4">
         <ArticleSection
           posts={posts}

@@ -2,7 +2,6 @@ import Image from 'next/image'
 import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
-import OpenGraph from '@/components/OpenGraph'
 
 export async function getStaticProps() {
   try {
@@ -24,13 +23,15 @@ export async function getStaticProps() {
 export default function Page({ data }) {
   return (
     <>
-      <NextHead title="Avatar Chibi" description="Tổng hợp hình ảnh avatar chibi của các võ sĩ.">
-        <OpenGraph
-          url={`${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/avatar`}
-          title="Avatar Chibi"
-          description="Tổng hợp hình ảnh avatar chibi của các võ sĩ."
-        />
-      </NextHead>
+      <NextHead
+        title="Avatar Chibi"
+        description="Tổng hợp hình ảnh avatar chibi của các võ sĩ."
+        openGraphData={{
+          url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/avatar`,
+          title: 'Avatar Chibi',
+          description: 'Tổng hợp hình ảnh avatar chibi của các võ sĩ.',
+        }}
+      />
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>

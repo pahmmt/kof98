@@ -1,6 +1,7 @@
 import Head from 'next/head'
+import OpenGraph from '@/components/OpenGraph'
 
-export default function NextHead({ title, description, children }) {
+export default function NextHead({ title, description, openGraphData = null, children }) {
   return (
     <Head>
       <meta charSet="UTF-8" />
@@ -23,6 +24,7 @@ export default function NextHead({ title, description, children }) {
       <meta name="msapplication-TileColor" content="#18181b" />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       <meta name="theme-color" content="#18181b" />
+      {openGraphData && <OpenGraph data={openGraphData} />}
       {children}
       <title>{title}</title>
     </Head>
