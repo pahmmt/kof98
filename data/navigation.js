@@ -15,15 +15,15 @@ const navigation = [
         href: '/features/card-book',
       },
       {
-        label: 'Rune',
-        href: '/features/rune',
+        label: 'Runes',
+        href: '/features/runes',
       },
       {
-        label: 'Chip',
+        label: 'NESTS Gene Map',
         href: '/features/nests-gene-map',
       },
       {
-        label: 'Tinh tú',
+        label: 'Tinh Tú',
         href: '/features/cosmic-power',
       },
       {

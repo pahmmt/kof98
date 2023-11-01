@@ -38,10 +38,10 @@ export default function Page({ data }) {
             </div>
             <div className="prose prose-invert mb-6 max-w-none sm:mb-8">
               <p>
-                Sách sưu tập là một tính năng tăng nhẹ lực chiến dựa trên các võ sĩ đã sở hữu, đồng
+              <strong>Card Book - Sách Sưu Tập</strong> là một tính năng tăng nhẹ lực chiến dựa trên các võ sĩ đã sở hữu, đồng
                 thời hỗ trợ người chơi trong các chế độ khác nhau.
               </p>
-              <h3>Card Book - Sách sưu tập</h3>
+              <h3>Phần 1. Card Book</h3>
               <p>
                 <Image
                   src="/assets/pages/cardbook_1.jpg"
@@ -115,7 +115,7 @@ export default function Page({ data }) {
                   </p>
                 </li>
               </ul>
-              <h3>Hồ Sơ Số mệnh - Fate File</h3>
+              <h3>Phần 2. Fate File</h3>
               <p>
                 <Image
                   src="/assets/pages/cardbook_2.jpg"

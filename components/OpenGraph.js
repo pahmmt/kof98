@@ -18,7 +18,7 @@ export default function OpenGraph({ url = null, title = null, description = null
         content={
           image
             ? formatUrl(image)
-            : (process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000') + '/og_img.jpg'
+            : (process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000') + '/og-image.jpg'
         }
       />
     </>

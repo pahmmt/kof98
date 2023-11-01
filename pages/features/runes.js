@@ -24,17 +24,17 @@ export async function getStaticProps() {
 export default function Page({ data }) {
   return (
     <>
-      <NextHead title="Thức tỉnh huyết mạch (Rune)" />
+      <NextHead title="Thức Tỉnh Huyết Mạch" />
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>
-            <Breadcrumb data={[{ name: 'Rune' }]} />
+            <Breadcrumb data={[{ name: 'Thức Tỉnh Huyết Mạch' }]} />
           </CardHeader>
           <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
               <h2 className="text-center text-xl font-bold sm:text-2xl">
-                Thức tỉnh huyết mạch (Rune)
+              Thức Tỉnh Huyết Mạch
               </h2>
             </div>
             <div className="mb-8 flex flex-wrap items-center justify-center gap-1 sm:mb-6 sm:gap-2">
@@ -51,20 +51,30 @@ export default function Page({ data }) {
             </div>
             <div className="prose prose-invert mb-8 max-w-none sm:mb-6">
               <p>
-                Mỗi võ sĩ có 6 ô rune tương ứng với rune số 1-6, mỗi ô chỉ được trang bị một rune
-                của vị trí tương ứng.
+                <strong>Thức Tỉnh Huyết Mạch - Runes</strong> được coi là một trong những tính năng
+                quan trọng bậc nhất game, có ảnh hưởng to lớn tới sức mạnh võ sĩ cũng như cơ chế sử
+                dụng võ sĩ. Gia tăng tối đa các chỉ số gốc và chỉ số phụ, đồng thời Kích hoạt Rune
+                có ảnh hưởng trực tiếp trong trận đấu.
               </p>
-              <p>
-                Khi thu thập được 2/4/6 mảnh của cùng một bộ rune, các hiệu ứng bộ tương ứng có thể
-                được kích hoạt. Các hiệu ứng bộ được phân biệt theo chất lượng. Dữ liệu trên trang
-                này sử dụng rune đỏ cấp cao nhất làm ví dụ.
-              </p>
-              <p>
-                Hiệu ứng bộ có thể bao gồm 2 bộ thuộc tính rune kết hợp 2+4 hoặc 3 bộ thuộc tính
-                rune kết hợp 2+2+2, nhưng sẽ chỉ có tối đa một bộ hiệu ứng nổ (ví dụ: kết hợp 2+4)
-              </p>
+              <h3>Quy tắc chung</h3>
+              <ul>
+                <li>
+                  Mỗi võ sĩ có 6 ô rune tương ứng với rune số 1-6, mỗi ô chỉ được trang bị một rune
+                  của vị trí tương ứng.
+                </li>
+                <li>
+                  Khi thu thập được 2/4/6 mảnh của cùng một bộ rune, các hiệu ứng bộ tương ứng có
+                  thể được kích hoạt. Các hiệu ứng bộ được phân biệt theo chất lượng. Dữ liệu trên
+                  trang này sử dụng rune đỏ cấp cao nhất làm ví dụ.
+                </li>
+                <li>
+                  Hiệu ứng bộ có thể bao gồm 2 bộ thuộc tính rune kết hợp 2+4 hoặc 3 bộ thuộc tính
+                  rune kết hợp 2+2+2, nhưng sẽ chỉ có tối đa một bộ hiệu ứng nổ (ví dụ: kết hợp 2+4)
+                </li>
+              </ul>
+              <h3>Các loại Rune</h3>
             </div>
-            <Accordion defaultExpandedKeys={['15']}>
+            <Accordion>
               {data.map((item, index) => (
                 <AccordionItem
                   key={index}
