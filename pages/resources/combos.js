@@ -76,8 +76,8 @@ export default function Page() {
             </div>
             <div className="prose prose-invert mb-6 max-w-none sm:mb-8">
               <p>
-                Dưới đây là danh sách Combo ẩn, sử dụng trong chế độ Vượt ải, Tháp, Boss hội quán để
-                có thể nhận 50 kim cương mỗi ngày:
+                Danh sách Combo ẩn, sử dụng trong chế độ Vượt ải, Tháp, Boss hội quán để có thể nhận
+                50 kim cương mỗi ngày.
               </p>
             </div>
             <div className="w-full overflow-x-auto rounded-br-lg rounded-tl-lg border border-orange-400/25">
