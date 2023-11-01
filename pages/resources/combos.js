@@ -3,24 +3,55 @@ import { Card, CardBody, CardHeader, Divider } from '@nextui-org/react'
 import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 
-export async function getStaticProps() {
-  try {
-    const { getYAML } = await import('@/utils/yaml')
-    const data = await getYAML('avatar.yml')
-    if (!data || data.length <= 0) {
-      return {
-        notFound: true,
-      }
-    }
-    return {
-      props: { data },
-    }
-  } catch (e) {
-    console.error('Error fetching data:', e)
-  }
-}
+export default function Page() {
+  const data = [
+    'GGGGG',
+    'GGGGP',
+    'GGGPG',
+    'GGGPP',
+    'GGPGG',
+    'GGPGP',
+    'GGPPG',
+    'GGPPP',
+    'GPGGG',
+    'GPGGP',
+    'GPGPG',
+    'GPGPP',
+    'GPPGG',
+    'GPPGP',
+    'GPPPG',
+    'GPPPP',
+    'PGGGG',
+    'PGGGP',
+    'PGGPG',
+    'PGGPP',
+    'PGPGG',
+    'PGPGP',
+    'PGPPG',
+    'PGPPP',
+    'PPGGG',
+    'PPGGP',
+    'PPGPG',
+    'PPGPP',
+    'PPPGG',
+    'PPPGP',
+    'PPPPG',
+    'PPPPP',
+    '-',
+  ]
 
-export default function Page({ data }) {
+  const chunkedData = data.reduce((resultArray, item, index) => {
+    const chunkIndex = Math.floor(index / 3)
+
+    if (!resultArray[chunkIndex]) {
+      resultArray[chunkIndex] = []
+    }
+
+    resultArray[chunkIndex].push(item)
+
+    return resultArray
+  }, [])
+
   return (
     <>
       <NextHead
@@ -49,7 +80,6 @@ export default function Page({ data }) {
                 có thể nhận 50 kim cương mỗi ngày:
               </p>
             </div>
-
             <div className="w-full overflow-x-auto rounded-br-lg rounded-tl-lg border border-orange-400/25">
               <table className="w-full min-w-max text-left">
                 <thead>
@@ -66,127 +96,18 @@ export default function Page({ data }) {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GGGGG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GGGGP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GGGPG
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GGGPP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GGPGG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GGPGP
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GGPPG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GGPPP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GPGGG
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GPGGP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GPGPG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GPGPP
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GPPGG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GPPGP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GPPPG
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      GPPPP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PGGGG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PGGGP
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PGGPG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PGGPP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PGPGG
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PGPGP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PGPPG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PGPPP
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PPGGG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PPGGP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PPGPG
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PPGPP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PPPGG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PPPGP
-                    </td>
-                  </tr>
-                  <tr className="border-b border-orange-400/25 last:border-b-0">
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PPPPG
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      PPPPP
-                    </td>
-                    <td className="border-r border-orange-400/25 px-4 py-2 last:border-r-0">
-                      -
-                    </td>
-                  </tr>
+                  {chunkedData.map((row, rowIndex) => (
+                    <tr key={rowIndex} className="border-b border-orange-400/25 last:border-b-0">
+                      {row.map((col, colIndex) => (
+                        <td
+                          key={`${rowIndex}-${colIndex}`}
+                          className="border-r border-orange-400/25 px-4 py-2 text-center last:border-r-0"
+                        >
+                          {col}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
