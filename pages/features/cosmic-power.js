@@ -17,7 +17,11 @@ export default function Page() {
               <h2 className="text-center text-xl font-bold sm:text-2xl">Tinh Tú</h2>
             </div>
             <div className="prose prose-invert mb-6 max-w-none sm:mb-8">
-              <p><strong>Cosmic Power - Tinh Tú</strong> là tính năng tăng lực chiến cực mạnh, giúp võ sĩ cường hóa tối đa 3 chỉ sô gốc ATK - DEF - HP, đồng thời nhận thêm các hiệu quả khác.</p>
+              <p>
+                <strong>Cosmic Power - Tinh Tú</strong> là tính năng tăng lực chiến cực mạnh, giúp
+                võ sĩ cường hóa tối đa 3 chỉ sô gốc ATK - DEF - HP, đồng thời nhận thêm các hiệu quả
+                khác.
+              </p>
             </div>
           </CardBody>
         </Card>

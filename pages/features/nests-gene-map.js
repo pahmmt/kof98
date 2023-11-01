@@ -17,7 +17,11 @@ export default function Page() {
               <h2 className="text-center text-xl font-bold sm:text-2xl">NESTS Gene Map</h2>
             </div>
             <div className="prose prose-invert mb-6 max-w-none sm:mb-8">
-              <p><strong>NESTS Gene Map - Chip Di Truyền NESTS</strong> là một tính năng cực kỳ quan trọng giúp võ sĩ cường hóa các chỉ số của bản thân, đồng thời tăng thêm độ liên kết giữa các võ sĩ cùng bộ Gene với nhau.</p>
+              <p>
+                <strong>NESTS Gene Map - Chip Di Truyền NESTS</strong> là một tính năng cực kỳ quan
+                trọng giúp võ sĩ cường hóa các chỉ số của bản thân, đồng thời tăng thêm độ liên kết
+                giữa các võ sĩ cùng bộ Gene với nhau.
+              </p>
               <p>
                 <img src="https://i.imgur.com/ZkF1cwd.png" alt="" className="h-auto w-full" />
               </p>
@@ -29,7 +33,9 @@ export default function Page() {
                 <li>Các con Chip giúp tăng cấp Biến đổi Map, mở khóa các hiệu quả tương đương</li>
                 <li>Hiệu quả tương đương chỉ hữu hiệu trong Map nhất định</li>
                 <li>Sự tăng cấp Chip giúp tăng Năng lượng Biến đổi</li>
-                <li>Tăng cấp Map (Map Upgrade) giúp tăng chỉ số ATK, DEF, HP của các võ sĩ trong Map</li>
+                <li>
+                  Tăng cấp Map (Map Upgrade) giúp tăng chỉ số ATK, DEF, HP của các võ sĩ trong Map
+                </li>
               </ul>
               <h3>Variation Details - Chi tiết biến thể</h3>
               <ul>

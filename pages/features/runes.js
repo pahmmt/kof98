@@ -33,9 +33,7 @@ export default function Page({ data }) {
           <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
-              <h2 className="text-center text-xl font-bold sm:text-2xl">
-              Thức Tỉnh Huyết Mạch
-              </h2>
+              <h2 className="text-center text-xl font-bold sm:text-2xl">Thức Tỉnh Huyết Mạch</h2>
             </div>
             <div className="mb-8 flex flex-wrap items-center justify-center gap-1 sm:mb-6 sm:gap-2">
               {data.map((item, index) => (
