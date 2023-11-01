@@ -151,10 +151,10 @@ export default function Page({ data }) {
               <table className="w-full min-w-max text-left">
                 <thead>
                   <tr className="border-b border-orange-400/25">
-                    <th className="border-r border-orange-400/25 px-4 py-2 text-center font-medium last:border-r-0">
+                    <th className="border-r border-orange-400/25 px-4 py-2 text-center font-semibold last:border-r-0">
                       Nhóm võ sĩ
                     </th>
-                    <th className="border-r border-orange-400/25 px-4 py-2 font-medium last:border-r-0">
+                    <th className="border-r border-orange-400/25 px-4 py-2 font-semibold last:border-r-0">
                       Thông tin
                     </th>
                   </tr>

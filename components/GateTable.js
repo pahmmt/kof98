@@ -7,16 +7,16 @@ export default function GateTable({ data }) {
       <table className="w-full min-w-max text-left">
         <thead>
           <tr className="border-b border-orange-400/25">
-            <th className="border-r border-orange-400/25 px-4 py-2 text-center font-medium last:border-r-0">
+            <th className="border-r border-orange-400/25 px-4 py-2 text-center font-semibold last:border-r-0">
               Bát môn
             </th>
             <th
-              className="border-r border-orange-400/25 px-4 py-2 font-medium last:border-r-0"
+              className="border-r border-orange-400/25 px-4 py-2 font-semibold last:border-r-0"
               colSpan={2}
             >
               Điều kiện / Nguyên liệu
             </th>
-            <th className="border-r border-orange-400/25 px-4 py-2 font-medium last:border-r-0">
+            <th className="border-r border-orange-400/25 px-4 py-2 font-semibold last:border-r-0">
               Vàng
             </th>
           </tr>
@@ -26,7 +26,7 @@ export default function GateTable({ data }) {
             <Fragment key={index}>
               <tr className="border-b border-orange-400/25 last:border-b-0">
                 <td
-                  className="border-r border-orange-400/25 px-4 py-2 text-center font-medium last:border-r-0"
+                  className="border-r border-orange-400/25 px-4 py-2 text-center font-semibold last:border-r-0"
                   rowSpan={6}
                 >
                   {item.name}
