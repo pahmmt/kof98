@@ -51,6 +51,10 @@ const navigation = [
         label: 'Avatar Chibi',
         href: '/resources/avatar',
       },
+      {
+        label: 'Combos',
+        href: '/resources/combos',
+      },
     ],
   },
   {
