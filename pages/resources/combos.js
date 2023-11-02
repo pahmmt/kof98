@@ -56,12 +56,12 @@ export default function Page() {
     <>
       <NextHead
         title="Combos"
-        description="Danh sách các combo ẩn trong game, tìm và kích hoạt để nhận 50 kim cương mỗi ngày."
+        description="Danh sách Combo ẩn sử dụng trong chế độ Vượt ải, Tháp, Boss hội quán để có thể nhận 50 kim cương mỗi ngày."
         openGraphData={{
           url: `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/resources/combos`,
           title: 'Combos',
           description:
-            'Danh sách các combo ẩn trong game, tìm và kích hoạt để nhận 50 kim cương mỗi ngày.',
+            'Danh sách Combo ẩn sử dụng trong chế độ Vượt ải, Tháp, Boss hội quán để có thể nhận 50 kim cương mỗi ngày.',
         }}
       />
       <main className="mt-4 flex-1 space-y-8 px-4">
@@ -76,7 +76,7 @@ export default function Page() {
             </div>
             <div className="prose prose-invert mb-6 max-w-none sm:mb-8">
               <p>
-                Danh sách Combo ẩn, sử dụng trong chế độ Vượt ải, Tháp, Boss hội quán để có thể nhận
+                Danh sách Combo ẩn sử dụng trong chế độ Vượt ải, Tháp, Boss hội quán để có thể nhận
                 50 kim cương mỗi ngày.
               </p>
             </div>
