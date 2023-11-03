@@ -121,7 +121,7 @@ export default function Page({ fighter }) {
       <main className="mt-4 flex-1 space-y-8 px-4">
         <Card fullWidth className="mx-auto max-w-7xl">
           <CardHeader>
-            <BreadCrumb data={[{ name: fighter.name }]} />
+            <BreadCrumb data={[{ name: 'Võ sĩ', href: '/#fighters' }, { name: fighter.name }]} />
           </CardHeader>
           <Divider />
           <CardBody>
