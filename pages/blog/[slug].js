@@ -44,18 +44,17 @@ export default function Page({ frontMatter, mdxSource, slug }) {
             image: frontMatter.cover,
           }}
         />
-        <main className="mt-4 flex-1 space-y-8 px-4">
+        <main className="mt-4 flex-1 px-4">
+          <div className="mx-auto mb-4 max-w-7xl">
+            <Breadcrumb data={[{ name: 'Blog', href: '/blog' }, { name: frontMatter.title }]} />
+          </div>
           <Card fullWidth className="mx-auto max-w-7xl">
-            <CardHeader>
-              <Breadcrumb data={[{ name: 'Blog', href: '/blog' }, { name: frontMatter.title }]} />
-            </CardHeader>
-            <Divider />
             <CardBody>
               <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
                 <h2 className="text-center text-xl font-bold sm:text-2xl">{frontMatter.title}</h2>
                 <div className="text-sm text-slate-200/50">Published {frontMatter.date}</div>
               </div>
-              <div className="prose prose-invert max-w-none">
+              <div className="prose prose-invert mx-2 max-w-none sm:mx-4">
                 <MDXRemote {...mdxSource} />
               </div>
             </CardBody>

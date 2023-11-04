@@ -26,17 +26,16 @@ export default function Page({ data }) {
   return (
     <>
       <NextHead title="Sách sưu tập" />
-      <main className="mt-4 flex-1 space-y-8 px-4">
+      <main className="mt-4 flex-1 px-4">
+        <div className="mx-auto mb-4 max-w-7xl">
+          <Breadcrumb data={[{ name: 'Sách sưu tập' }]} />
+        </div>
         <Card fullWidth className="mx-auto max-w-7xl">
-          <CardHeader>
-            <Breadcrumb data={[{ name: 'Sách sưu tập' }]} />
-          </CardHeader>
-          <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
               <h2 className="text-center text-xl font-bold sm:text-2xl">Sách sưu tập</h2>
             </div>
-            <div className="prose prose-invert mb-6 max-w-none sm:mb-8">
+            <div className="prose prose-invert mx-2 mb-6 max-w-none sm:mx-4 sm:mb-8">
               <p>
                 <strong>Card Book - Sách Sưu Tập</strong> là một tính năng tăng nhẹ lực chiến dựa
                 trên các võ sĩ đã sở hữu, đồng thời hỗ trợ người chơi trong các chế độ khác nhau.

@@ -15,7 +15,7 @@ import {
   Tabs,
 } from '@nextui-org/react'
 import PictureCard from '@/components/PictureCard'
-import BreadCrumb from '@/components/Breadcrumb'
+import Breadcrumb from '@/components/Breadcrumb'
 import NextHead from '@/components/NextHead'
 import { highlightText } from '@/utils/text'
 import { SkillState, skillStateMap, skillTypeMap } from '@/utils/text'
@@ -118,12 +118,11 @@ export default function Page({ fighter }) {
           }/large/largepic_${fighter.id}.png`,
         }}
       />
-      <main className="mt-4 flex-1 space-y-8 px-4">
+      <main className="mt-4 flex-1 px-4">
+        <div className="mx-auto mb-4 max-w-7xl">
+          <Breadcrumb data={[{ name: 'Võ sĩ', href: '/#fighters' }, { name: fighter.name }]} />
+        </div>
         <Card fullWidth className="mx-auto max-w-7xl">
-          <CardHeader>
-            <BreadCrumb data={[{ name: 'Võ sĩ', href: '/#fighters' }, { name: fighter.name }]} />
-          </CardHeader>
-          <Divider />
           <CardBody>
             <div className="space-y-4 md:flex md:gap-4 md:space-y-0">
               {fighter.galleries[0] && (

@@ -43,12 +43,11 @@ export default function Page({ data }) {
           description: `Thông chi tiết về hồn lực 5: ${data.name}`,
         }}
       />
-      <main className="mt-4 flex-1 space-y-8 px-4">
+      <main className="mt-4 flex-1 px-4">
+        <div className="mx-auto mb-4 max-w-7xl">
+          <Breadcrumb data={[{ name: 'Hồn lực 5', href: '/#souls' }, { name: data.name }]} />
+        </div>
         <Card fullWidth className="mx-auto max-w-7xl">
-          <CardHeader>
-            <Breadcrumb data={[{ name: 'Hồn lực 5', href: '/#souls' }, { name: data.name }]} />
-          </CardHeader>
-          <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center gap-2 sm:mb-8 sm:mt-3">
               <Image

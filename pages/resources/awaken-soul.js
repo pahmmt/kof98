@@ -25,21 +25,20 @@ export default function Page({ data }) {
     <>
       <NextHead
         title="Nguyên liệu nâng cấp Hồn lực 5"
-        description="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5."
+        description="Thông tin chi tiết các nguyên liệu để nâng cấp Hồn lực 5."
         openGraphData={{
           url: `${
             process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'
           }/resources/awaken-soul`,
           title: 'Nguyên liệu nâng cấp Hồn lực 5',
-          description: 'Thông tin chi tiết các nguyên liệu để nâng cấp Hồn Lực 5.',
+          description: 'Thông tin chi tiết các nguyên liệu để nâng cấp Hồn lực 5.',
         }}
       />
-      <main className="mt-4 flex-1 space-y-8 px-4">
+      <main className="mt-4 flex-1 px-4">
+        <div className="mx-auto mb-4 max-w-7xl">
+          <Breadcrumb data={[{ name: 'Hồn lực 5' }]} />
+        </div>
         <Card fullWidth className="mx-auto max-w-7xl">
-          <CardHeader>
-            <Breadcrumb data={[{ name: 'Nguyên liệu Hồn lực 5' }]} />
-          </CardHeader>
-          <Divider />
           <CardBody>
             <div className="mb-6 mt-2 flex flex-col items-center sm:mb-8 sm:mt-3">
               <h2 className="text-center text-xl font-bold sm:text-2xl">

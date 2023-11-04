@@ -32,12 +32,11 @@ export default function Page({ data }) {
           description: 'Bảng nguyên liệu nâng cấp viện trợ võ sĩ tư chất 13, 14, 15...',
         }}
       />
-      <main className="mt-4 flex-1 space-y-8 px-4">
+      <main className="mt-4 flex-1 px-4">
+        <div className="mx-auto mb-4 max-w-7xl">
+          <Breadcrumb data={[{ name: 'Viện trợ' }]} />
+        </div>
         <Card fullWidth className="mx-auto max-w-7xl">
-          <CardHeader>
-            <Breadcrumb data={[{ name: 'Nguyên liệu Viện trợ' }]} />
-          </CardHeader>
-          <Divider />
           <CardBody>
             <div className="mb-4 mt-3 flex flex-col items-center">
               <h2 className="text-center text-xl font-bold sm:text-2xl">

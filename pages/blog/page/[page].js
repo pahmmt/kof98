@@ -52,12 +52,11 @@ export default function Page({ paginatedPosts, numPages, currentPage }) {
           description: `Trang ${currentPage} - Tổng hợp các bài viết liên quan đến game KOF'98 UM OL.`,
         }}
       />
-      <main className="mt-4 flex-1 space-y-8 px-4">
+      <main className="mt-4 flex-1 px-4">
+        <div className="mx-auto mb-4 max-w-7xl">
+          <Breadcrumb data={[{ name: 'Blog' }]} />
+        </div>
         <Card fullWidth className="mx-auto max-w-7xl">
-          <CardHeader>
-            <Breadcrumb data={[{ name: 'Blog' }]} />
-          </CardHeader>
-          <Divider />
           <CardBody>
             <BlogPageList
               paginatedPosts={paginatedPosts}
