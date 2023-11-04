@@ -71,7 +71,7 @@ export default function Header() {
                   size="lg"
                   disableRipple
                   radius="none"
-                  className="h-auto bg-transparent px-0 py-4 data-[hover=true]:bg-transparent"
+                  className="h-auto bg-transparent px-0 py-4 data-[hover=true]:bg-transparent hover:text-secondary-500"
                   variant="light"
                   endContent={
                     <svg
@@ -148,7 +148,7 @@ export default function Header() {
                   size="lg"
                   disableRipple
                   radius="none"
-                  className="h-auto bg-transparent px-0 py-4 data-[hover=true]:bg-transparent"
+                  className="h-auto bg-transparent px-0 py-4 data-[hover=true]:bg-transparent hover:text-secondary-500"
                   variant="light"
                   endContent={
                     <svg
