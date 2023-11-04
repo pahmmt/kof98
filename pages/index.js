@@ -50,7 +50,7 @@ export default function Page({ data, posts }) {
         title={process.env.NEXT_PUBLIC_APP_NAME || 'Untitled'}
         description="Cập nhật thông tin võ sĩ, tính năng về game KOF'98 UM OL máy chủ Quốc Tế."
       />
-      <main className="mt-4 flex-1 space-y-8 px-4">
+      <main className="mt-4 flex-1 space-y-4 px-4 sm:space-y-8">
         <ArticleSection
           posts={posts}
           className={headerActive == '#news' ? 'border border-secondary-500' : ''}
