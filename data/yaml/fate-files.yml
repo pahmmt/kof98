@@ -107,7 +107,7 @@
 - name: Blood Frenzy
   fates:
     - Goenitz
-    - Ryuji
+    - Yamazaki
   attr_bonus: Tăng 1.31% Anti-Crit, 0.37% Crit
 - name: Fight in the Rain
   fates:
@@ -293,7 +293,7 @@
   fates:
     - Geese
     - Krauser
-    - Ryuji
+    - Yamazaki
   attr_bonus: Tăng 0.64% DEF, 1.6% ATK
 - name: High-tech Weapons
   fates:
@@ -401,7 +401,7 @@
     - Vice
     - Mature
     - Goenitz
-    - Ryuji
+    - Yamazaki
   attr_bonus: Tăng 2% HP, 2% ATK
 - name: NESTS Investigator
   fates:
