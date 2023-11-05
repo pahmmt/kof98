@@ -859,10 +859,71 @@
         "Sách Võ Tự Do",
         "Sách Muay Thái",
         "Sách Võ Karate",
-        "Sácg Siêu Năng",
+        "Sách Siêu Năng",
         "Sách Võ Taekwondo",
         "Sách Võ Judo",
         "Sách Thần Lực"
+      ]
+    },
+    "tomeBadgeDefinition": {
+      "type": "string",
+      "oneOf": [
+        {
+          "const": "item_504501",
+          "description": "Huy Hiệu Rực Lửa"
+        },
+        {
+          "const": "item_504502",
+          "description": "Huy Hiệu Bão Tố"
+        },
+        {
+          "const": "item_504503",
+          "description": "Huy Hiệu Động Đất"
+        },
+        {
+          "const": "item_504504",
+          "description": "Huy Hiệu Thần Tộc"
+        },
+        {
+          "const": "item_504505",
+          "description": "Huy Hiệu Lực Lượng"
+        },
+        {
+          "const": "item_504506",
+          "description": "Huy Hiệu Nữ Trang"
+        },
+        {
+          "const": "item_504601",
+          "description": "Sách Bùng Cháy"
+        },
+        {
+          "const": "item_504602",
+          "description": "Sách Võ Tự Do"
+        },
+        {
+          "const": "item_504603",
+          "description": "Sách Muay Thái"
+        },
+        {
+          "const": "item_504604",
+          "description": "Sách Võ Karate"
+        },
+        {
+          "const": "item_504605",
+          "description": "Sách Siêu Năng"
+        },
+        {
+          "const": "item_504606",
+          "description": "Sách Võ Taekwondo"
+        },
+        {
+          "const": "item_504607",
+          "description": "Sách Võ Judo"
+        },
+        {
+          "const": "item_504608",
+          "description": "Sách Thần Lực"
+        }
       ]
     }
   }

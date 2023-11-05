@@ -2,53 +2,51 @@ id: 100185
 name: Goddess Athena
 type: tank
 aptitude: 15
-soul: snake
+soul: turtle
 soul_info:
-  name: Spirit Snake Soul
+  name: Saint Turtle Soul
   description: >-
-    In all gameplays, gain additional 150 rage when attacking. Get extra 150
-    rage when both fighter on each side dies.
-  image: skill_battlesoul_snake
+    In all gameplays, gain additional 130 rage when attacked. Attack to get extra 130 rage.
+  image: skill_battlesoul_turtle
 feature:
-  description: Mark Suppression, Offensive Stacking
+  description: Soul Link, Healing Shield
   tags:
-    - Flame
-    - Orochi's Blood
+    - Healing Power
+    - Purifier
     - Blunt
-    - Armor Break
-    - Sepsis
-    - Rage Suppression
+    - Sepsis Cure
+    - Counter
+    - Dispel
+    - Sustain Damage
 fates:
-  - name: Me?
+  - name: Athena
     conditions:
-      - Miss X
-      - Iori
-      - Crazy Iori
-      - Iori XIV
-    bonus: Tăng 25% ATK
-  - name: Foreign Aid
-    conditions:
-      - Miss X
       - Goddess Athena
-      - Lilly Kane
+      - Athena
+      - Superstar Athena
     bonus: Tăng 25% ATK
-  - name: Fire Controller
+  - name: Women's foreign Aid
     conditions:
+      - Goddess Athena
       - Miss X
-      - Kyo XIV
-      - Ash XIII
+      - Lilly Kane
+    bonus: Tăng 25% HP
+  - name: Goddess of war
+    conditions:
+      - Goddess Athena
+      - Mizuchi
     bonus: Tăng 25% HP
   - name: Thức tỉnh vũ khí
     conditions:
-      - Con Rối Kyo
-    bonus: Tuyệt kỹ được nâng cấp thành MAX.Kin 1211 Shiki Ya Otome
+      - Golden Holy Sword
+    bonus: Tuyệt kỹ được nâng cấp thành MAX.Wrath of Poisedon
   - name: Hồn hiệu
     conditions:
-      - Huy Hiệu Rực Lửa
+      - Huy Hiệu Nữ Trang
     bonus: Tăng 15% HP
   - name: Hồn sách
     conditions:
-      - Sách Bùng Cháy
+      - Sách Siêu Năng
     bonus: Tăng 15% ATK
 element_fates:
   - Mature
@@ -57,163 +55,43 @@ element_fates:
 skills:
   - type: a1
     detail:
-      - name: 127 Shiki Aoibaba
+      - name: Storm Fire
         state: normal
-        content: >-
-          Attack a single enemy (those without "X Mark" will be given priority):
-          60% probability of taunting the main target: if the main target does
-          not have "X Mark", add "X Mark" to it; restore 20% of own HP and 200
-          Rage; This attack increases the damage of small skills by <3%*layers
-          of "X Offensive">; for every 10 layers of "X Offensive" it possesses.
-          it will cause 50% splash damage to a random enemy (this damage does
-          not cause the target to recover Rage). and additionally restores 5% of
-          own HP and 50 Rage.
-
-
-          #Deal 160%+15 DMG to a single target#
-      - name: MAX.127 Shiki Aoibaba
+        content: ''
+      - name: MAX.Storm Fire
         state: thunder_element
         content: ''
   - type: a2
     detail:
-      - name: Kin 1211 Shiki Ya Otome
+      - name: Heaven's Gate
         state: normal
-        content: >-
-          Attack a single enemy, increasing its own DMG & Res Rate by 20% and
-          Pierce Rate by 30%; Applying "Armor Break" to the target (reducing DEF
-          and Res Rate by 30%, and can be stacked with other similar debuffs);
-          Apply Obstructive Flame to the target (Reduce DMG by 20%, cause 10% of
-          the upper limit of MAX HP and continuous damage that doesn't regen
-          rage, reduce the target's rage by 100 for every 3 action moves),
-          lasting for 2 rounds; When the Obstructive Flame is dispelled, it will
-          immediately reduce the target 300 rage, and reduces its rage
-          regeneration speed by 30% for 1 round; When it dies, all enemy
-          Obstructive Flame will immediately become ineffective; It will cause
-          20% sepsis to the target' IF it is Skill Banned, its debuff status
-          will be dispelled and it will be immune to the skill ban for 1 round;
-          Cause small skills to the released this round.
-
-
-          #Deal 400%+25 DMG to a single target#
-      - name: MAX.Kin 1211 Shiki Ya Otome
+        content: ''
+      - name: '-'
         state: weapon_awaken
-        content: >-
-          Attack a single enemy, increasing its own DMG & Res Rate by 30% and
-          Pierce Rate by 50%; Applying "Armor Break" to the target (reducing DEF
-          and Res rate by 40%, and can be stacked with other similar debuffs);
-          If you are affected by "Blunt", all of your "Blunt" will be
-          additionally transferred to the target: Apply Obstructive Flame to the
-          target (Reduce DMG by 30%, cause 12% of the upper limit of MAX HP and
-          continuous damage that doesn't regen rage, reduce the target's rage by
-          120 for every 3 action moves), lasting for 2 rounds; When the
-          Obstructive Flame is dispelled, it will immediately reduce The target
-          360 rage, and reduces its rage regeneration speed by 36% for 1 round;
-          when it dies, all enemy Obstructive Flame will immediately become
-          ineffective; If the target ULT Res is lower than itself, will get an
-          additional DMG and Res Rate that equal to 80% value of the difference
-          between the both's ULT Res; it will cause 40% sepsis to the target; if
-          it is Skill Banned, its debuff status will be dispelled and it will be
-          immune to the skill ban for 1 round; causes small skills to be
-          released this round. If have 15 layers of "X Offensive", can pursue
-          with small skills, only once per round: If have 30 layers of "X
-          Offensive", can recover 400 rage this rage recovery is not affected by
-          any increase or decrease in rage recovery speed).
-
-
-          #Deal 430%+25 DMG to a single target#
-      - name: SMAX.Kin 1211 Shiki Ya Otome
+        content: ''
+      - name: '-'
         state: water_element
         content: ''
   - type: p1
     detail:
-      - name: X-Offensive
+      - name: War Rhythm
         state: normal
-        content: >-
-          When debut, will gain 10 layers of permanent "X Offensive" (each layer
-          increases ULT DMG and ULT Res) and s layers of 1-round "X Offensive";
-          Increase ATK & DEF, DMG, Res rate by 35%; Every time When your own
-          round begins, add "X mark" to all enemies (reduce DMG intensity by
-          15%, reduce 70% damage receive to yourself ), lasting up to 1 round;
-          when attacked by an enemy with "X mark", absorb its "X Mark", restores
-          25% of lost HP, and obtains an odditional layer of "X Offensive" that
-          lasts for 1 round; if it is your own round when absorbing "X Mark",
-          the "X Offensive" obtained is extended to 2 rounds; Every time When
-          your rage is reduced or you receive 5 healing in total, will gain a
-          layer of "X Offensive" that lasts for 2 rounds; whenever a teammate
-          dies, you will recover 30% of your HP and 200 rage, and gain a layer
-          of permanent "X Ofiensive".
-
-
-          When "X Offensive" reaches a certain number of layers, additional
-          effects will be obtained (if there is only one fighter on each side,
-          the number of layers required to obtain the following effects will be
-          reduced by 40%): 15 layers, increase <20%+1%*number of "X Offensive"
-          layers> ATK, Block rate and Anti-Crit; 20 layers, increase the
-          control-free rate by 80%, and immediately dispel one's debuff status
-          when controlled (imited to 1 time per round); 25 layers, increase DMG
-          intensity and rage recovery speed by 30%. Survive death when fatally
-          wounded, dispel one's own debuff status and "Armor Break", recover 50%
-          of HP and 500 rage, become immune to debuff status and Increase DMG
-          Res by 40% for 1 round, doubled the non-permanent "X Offensive" layer
-          that currently held and the duration is extended by 1 round each. This
-          effect is limited to 2 times por battie I time if there is only one
-          fighter on each side).
-
-
-          #Each layer of "X Offensive" increase own ULT DMG & ULT Res by 3%#
-      - name: MAX.X-Offensive
+        content: ''
+      - name: '-'
         state: lake_element
-        content: >-
-          When debut, will gain 10 layers of permanent "X Offensive" (each layer
-          increases ULT DMG and ULT Res) and 5 layers of 1-round "X Offensive";
-          Increase ATK & DEF. DMG, Res rate by 40%; In the first round of debut,
-          Immune to debuff status, and the single damage recelved will not
-          exceed 25% of your MAX HP: Every time When your own round begins,
-          Absorb all the enemy's "X Marks" and restore 200 Rage to yourself for
-          sach absorbed one this Rage Retrieval is not affected by the increase
-          or decrease in Rage Recovery Speed, and for every 400 Rage accumulated
-          overfow from this Rage Retrieval, you will gain 1 layer of permanent
-          "X Offensive"), add "X mark" to all enemies (reduce DMG intensity by
-          15%, reduce 70% damage receive to yourself ); when attacked by an
-          enemy with "X mark", absorb its "X Mark", restores 35% of lost HP, and
-          obtains an additional layer of "X Offensive" that lasts for 1 round;
-          if it is your own round when absorbing "X Mark", the "X Offensive"
-          obtained is extended to 2 rounds: Every time When your rage is reduced
-          or you receive 5 healing in total, will gain a layer of "X Offensive"
-          that lasts for 2 rounds and regen 150 rage: whenever a teammate dies,
-          you will recover 35% of your HP and 200 rage, and gain a layer of
-          permanent "X Offensive".
-
-
-          When "X Offensive" reaches a certain number of layers, additional
-          effects will be obtained (if there is only one fighter on each side,
-          the number of layers required to obtain the following effects will be
-          reduced by 40%): 15 layers, increase <20%+1% number of "X Offensive"
-          layers> ATK. Block rate and Anti-Crit; 20 layers, increase the
-          control-free rate by 95%, and immediately dispel one's debuff status
-          when controlled Nimited to 1 time per round); 25 layers, increase DMG
-          intensity and rage recovery speed by 35%. Survive death when fatally
-          wounded, dispel one's own debuff status and "Armer Break", recover 80%
-          of HP and 800 rege, became immune to debuff status and increase DMG
-          Res by 50% for 1 round, doubled the non-permanent "X Offensive" layer
-          that currently held and the duration is extended by 1 round each, Get
-          2 layers of permanent "X Offensive". This effect is limited to 2 times
-          per battle (1 time If there is only one fighter on each side).
-
-
-          #Each layer of "X Offensive" increase own ULT DMG & ULT Res by 3%#
+        content: ''
 equipments:
-  - name: Con Rối Kyo
+  - name: Golden Holy Sword
     description: Nâng cấp kỹ năng tuyệt kỹ
-    image: item_514286
-  - name: Huy Hiệu Rực Lửa
+    image: item_514285
+  - name: Huy Hiệu Nữ Trang
     description: Tăng chỉ số % ATK
-    image: item_504501
-  - name: Sách Bùng Cháy
+    image: item_504506
+  - name: Sách Siêu Năng
     description: Tăng chỉ số % HP
-    image: item_504601
+    image: item_504605
 galleries:
   - name: KOF'98
     image: ka_BG_100185image
-  - name: Ngọn Lửa Đường Phố
+  - name: Goddess Of War
     image: ka_BG_10018501image

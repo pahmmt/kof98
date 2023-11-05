@@ -10,15 +10,31 @@
     },
     "type": {
       "type": "string",
-      "enum": ["dps", "gank", "tank"]
+      "enum": [
+        "dps",
+        "gank",
+        "tank"
+      ]
     },
     "aptitude": {
       "type": "integer",
-      "enum": [11, 12, 13, 14, 15]
+      "enum": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
     },
     "soul": {
       "type": "string",
-      "enum": ["bear", "tiger", "snake", "turtle", "vacuum"]
+      "enum": [
+        "bear",
+        "tiger",
+        "snake",
+        "turtle",
+        "vacuum"
+      ]
     },
     "soul_info": {
       "type": "object",
@@ -33,7 +49,11 @@
           "type": "string"
         }
       },
-      "required": ["name", "description", "image"]
+      "required": [
+        "name",
+        "description",
+        "image"
+      ]
     },
     "feature": {
       "type": "object",
@@ -92,7 +112,10 @@
           }
         }
       },
-      "required": ["description", "tags"]
+      "required": [
+        "description",
+        "tags"
+      ]
     },
     "fates": {
       "type": "array",
@@ -103,7 +126,11 @@
             "type": "string",
             "anyOf": [
               {
-                "enum": ["Hồn hiệu", "Hồn sách", "Hồn vũ khí"]
+                "enum": [
+                  "Hồn hiệu",
+                  "Hồn sách",
+                  "Hồn vũ khí"
+                ]
               },
               {
                 "type": "string"
@@ -127,10 +154,30 @@
             }
           },
           "bonus": {
-            "type": "string"
+            "type": "string",
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "Tăng 15% ATK",
+                  "Tăng 20% ATK",
+                  "Tăng 25% ATK",
+                  "Tăng 15% HP",
+                  "Tăng 20% HP",
+                  "Tăng 25% HP"
+                ]
+              },
+              {
+                "type": "string"
+              }
+            ]
           }
         },
-        "required": ["name", "conditions", "bonus"]
+        "required": [
+          "name",
+          "conditions",
+          "bonus"
+        ]
       }
     },
     "element_fates": {
@@ -198,11 +245,18 @@
                   "type": "string"
                 }
               },
-              "required": ["name", "state", "content"]
+              "required": [
+                "name",
+                "state",
+                "content"
+              ]
             }
           }
         },
-        "required": ["type", "detail"]
+        "required": [
+          "type",
+          "detail"
+        ]
       }
     },
     "equipments": {
@@ -222,13 +276,28 @@
           },
           "description": {
             "type": "string",
-            "enum": ["Tăng chỉ số % ATK", "Tăng chỉ số % HP", "Nâng cấp kỹ năng tuyệt kỹ"]
+            "enum": [
+              "Tăng chỉ số % ATK",
+              "Tăng chỉ số % HP",
+              "Nâng cấp kỹ năng tuyệt kỹ"
+            ]
           },
           "image": {
-            "type": "string"
+            "anyOf": [
+              {
+                "$ref": "definition.json#/definitions/tomeBadgeDefinition"
+              },
+              {
+                "type": "string"
+              }
+            ]
           }
         },
-        "required": ["name", "description", "image"]
+        "required": [
+          "name",
+          "description",
+          "image"
+        ]
       }
     },
     "galleries": {
@@ -243,7 +312,10 @@
             "type": "string"
           }
         },
-        "required": ["name", "image"]
+        "required": [
+          "name",
+          "image"
+        ]
       }
     }
   },
