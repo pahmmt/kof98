@@ -8,9 +8,10 @@ const handleError = (error) => {
 }
 
 const getPaths = async () => {
-  const fileNames = fs.readdirSync(path.join('data/yaml/souls'))
+  const files = fs.readdirSync(path.join('data/yaml/souls'))
+  const ymlFiles = files.filter((fileName) => fileName.endsWith('.yml'))
 
-  return fileNames.map((fileName) => {
+  return ymlFiles.map((fileName) => {
     return {
       params: {
         id: fileName.replace(/\.yml$/, ''),

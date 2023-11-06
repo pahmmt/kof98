@@ -48,7 +48,7 @@ const navigation = [
         href: '/resources/awaken-soul',
       },
       {
-        label: 'Avatar Chibi',
+        label: 'Avatar',
         href: '/resources/avatar',
       },
       {

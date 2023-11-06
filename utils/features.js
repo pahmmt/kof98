@@ -1,3 +1,5 @@
+import fs from 'fs'
+import path from 'path'
 import { getYAML } from './yaml'
 
 const handleError = (error) => {
@@ -29,4 +31,9 @@ export const fateFiles = async () => {
   } catch (error) {
     return handleError(error)
   }
+}
+
+export const getAvatars = async () => {
+  const files = fs.readdirSync('public/assets/avatars')
+  return files.filter((fileName) => fileName.endsWith('.png'))
 }

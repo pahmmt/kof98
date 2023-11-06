@@ -13,7 +13,9 @@ const handleError = (error) => {
 
 const getPaths = async () => {
   const files = fs.readdirSync(path.join(postDir))
-  return files.map((fileName) => {
+  const mdxFiles = files.filter((fileName) => fileName.endsWith('.mdx'))
+  
+  return mdxFiles.map((fileName) => {
     return {
       params: {
         slug: fileName.replace(/\.mdx$/, ''),
@@ -34,10 +36,10 @@ const getPaginatePaths = async () => {
 const getPosts = async () => {
   try {
     let files = await fs.promises.readdir(path.join(postDir))
-    files = files.filter((file) => file.split('.')[1] === 'mdx')
+    const mdxFiles = files.filter((fileName) => fileName.endsWith('.mdx'))
 
     const posts = await Promise.all(
-      files.map(async (file) => {
+      mdxFiles.map(async (file) => {
         const mdWithData = await fs.promises.readFile(path.join(postDir, file), 'utf-8')
         const { data: frontMatter } = matter(mdWithData)
 
