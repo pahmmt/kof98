@@ -7,7 +7,7 @@ export default function SoulSection({ souls, className = '' }) {
   const paginate = 10
   const [visible, setVisible] = useState(paginate)
 
-  const displayedSouls = souls.sort((a, b) => b.id - a.id).slice(0, visible)
+  const displayedSouls = souls.reverse().slice(0, visible)
 
   const loadMoreSouls = () => {
     if (displayedSouls.length >= souls.length) {

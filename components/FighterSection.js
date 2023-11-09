@@ -19,7 +19,7 @@ export default function FighterSection({ fighters, className = '' }) {
       const aidPass = !aidFilter || fighter.open_aid
       return aptiPass && soulPass && aidPass
     })
-    .sort((a, b) => b.id - a.id)
+    .reverse()
 
   const displayedFighters = filteredFighters.slice(0, visible)
 
@@ -69,6 +69,9 @@ export default function FighterSection({ fighters, className = '' }) {
     },
   ]
 
+  const uniqueAptitudes = new Set(fighters.map((item) => item.aptitude))
+  const aptitudes = [...uniqueAptitudes]
+
   return (
     <Card
       fullWidth
@@ -81,50 +84,51 @@ export default function FighterSection({ fighters, className = '' }) {
           <div className="flex items-center gap-2 text-xs">
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-2">
-                {[15, 14, 13, 12, 11].map((apti, index) => (
-                  <button
-                    key={index}
-                    className={`text-stroke px-1 outline-none drop-shadow ${
-                      aptiFilter === apti ? 'font-medium' : 'text-slate-200/50'
-                    }`}
-                    onClick={() => handleAptiFilterClick(apti)}
-                  >
-                    {apti}
-                  </button>
-                ))}
+                {aptitudes
+                  .sort()
+                  .reverse()
+                  .map((apti, index) => (
+                    <button
+                      key={index}
+                      className={`text-stroke px-1 outline-none drop-shadow ${
+                        aptiFilter === apti ? 'font-medium' : 'text-slate-200/50'
+                      }`}
+                      onClick={() => handleAptiFilterClick(apti)}
+                    >
+                      {apti}
+                    </button>
+                  ))}
               </div>
-              {displayedFighters && (
-                <Menu as="div" className="relative">
-                  <Menu.Button>
-                    <span className="text-stroke overflow-visible px-1 outline-none drop-shadow sm:hidden">
-                      Hồn lực
-                    </span>
-                  </Menu.Button>
-                  <Transition
-                    as={Fragment}
-                    enter="transition ease-out duration-100"
-                    enterFrom="transform opacity-0 scale-95"
-                    enterTo="transform opacity-100 scale-100"
-                    leave="transition ease-in duration-75"
-                    leaveFrom="transform opacity-100 scale-100"
-                    leaveTo="transform opacity-0 scale-95"
-                  >
-                    <Menu.Items className="absolute left-0 z-50 box-border min-w-[7rem] max-w-full origin-top-left space-y-0.5 rounded-md bg-content1 p-1 py-1 shadow-medium outline-none">
-                      {souls.map((soul, index) => (
-                        <Menu.Item key={index} onClick={() => handleSoulFilterClick(soul.id)}>
-                          <span
-                            className={`flex h-full w-full cursor-pointer items-center rounded-md px-4 py-1.5 outline-none hover:bg-slate-400/25 hover:text-white ${
-                              soulFilter == soul.id ? 'bg-slate-400/25' : ''
-                            }`}
-                          >
-                            {soul.name}
-                          </span>
-                        </Menu.Item>
-                      ))}
-                    </Menu.Items>
-                  </Transition>
-                </Menu>
-              )}
+              <Menu as="div" className="relative">
+                <Menu.Button>
+                  <span className="text-stroke overflow-visible px-1 outline-none drop-shadow sm:hidden">
+                    Hồn lực
+                  </span>
+                </Menu.Button>
+                <Transition
+                  as={Fragment}
+                  enter="transition ease-out duration-100"
+                  enterFrom="transform opacity-0 scale-95"
+                  enterTo="transform opacity-100 scale-100"
+                  leave="transition ease-in duration-75"
+                  leaveFrom="transform opacity-100 scale-100"
+                  leaveTo="transform opacity-0 scale-95"
+                >
+                  <Menu.Items className="absolute left-0 z-50 box-border min-w-[7rem] max-w-full origin-top-left space-y-0.5 rounded-md bg-content1 p-1 py-1 shadow-medium outline-none">
+                    {souls.map((soul, index) => (
+                      <Menu.Item key={index} onClick={() => handleSoulFilterClick(soul.id)}>
+                        <span
+                          className={`flex h-full w-full cursor-pointer items-center rounded-md px-4 py-1.5 outline-none hover:bg-slate-400/25 hover:text-white ${
+                            soulFilter == soul.id ? 'bg-slate-400/25' : ''
+                          }`}
+                        >
+                          {soul.name}
+                        </span>
+                      </Menu.Item>
+                    ))}
+                  </Menu.Items>
+                </Transition>
+              </Menu>
               <div>
                 <Switch
                   color="secondary"

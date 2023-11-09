@@ -7,6 +7,7 @@
       content: Tăng bản thân 26% cường hóa sát thương, 13% tỉ lệ kháng sát thương; Mục tiêu bị đánh trúng giảm 21% tỉ lệ kháng sát thương (2 lượt). Khi ở lượt lẻ, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 9% cường hóa sát thương. Tất cả tấn công đều gây thêm hiệu ứng chí tử (gây thêm 39% sát thương lên võ sĩ có hơn 65% HP). Sát thương thêm hạ gục kẻ địch không kích hoạt hiệu ứng có liên quan đến việc gây các hiệu quả đặc biệt của kỹ năng một vài võ sĩ.
+
 - name: Dragon Tiger
   image: dragon_tiger
   sets:
@@ -16,6 +17,7 @@
       content: Tăng bản thân 26% cường hóa sát thương, 13% tỉ lệ kháng sát thương; Mục tiêu bị đánh trúng giảm 21% tỉ lệ kháng sát thương (2 lượt). Khi lượt số chẵn, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 9% cường hóa sát thương. Tất cả tấn công đều gây thêm hiệu ứng trảm kích (gây thêm 39% sát thương lên mục tiêu dưới 35% HP). Sát thương thêm hạ gục kẻ địch không kích hoạt hiệu ứng có liên quan đến việc gây các hiệu quả đặc biệt của kỹ năng một vài võ sĩ.
+
 - name: Earth's Heart
   image: earth_heart
   sets:
@@ -25,6 +27,7 @@
       content: Tăng bản thân 26% tỉ lệ kháng sát thương, 13% cường hóa sát thương; khi bị tấn công, kẻ tấn công bị giảm 21% cường hóa sát thương (2 lượt). Khi lượt số lẻ, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 9% kháng sát thương. Trong lần chiến đấu này, nếu đã nổ bạo khí thì sau khi tử trận sẽ giảm 20% cường hóa sát thương và tỉ lệ kháng sát thương của tất cả địch trong 1 lượt.
+
 - name: Killing Soul
   image: killing_soul
   sets:
@@ -34,6 +37,7 @@
       content: Tăng bản thân 26% cường hóa sát thương, 13% tỉ lệ kháng sát thương; gây thêm sát thương tương đương 16% HP tối đa lên 1 mục tiêu ngẫu nhiên bị chí mạng. Khi lượt số lẻ, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 9% tỉ lệ chí mạng và chặn đỡ đòn. Nếu đòn tấn công bị đỡ đòn, lượt sau nhận được thêm 20% tỉ lệ chí mạng và chặn đỡ đòn.
+
 - name: God Wrath
   image: god_wrath
   sets:
@@ -43,6 +47,7 @@
       content: Tăng bản thân 26% cường hóa sát thương, 13% tỉ lệ kháng sát thương; gây thêm sát thương tương đương 16% HP tối đa lên 1 mục tiêu ngẫu nhiên bị chí mạng. Khi lượt số chẵn, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 9% tỉ lệ chí mạng và chặn đỡ đòn. Nếu bị sát thương chí mạng, hồi ngay 11% HP, lượt sau tăng 20% tỉ lệ chí mạng và chặn đỡ đòn (mỗi lượt chỉ được kích hoạt 1 lần).
+
 - name: Protector Soul
   image: protector_soul
   sets:
@@ -52,6 +57,7 @@
       content: Tăng bản thân 26% tỉ lệ kháng sát thương, 13% cường hóa sát thương; Mỗi lần kích hoạt đỡ đòn sẽ giảm 195 nộ của kẻ tấn công (mỗi lượt tối đa kích hoạt 4 lần). Khi lượt số lẻ, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 15% tỉ lệ chặn chí mạng và 5% tỉ lệ đỡ đòn. Đỡ đòn sẽ đồng thời hồi 65 nộ cho bản thân, đồng thời tăng số lần tối đa giảm nộ lên 6 lần.
+
 - name: Heart Of Throne
   image: heart_of_throne
   sets:
@@ -61,6 +67,7 @@
       content: Tăng bản thân 26% tỉ lệ kháng sát thương, 13% cường hóa sát thương; mỗi lần bị sát thương sẽ hồi 7% HP, mỗi lượt tối đa kích hoạt 4 lần. Khi lượt số lẻ, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 13.5% tỉ lệ phản đòn. Tăng 20% số lượng HP được hồi sau khi bị sát thương, số lần tối đa hồi được tăng lên 6 lần.
+
 - name: Boiling Blood
   image: boiling_blood
   sets:
@@ -70,6 +77,7 @@
       content: Tăng bản thân 26% cường hóa sát thương, 13% tỉ lệ kháng sát thương; hấp thu 4% HP tối đa của tất cả võ sĩ bị trúng đòn. Nếu kỹ năng đánh trúng ít hơn 6 mục tiêu, tỉ lệ này sẽ càng tăng cao, tối đa là gấp đôi (khi chỉ 1 người bị tấn công). Sát thương hấp thu hạ gục kẻ địch không kích hoạt hiệu ứng có liên quan đến việc gây các hiệu quả đặc biệt của kỹ năng một vài võ sĩ. Khi lượt số chẵn, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 15% tỉ lệ hút máu. Khi HP thấp hơn 50%, nhận thêm 26% lượng chữa trị, đồng thời hồi lại 13% HP tối đa, hiệu quả kích hoạt 1 lần mỗi lượt.
+
 - name: Chaos
   image: chaos
   sets:
@@ -79,6 +87,7 @@
       content: Tăng bản thân 19.5% cường hóa sát thương, 19.5% tỉ lệ kháng sát thương; có 11% tỉ lệ gây trạng thái khống chế (choáng, tê liệt, đóng băng, câm lặng) cho mục tiêu bị trúng đòn. Nếu kĩ năng đánh trúng ít hơn 6 mục tiêu, tỉ lệ này sẽ càng tăng cao, tối đa là gấp đôi (khi chỉ 1 người bị tấn công). Khi lượt số lẻ, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 15% tỉ lệ khống chế. Nếu gây khống chế lên kẻ địch thành công, tăng bản thân 13% công thủ (2 lượt).
+
 - name: Tuning
   image: tuning
   sets:
@@ -88,6 +97,7 @@
       content: Tăng bản thân 23.4% cường hóa sát thương và kháng sát thương; Tăng thêm bản thân tỉ lệ cường hóa sát thương hoặc kháng sát thương (2 lượt, luôn tăng cái cao hơn trong đó), trị số tăng bằng 18% cái cao hơn giữa tỉ lệ đỡ đòn và tỉ lệ khống chế bản thân (tối đa tăng 36%). Khi lượt số lẻ, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 15% tỉ lệ khống chế và tỉ lệ đỡ đòn. Tăng bản thân 13% công thủ (2 lượt); nếu bị khống chế, thì có 100% tỉ lệ hóa giải bản thân trạng thái xấu và hóa đá, mỗi lượt giới hạn 1 lần (bất luận kích hoạt thành công hay không).
+
 - name: Space-Time
   image: space_time
   sets:
@@ -97,6 +107,7 @@
       content: Tăng bản thân 23.4% cường hóa sát thương và kháng sát thương; Gây sát thương thêm lên 1 mục tiêu ngẫu nhiên bị đánh trúng bằng 450% công bản thân. Khi lượt số lẻ, nhận được 1 lần số lần bạo khí.
     - set: 6
       content: Tăng 9% cường hóa sát thương và 4.5% sát thương tuyệt kỹ. Tăng bản thân 15% siêu cường hóa sát thương.
+
 - name: Awakening
   image: awakening
   sets:
