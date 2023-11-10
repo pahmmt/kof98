@@ -14,7 +14,7 @@ const handleError = (error) => {
 const getPaths = async () => {
   const files = fs.readdirSync(path.join(postDir))
   const mdxFiles = files.filter((fileName) => fileName.endsWith('.mdx'))
-  
+
   return mdxFiles.map((fileName) => {
     return {
       params: {
@@ -36,7 +36,9 @@ const getPaginatePaths = async () => {
 const getPosts = async () => {
   try {
     let files = await fs.promises.readdir(path.join(postDir))
-    const mdxFiles = files.filter((fileName) => fileName.endsWith('.mdx'))
+    const mdxFiles = files
+      .filter((fileName) => fileName.endsWith('.mdx'))
+      .sort((a, b) => b.localeCompare(a))
 
     const posts = await Promise.all(
       mdxFiles.map(async (file) => {

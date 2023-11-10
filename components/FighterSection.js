@@ -70,7 +70,6 @@ export default function FighterSection({ fighters, className = '' }) {
   ]
 
   const uniqueAptitudes = new Set(fighters.map((item) => item.aptitude))
-  const aptitudes = [...uniqueAptitudes]
 
   return (
     <Card
@@ -84,7 +83,7 @@ export default function FighterSection({ fighters, className = '' }) {
           <div className="flex items-center gap-2 text-xs">
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-2">
-                {aptitudes
+                {[...uniqueAptitudes]
                   .sort()
                   .reverse()
                   .map((apti, index) => (
