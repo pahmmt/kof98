@@ -3,14 +3,16 @@ import Image from 'next/image'
 import NextLink from 'next/link'
 import { Button, Card, CardBody, CardHeader, Divider, Link } from '@nextui-org/react'
 
-export default function SoulSection({ souls, className = '' }) {
+export default function SoulSection({ data, className = '' }) {
   const paginate = 10
   const [visible, setVisible] = useState(paginate)
 
-  const displayedSouls = souls.reverse().slice(0, visible)
+  const reverseData = data.reverse()
+
+  const displayedSouls = reverseData.slice(0, visible)
 
   const loadMoreSouls = () => {
-    if (displayedSouls.length >= souls.length) {
+    if (displayedSouls.length >= data.length) {
       alert('Không còn võ sĩ nào để hiển thị')
       return
     }
@@ -46,7 +48,7 @@ export default function SoulSection({ souls, className = '' }) {
             </div>
           ))}
         </div>
-        {displayedSouls.length < souls.length && (
+        {displayedSouls.length < data.length && (
           <div className="mt-6 text-center">
             <Button
               radius="none"

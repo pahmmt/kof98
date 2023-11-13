@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import NextHead from '@/components/NextHead'
-import ArticleSection from '@/components/ArticleSection'
+import NewsSection from '@/components/NewsSection'
 import FighterSection from '@/components/FighterSection'
 import SoulSection from '@/components/SoulSection'
 import { useDataContext } from '@/components/DataContext'
@@ -51,16 +51,16 @@ export default function Page({ data, posts }) {
         description="Cập nhật thông tin võ sĩ, tính năng về game KOF'98 UM OL máy chủ Quốc Tế."
       />
       <main className="mt-4 flex-1 space-y-4 px-4 sm:space-y-8">
-        <ArticleSection
-          posts={posts}
+        <NewsSection
+          data={posts}
           className={headerActive == '#news' ? 'border border-secondary-500' : ''}
         />
         <FighterSection
-          fighters={data.fighters}
+          data={data.fighters}
           className={headerActive == '#fighters' ? 'border border-secondary-500' : ''}
         />
         <SoulSection
-          souls={data.souls}
+          data={data.souls}
           className={headerActive == '#souls' ? 'border border-secondary-500' : ''}
         />
       </main>

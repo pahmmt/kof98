@@ -5,21 +5,21 @@ import { Menu, Transition } from '@headlessui/react'
 import { Button, Card, CardBody, CardHeader, Divider, Link, Switch, cn } from '@nextui-org/react'
 import { colorMap } from '@/utils/text'
 
-export default function FighterSection({ fighters, className = '' }) {
+export default function FighterSection({ data, className = '' }) {
   const paginate = 10
   const [aptiFilter, setAptiFilter] = useState(15)
   const [soulFilter, setSoulFilter] = useState(null)
   const [aidFilter, setAidFilter] = useState(false)
   const [visible, setVisible] = useState(paginate)
 
-  const filteredFighters = fighters
-    .filter((fighter) => {
-      const aptiPass = aptiFilter ? fighter.aptitude === aptiFilter : true
-      const soulPass = soulFilter ? fighter.soul === soulFilter : true
-      const aidPass = !aidFilter || fighter.open_aid
-      return aptiPass && soulPass && aidPass
-    })
-    .reverse()
+  const reversedData = data.reverse()
+
+  const filteredFighters = reversedData.filter((fighter) => {
+    const aptiPass = aptiFilter ? fighter.aptitude === aptiFilter : true
+    const soulPass = soulFilter ? fighter.soul === soulFilter : true
+    const aidPass = !aidFilter || fighter.open_aid
+    return aptiPass && soulPass && aidPass
+  })
 
   const displayedFighters = filteredFighters.slice(0, visible)
 
@@ -69,7 +69,7 @@ export default function FighterSection({ fighters, className = '' }) {
     },
   ]
 
-  const uniqueAptitudes = new Set(fighters.map((item) => item.aptitude))
+  const uniqueAptitudes = new Set(reversedData.map((item) => item.aptitude))
 
   return (
     <Card
