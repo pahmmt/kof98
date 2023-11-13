@@ -69,7 +69,7 @@ export default function FighterSection({ data, className = '' }) {
     },
   ]
 
-  const uniqueAptitudes = new Set(reversedData.map((item) => item.aptitude))
+  const uniqueAptitudes = new Set(data.map((item) => item.aptitude))
 
   return (
     <Card
