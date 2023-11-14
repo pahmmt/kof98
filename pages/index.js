@@ -56,11 +56,11 @@ export default function Page({ data, posts }) {
           className={headerActive == '#news' ? 'border border-secondary-500' : ''}
         />
         <FighterSection
-          data={data.fighters}
+          data={data.fighters.reverse()}
           className={headerActive == '#fighters' ? 'border border-secondary-500' : ''}
         />
         <SoulSection
-          data={data.souls}
+          data={data.souls.reverse()}
           className={headerActive == '#souls' ? 'border border-secondary-500' : ''}
         />
       </main>

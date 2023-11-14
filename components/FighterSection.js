@@ -12,9 +12,7 @@ export default function FighterSection({ data, className = '' }) {
   const [aidFilter, setAidFilter] = useState(false)
   const [visible, setVisible] = useState(paginate)
 
-  const reversedData = data.reverse()
-
-  const filteredFighters = reversedData.filter((fighter) => {
+  const filteredFighters = data.filter((fighter) => {
     const aptiPass = aptiFilter ? fighter.aptitude === aptiFilter : true
     const soulPass = soulFilter ? fighter.soul === soulFilter : true
     const aidPass = !aidFilter || fighter.open_aid
