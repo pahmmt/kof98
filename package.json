@@ -8,10 +8,12 @@
     "prebuild": "prettier . --write",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "@next/bundle-analyzer": "^14.0.2",
     "@nextui-org/react": "^2.1.13",
     "@nextui-org/theme": "^2.1.9",
     "framer-motion": "^10.16.4",
