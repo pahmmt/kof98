@@ -7,8 +7,8 @@ import { useDataContext } from '@/components/DataContext'
 
 export async function getStaticProps() {
   try {
-    const { getData } = await import('@/utils/fighter')
-    const data = await getData()
+    const { getHomeData } = await import('@/utils/home')
+    const data = await getHomeData()
     const { getPosts } = await import('@/utils/blog')
     const posts = (await getPosts()).slice(0, 3)
     return {

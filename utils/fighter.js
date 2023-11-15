@@ -20,14 +20,6 @@ const getPaths = async () => {
   })
 }
 
-const getData = async () => {
-  try {
-    return await getYAML('home.yml')
-  } catch (error) {
-    return handleError(error)
-  }
-}
-
 const getFighterInfoById = async (id) => {
   try {
     const data = await getData()
@@ -77,7 +69,6 @@ const getAidTable = async () => {
 
 export {
   getPaths,
-  getData,
   getFighterData,
   getAidTable,
   getEightGatesTable,

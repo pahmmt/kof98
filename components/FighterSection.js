@@ -19,15 +19,7 @@ export default function FighterSection({ data, className = '' }) {
     return aptiPass && soulPass && aidPass
   })
 
-  const displayedFighters = filteredFighters
-    .sort((a, b) => {
-      if (a.aptitude == 15 && b.aptitude == 15 && b.date && a.date) {
-        return b.date - a.date
-      } else {
-        return b.id - a.id
-      }
-    })
-    .slice(0, visible)
+  const displayedFighters = filteredFighters.slice(0, visible)
 
   const handleAptiFilterClick = (apti) => {
     setAptiFilter(apti)
