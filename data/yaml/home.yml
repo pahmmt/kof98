@@ -988,18 +988,21 @@ fighters:
     type: gank
     aptitude: 15
     soul: turtle
+    date: 20231012
 
   - id: 100189
     name: Benimaru XV
     type: tank
     aptitude: 15
     soul: bear
+    date: 20231026
 
   - id: 100155
     name: Mian
     type: dps
     aptitude: 15
     soul: tiger
+    date: 20231109
 
 souls:
   - id: 5000001
