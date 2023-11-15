@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import NextLink from 'next/link'
 import { Button, Card, CardBody, CardHeader, Divider, Link } from '@nextui-org/react'
+import bgHead from '@/public/assets/custom/bg_soul.png'
 
 export default function SoulSection({ data, className = '' }) {
   const paginate = 10
@@ -19,7 +20,10 @@ export default function SoulSection({ data, className = '' }) {
 
   return (
     <Card fullWidth className={`z-0 mx-auto max-w-7xl ${className}`} id="souls">
-      <CardHeader className="h-14 justify-between bg-[url(/assets/custom/bg_soul.png)] bg-right-bottom bg-no-repeat sm:h-16">
+      <CardHeader
+        className="h-14 justify-between bg-right-bottom bg-no-repeat sm:h-16"
+        style={{ backgroundImage: `url(${bgHead.src})` }}
+      >
         <h2 className="text-stroke font-semibold drop-shadow">Hồn lực 5</h2>
       </CardHeader>
       <Divider />
