@@ -22,7 +22,8 @@ const getPaths = async () => {
 
 const getFighterInfoById = async (id) => {
   try {
-    const data = await getData()
+    const { getHomeData } = await import('./home')
+    const data = await getHomeData()
     return data.fighters.find((fighter) => fighter.id == id)
   } catch (error) {
     return handleError(error)
@@ -31,7 +32,8 @@ const getFighterInfoById = async (id) => {
 
 const getFighterInfoByName = async (name) => {
   try {
-    const data = await getData()
+    const { getHomeData } = await import('./home')
+    const data = await getHomeData()
     return data.fighters.find((fighter) => fighter.name == name)
   } catch (error) {
     return handleError(error)
