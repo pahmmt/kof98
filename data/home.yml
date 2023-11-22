@@ -436,6 +436,7 @@ fighters:
     type: dps
     aptitude: 15
     soul: bear
+    date: 20200326
 
   - id: 100075
     name: Benimaru 2003
@@ -544,6 +545,7 @@ fighters:
     type: gank
     aptitude: 15
     soul: turtle
+    date: 20211118
 
   - id: 100094
     name: Clone ZERO
@@ -574,6 +576,7 @@ fighters:
     type: dps
     aptitude: 15
     soul: turtle
+    date: 20210826
 
   - id: 100099
     name: Oswald
@@ -586,168 +589,203 @@ fighters:
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20211021
 
   - id: 100101
     name: Leona XIII
     type: gank
     aptitude: 15
     soul: bear
+    date: 20200227
 
   - id: 100102
     name: Ralf XIII
     type: tank
     aptitude: 15
     soul: bear
+    date: 20200624
 
   - id: 100103
     name: Clark XIII
     type: dps
     aptitude: 15
     soul: bear
+    date: 20200929
 
   - id: 100104
     name: Duo Lon
     type: tank
     aptitude: 15
     soul: snake
+    date: 20201012
 
   - id: 100105
     name: Superstar Athena
     type: gank
     aptitude: 15
     soul: turtle
+    date: 20200423
 
   - id: 100106
     name: Rising Dragon Kensou
     type: dps
     aptitude: 15
     soul: snake
+    date: 20200528
+
+  - id: 100203
+    name: Robert XI
+    type: gank
+    aptitude: 15
+    soul: snake
+    date: 20200611
 
   - id: 100107
     name: Death Vice
     type: gank
     aptitude: 15
     soul: tiger
+    date: 20200723
 
   - id: 100108
     name: Cruel Beauty Mature
     type: dps
     aptitude: 15
     soul: turtle
+    date: 20201029
 
   - id: 100109
     name: Extreme Mr. Karate
     type: tank
     aptitude: 15
     soul: tiger
+    date: 20200121
 
   - id: 100110
     name: Mizuchi
     type: gank
     aptitude: 15
     soul: vacuum
+    date: 20201012
 
   - id: 100111
     name: Meitenkun
     type: gank
     aptitude: 15
     soul: bear
+    date: 20210506
 
   - id: 100112
     name: Ice Doll Kula
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20200107
 
   - id: 100113
     name: Transcendence K'
     type: dps
     aptitude: 15
     soul: tiger
+    date: 20201112
 
   - id: 100114
     name: Maxima XIV
     type: tank
     aptitude: 15
     soul: bear
+    date: 20210225
 
   - id: 100115
     name: King XIII
     type: gank
     aptitude: 15
     soul: snake
+    date: 20230927
 
   - id: 100116
     name: Chang XIV
     type: gank
     aptitude: 15
     soul: turtle
+    date: 20210617
 
   - id: 100117
     name: Choi XIV
     type: dps
     aptitude: 15
     soul: snake
+    date: 20210311
 
   - id: 100118
     name: Rock Howard
     type: gank
     aptitude: 15
     soul: tiger
+    date: 20210701
 
   - id: 100119
     name: Billy XIV
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20210729
 
   - id: 100120
     name: Saiki (Awakened)
     type: tank
     aptitude: 15
     soul: vacuum
+    date: 20210506
 
   - id: 100121
     name: Hunry Wolf Terry
     type: dps
     aptitude: 15
     soul: bear
+    date: 20210325
 
   - id: 100122
     name: Hein
     type: dps
     aptitude: 15
     soul: tiger
+    date: 20220428
 
   - id: 100123
     name: Overlord Geese
     type: dps
     aptitude: 15
     soul: tiger
+    date: 20210909
 
   - id: 100124
     name: Hotaru
     type: gank
     aptitude: 15
     soul: snake
+    date: 20210603
 
   - id: 100125
     name: Verse
     type: tank
     aptitude: 15
     soul: bear
+    date: 20210923
 
   - id: 100126
     name: Kukri
     type: gank
     aptitude: 15
     soul: bear
+    date: 20211216
 
   - id: 100127
     name: Catty Leona
     type: gank
     aptitude: 15
     soul: snake
+    date: 20200511
 
   - id: 100128
     name: Alluring Mai
@@ -760,228 +798,266 @@ fighters:
     type: gank
     aptitude: 15
     soul: tiger
+    date: 20211216
 
   - id: 100130
     name: Cutie Terry
     type: dps
     aptitude: 15
     soul: bear
+    date: 20200820
 
   - id: 100144
     name: Hikage
     type: dps
     aptitude: 15
     soul: bear
+    date: 20220818
 
   - id: 100145
     name: Asuka
     type: dps
     aptitude: 15
     soul: bear
+    date: 20220818
 
   - id: 100146
     name: Homura
     type: dps
     aptitude: 15
     soul: bear
+    date: 20220901
 
   - id: 100147
     name: Yumi
     type: dps
     aptitude: 15
     soul: bear
+    date: 20220929
 
   - id: 100150
     name: Igniz 02UM
     type: gank
     aptitude: 15
     soul: vacuum
+    date: 20220512
 
   - id: 100151
     name: Orochi Chris 02UM
     type: dps
     aptitude: 15
     soul: turtle
+    date: 20211216
 
   - id: 100152
     name: Orochi Shermie 02UM
     type: gank
     aptitude: 15
     soul: tiger
+    date: 20211103
 
   - id: 100153
     name: Orochi Yashiro 02UM
     type: tank
     aptitude: 15
     soul: snake
+    date: 20211230
 
   - id: 100154
     name: Goenitz 02UM
     type: dps
     aptitude: 15
     soul: bear
+    date: 20220125
 
   - id: 100156
     name: Benimaru XIII
     type: gank
     aptitude: 15
     soul: tiger
+    date: 20220414
 
   - id: 100157
     name: Luong
     type: gank
     aptitude: 15
     soul: turtle
+    date: 20221027
 
   - id: 100158
     name: Elizabeth XI
     type: tank
     aptitude: 15
     soul: tiger
+    date: 20220331
 
   - id: 100159
     name: Daimon 02UM
     type: dps
     aptitude: 15
     soul: snake
+    date: 20220707
 
   - id: 100160
     name: Angel XIV
     type: dps
     aptitude: 15
     soul: turtle
+    date: 20220303
 
   - id: 100161
     name: Mai XIV
     type: gank
     aptitude: 15
     soul: bear
+    date: 20220609
 
   - id: 100162
     name: Robert XIV
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20220915
 
   - id: 100163
     name: Yuri XIV
     type: dps
     aptitude: 15
     soul: tiger
+    date: 20230706
 
   - id: 100164
     name: Yamazaki XIV
     type: tank
     aptitude: 15
     soul: snake
+    date: 20221013
 
   - id: 100165
     name: Mary XIV
     type: tank
     aptitude: 15
     soul: snake
+    date: 20221222
 
   - id: 100166
     name: Iori XIV
     type: dps
     aptitude: 15
     soul: bear
+    date: 20221222
 
   - id: 100168
     name: Vanessa XIV
     type: dps
     aptitude: 15
     soul: tiger
+    date: 20230414
 
   - id: 100169
     name: Krizalid 99
     type: gank
     aptitude: 15
     soul: bear
+    date: 20230317
 
   - id: 100170
     name: Kyo XIV
     type: dps
     aptitude: 15
     soul: vacuum
+    date: 20230216
 
   - id: 100171
     name: Kula XIII
     type: gank
     aptitude: 15
     soul: tiger
+    date: 20230427
 
   - id: 100172
     name: Athena XI
     type: gank
     aptitude: 15
     soul: turtle
+    date: 20221111
 
   - id: 100173
     name: Kensou XI
     type: tank
     aptitude: 15
     soul: bear
+    date: 20230202
 
   - id: 100174
     name: Duo Lon XIII
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20230105
 
   - id: 100175
     name: Shingo 02UM
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20230303
 
   - id: 100176
     name: Isla
     type: gank
     aptitude: 15
     soul: snake
+    date: 20230330
 
   - id: 100178
     name: Shun'Ei XV
     type: dps
     aptitude: 15
     soul: tiger
+    date: 20230105
 
   - id: 100179
     name: Heidern XIV
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20230831
 
   - id: 100180
     name: Ω ‧ Rugal
     type: dps
     aptitude: 15
     soul: snake
+    date: 20230511
 
   - id: 100181
     name: Leona XV
     type: gank
     aptitude: 15
     soul: bear
+    date: 20230706
 
   - id: 100182
     name: Ralf XV
     type: tank
     aptitude: 15
     soul: tiger
+    date: 20230608
 
   - id: 100183
     name: Clark XV
     type: dps
     aptitude: 15
     soul: bear
+    date: 20230817
 
   - id: 100185
     name: Goddess Athena
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20230914
 
   - id: 100186
     name: Miss X

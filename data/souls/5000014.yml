@@ -1,0 +1,63 @@
+id: 5000014
+name: Phong Ấn
+description: Phe địch trong một lượt số lần tung tuyệt kĩ càng nhiều, hiệu quả càng mạnh
+image: skill_5000014
+levels:
+  - star: 1
+    content: >-
+      Mỗi khi bắt đầu lượt hành động phe địch, hồn Phong Ấn khiến 3
+      võ sĩ phe địch ngẫu nhiên đầy nộ dính *"Kiếm phong ấn"* 1 lượt:
+      Từng người trong lượt này sau khi tung 1 lần tuyệt kĩ, mỗi 1 lần
+      tuyệt kĩ tung nhiều ngẫu nhiên giảm người tung 50% hiệu quả 1
+      thuộc tính trong 2 lượt (bao gồm sát thương tuyệt kĩ, sát thương
+      độc chiêu, tỉ lệ công, tỉ lệ thủ), hiệu quả bỏ qua miễn dịch
+      trạng thái xấu và không thể bị hóa giải.
+  - star: 2
+    content: >-
+      Võ sĩ có *"Kiếm phong ấn"* khi bị tấn công kích hoạt *"Lửa phong
+      ấn"* (kéo dài 2 lượt, mỗi lượt chịu sát thương không hồi nộ
+      bằng 100% công bản thân và giảm 100 nộ, võ sĩ đã có Lửa phong
+      ấn sẽ không thể kích hoạt).
+  - star: 3
+    content: >-
+      Hồn Phong Ấn trong trận, vào lượt hành động phe địch, khi hàng
+      trước phe địch tung tuyệt kĩ sẽ giảm đồng minh ở hàng ngang 25%
+      tỉ lệ cường hóa sát thương và tỉ lệ chí mạng 2 lượt (có thể
+      cộng dồn tối đa 70%) bỏ qua miễn dịch trạng thái xấu và không thể
+      bị hóa giải, khi kẻ địch hàng sau phe địch tung tuyệt kĩ sẽ
+      giảm đồng minh ở hàng ngang 25% tỉ lệ kháng sát thương và tỉ lệ
+      chặn chí mạng 2 lượt (có thể cộng dồn tối đa 70%) bỏ qua miễn
+      dịch trạng thái xấu và không thể bị hóa giải, khi kẻ địch mỗi lần
+      tung tuyệt kĩ có 30% tỉ lệ đóng băng đồng minh ở hàng ngang (mỗi
+      1 lần tung thêm tuyệt kĩ tỉ lệ tăng 25%, tối đa có thể tăng thành
+      80%, không thể đóng băng võ sĩ sở hữu hồn Ác Ma).
+
+      #(hàng ngang = hàng 2 người)#
+  - star: 4
+    content: >-
+      Khi mỗi lần võ sĩ có *"Lửa phong ấn"* tấn công tự chịu 1 lần
+      *"Huyết phong ấn"* (giảm mục tiêu 60% tỉ lệ chữa trị, mỗi lượt
+      mất 7% HP, không hồi nộ, kéo dài 2 lượt). Khi võ sĩ phe địch có
+      đồng thời cả *"Lửa phong ấn"* và *"Huyết phong ấn"*, tung tuyệt
+      kĩ sẽ ngẫu nhiên đóng băng thanh nộ một đồng minh 1 lượt (ưu tiên
+      võ sĩ đầy nộ), khi tung độc chiêu có 50% tỉ lệ kích hoạt hiệu
+      quả này.
+  - star: 5
+    content: >-
+      Khi không quá 3 người có Kiếm phong ấn, sẽ thêm cho 2 võ sĩ chưa
+      đầy nộ;
+
+      Khi võ sĩ có hồn Phong Ấn tấn công sẽ kích hoạt hiệu quả sau:
+
+      - Khi tấn công ở trên sân phe địch có Lửa phong ấn, giảm tất cả
+      mục tiêu tấn công 10% kháng sát thương tuyệt kĩ (trên sân phe địch
+      Lửa phong ấn càng nhiều, hiệu quả càng cao, bỏ qua miễn dịch
+      trạng thái xấu không thể bị hóa giải);
+
+      - Khi tấn công ở trên sân phe địch có Huyết phong ấn, giảm tất cả
+      mục tiêu tấn công 10% kháng sát thương độc chiêu (trên sân phe địch
+      Huyết phong ấn càng nhiều, hiệu quả càng cao, bỏ qua miễn dịch
+      trạng thái xấu không thể bị hóa giải);
+
+      - Khi tấn công ở trên sân phe địch có Kiếm phong ấn, Lửa phong ấn,
+      Huyết phong ấn, có 20% tỉ lệ đóng băng mục tiêu tấn công.

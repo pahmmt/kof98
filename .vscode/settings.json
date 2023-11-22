@@ -6,8 +6,8 @@
     "typescript": "typescriptreact"
   },
   "yaml.schemas": {
-    "./schema/fighter.json": "/data/yaml/fighters/*.yml",
-    "./schema/fate-files.json": "/data/yaml/fate-files.yml"
+    "./schema/fighter.json": "/data/fighters/*.yml",
+    "./schema/fate-files.json": "/data/fate-files.yml"
   },
   "tailwindCSS.emmetCompletions": true
 }
