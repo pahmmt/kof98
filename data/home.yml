@@ -388,6 +388,7 @@ fighters:
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20180801
 
   - id: 100067
     name: Nakoruru
@@ -412,24 +413,28 @@ fighters:
     type: gank
     aptitude: 15
     soul: tiger
+    date: 20190301
 
   - id: 100071
     name: Magaki
     type: tank
     aptitude: 15
     soul: bear
+    date: 20191201
 
   - id: 100072
     name: Saiki
     type: tank
     aptitude: 15
     soul: snake
+    date: 20191101
 
   - id: 100073
     name: Ash
     type: dps
     aptitude: 15
     soul: snake
+    date: 20181201
 
   - id: 100074
     name: Shion
@@ -467,6 +472,7 @@ fighters:
     type: gank
     aptitude: 15
     soul: turtle
+    date: 20190801
 
   - id: 100080
     name: Nameless
@@ -509,30 +515,35 @@ fighters:
     type: dps
     aptitude: 15
     soul: vacuum
+    date: 20190501
 
   - id: 100088
     name: Flame Kyo
     type: dps
     aptitude: 15
     soul: vacuum
+    date: 20191001
 
   - id: 100089
     name: Nightmare Geese
     type: gank
     aptitude: 15
     soul: bear
+    date: 20190601
 
   - id: 100090
     name: Goeniko
     type: dps
     aptitude: 15
     soul: bear
+    date: 20190701
 
   - id: 100091
     name: Elizabeth
     type: tank
     aptitude: 15
     soul: tiger
+    date: 20190901
 
   - id: 100092
     name: Ramon
@@ -558,12 +569,14 @@ fighters:
     type: dps
     aptitude: 15
     soul: tiger
+    date: 20191201
 
   - id: 100096
     name: Tung Fu Rue
     type: dps
     aptitude: 15
     soul: turtle
+    date: 20191201
 
   - id: 100097
     name: Lin
@@ -583,6 +596,7 @@ fighters:
     type: tank
     aptitude: 15
     soul: turtle
+    date: 20200201
 
   - id: 100100
     name: Kim XIII
@@ -659,7 +673,7 @@ fighters:
     type: tank
     aptitude: 15
     soul: tiger
-    date: 20200121
+    date: 20210121
 
   - id: 100110
     name: Mizuchi
@@ -792,6 +806,7 @@ fighters:
     type: gank
     aptitude: 15
     soul: snake
+    date: 20191201
 
   - id: 100129
     name: Purple Nakoruru

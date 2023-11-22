@@ -7,7 +7,8 @@ import { colorMap } from '@/utils/text'
 import bgHead from '@/public/assets/custom/bg_head2.png'
 
 export default function FighterSection({ data, className = '' }) {
-  const paginate = 100
+  const paginate = 10
+  const showDate = false
   const [aptiFilter, setAptiFilter] = useState(15)
   const [soulFilter, setSoulFilter] = useState(null)
   const [aidFilter, setAidFilter] = useState(false)
@@ -206,7 +207,8 @@ export default function FighterSection({ data, className = '' }) {
                   colorMap[fighter.aptitude] || 'bg-gray-200'
                 }`}
               >
-                {fighter.name} | {fighter.date || 'Unknown'}
+                {fighter.name}
+                {showDate && ' ' + (fighter.date || 'Unknown')}
               </div>
             </Link>
           ))}
