@@ -1,0 +1,97 @@
+id: 100184
+name: Whip XIV
+type: gank
+aptitude: 15
+soul: snake
+soul_info:
+  name: Saint Turtle Soul
+  description: >-
+    In all gameplays, gain additional 130 rage when attacked. Attack to get extra 130 rage.
+  image: skill_battlesoul_turtle
+feature:
+  description: Soul Link, Healing Shield
+  tags:
+    - Healing Power
+    - Purifier
+    - Blunt
+    - Sepsis Cure
+    - Counter
+    - Dispel
+    - Sustain Damage
+fates:
+  - name: Athena
+    conditions:
+      - Goddess Athena
+      - Athena
+      - Superstar Athena
+    bonus: Tăng 25% ATK
+  - name: Women's foreign Aid
+    conditions:
+      - Goddess Athena
+      - Miss X
+      - Lilly Kane
+    bonus: Tăng 25% HP
+  - name: Goddess of war
+    conditions:
+      - Goddess Athena
+      - Mizuchi
+    bonus: Tăng 25% HP
+  - name: Thức tỉnh vũ khí
+    conditions:
+      - Golden Holy Sword
+    bonus: Tuyệt kỹ được nâng cấp thành MAX.Wrath of Poisedon
+  - name: Hồn hiệu
+    conditions:
+      - Huy Hiệu Nữ Trang
+    bonus: Tăng 15% HP
+  - name: Hồn sách
+    conditions:
+      - Sách Siêu Năng
+    bonus: Tăng 15% ATK
+element_fates:
+  - Mature
+  - Vice
+  - Crazy Iori
+skills:
+  - type: a1
+    detail:
+      - name: Storm Fire
+        state: normal
+        content: ''
+      - name: MAX.Storm Fire
+        state: thunder_element
+        content: ''
+  - type: a2
+    detail:
+      - name: Heaven's Gate
+        state: normal
+        content: ''
+      - name: '-'
+        state: weapon_awaken
+        content: ''
+      - name: '-'
+        state: water_element
+        content: ''
+  - type: p1
+    detail:
+      - name: War Rhythm
+        state: normal
+        content: ''
+      - name: '-'
+        state: lake_element
+        content: ''
+equipments:
+  - name: Golden Holy Sword
+    description: Nâng cấp kỹ năng tuyệt kỹ
+    image: item_514285
+  - name: Huy Hiệu Nữ Trang
+    description: Tăng chỉ số % ATK
+    image: item_504506
+  - name: Sách Siêu Năng
+    description: Tăng chỉ số % HP
+    image: item_504605
+galleries:
+  - name: KOF'98
+    image: ka_BG_100184image
+  - name: Goddess Of War
+    image: ka_BG_10018401image

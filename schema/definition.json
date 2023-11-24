@@ -553,6 +553,10 @@
           "description": "Goenitz 02UM"
         },
         {
+          "const": 100155,
+          "description": "Mian"
+        },
+        {
           "const": 100156,
           "description": "Benimaru XIII"
         },
@@ -655,6 +659,10 @@
         {
           "const": 100183,
           "description": "Clark XV"
+        },
+        {
+          "const": 100184,
+          "description": "Whip XIV"
         },
         {
           "const": 100185,
@@ -839,6 +847,8 @@
         "Goddess Athena",
         "Miss X",
         "Benimaru XV",
+        "Mian",
+        "Whip XIV",
         "--------------------------",
         "Ash XIII",
         "Meitenkun XV",
