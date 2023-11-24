@@ -404,7 +404,7 @@ fighters:
 
   - id: 100069
     name: Ukyo Tachibana
-    type: dps
+    type: gank
     aptitude: 14
     soul: snake
 
