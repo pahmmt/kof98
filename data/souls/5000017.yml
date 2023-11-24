@@ -1,0 +1,43 @@
+id: 5000017
+name: Cuồng Chiến
+description: >-
+  Miễn dịch choáng, câm lặng, đóng băng, tê liệt, khiêu khích, hoá đá; kích hoạt
+  "máu cuồng chiến" bộc phát sát thương
+image: skill_5000017
+levels:
+  - star: 1
+    content: >-
+      Trong 2 lượt vào trận, miễn dịch thiêu đốt, trúng độc, sát thương chảy máu
+      (không thể miễn dịch hiệu quả khác ngoài sát thương duy trì trong debuff
+      như "long thực", "độc tố"), mỗi tăng 1 cấp sao số lượt kéo dài thêm 2
+      lượt; mỗi một lượt sống sót thêm, tăng 30% sát thương tuyệt kĩ, nhiều nhất
+      tăng 120% (có thể cộng dồn buff cùng loại), mỗi lần sau khi tung tuyệt kĩ
+      ở lượt phe ta sẽ xoá hiệu quả và làm mới cộng dồn.
+  - star: 2
+    content: >-
+      Khi lượng máu bản thân thấp hơn 70% HP tối đa kích hoạt "máu cuồng chiến",
+      tỉ lệ cường hoá sát thương tăng 60%, tỉ lệ chí mạng tăng 100%, lực chí
+      mạng tăng 30% (có thể cộng dồn buff cùng loại), hoá giải hiệu ứng xấu và
+      miễn dịch hiệu ứng xấu 1 lượt, hiệu quả biến mất sau khi tung tuyệt kĩ ở
+      lượt phe ta, sau đó hồi chiêu 1 lượt, dưới trạng thái "máu cuồng chiến"
+      khi mỗi lần hạ gục võ sĩ tỉ lệ cường hoá sát thương vĩnh viễn tăng 10% (có
+      thể cộng dồn buff cùng loại).
+  - star: 3
+    content: >-
+      Vĩnh viễn miễn dịch choáng, câm lặng, đóng băng, tê liệt, khiêu khích, hoá
+      đá; trong thời gian hồi chiêu "máu cuồng chiến" bản thân siêu kháng sát
+      thương tăng 30%.
+  - star: 4
+    content: >-
+      Người trang bị ở lượt phe ta công thường hoặc độc chiêu ngẫu nhiên giảm 1
+      kẻ địch 400 nộ và 20% siêu cường hoá sát thương 2 lượt bỏ qua miễn dịch
+      trạng thái xấu không thể hoá giải (ưu tiên võ sĩ đầy nộ), mỗi lượt kích
+      hoạt 1 lần; Khi phản công ngẫu nhiên hấp thu 1 địch 1000 nộ và giảm 30%
+      siêu cường hoá sát thương 2 lượt bỏ qua miễn dịch trạng thái xấu không thể
+      hoá giải (ưu tiên võ sĩ đầy nộ), mỗi lượt kích hoạt 1 lần.
+  - star: 5
+    content: >-
+      Khi kích hoạt "máu cuồng chiến" sát thương mỗi lần nhận vào không vượt quá
+      20% HP tối đa, hiệu quả biến mất sau khi tung tuyệt kĩ ở lượt phe ta; khi
+      lần đầu kích hoạt "máu cuồng chiến" trong 1 lượt bất kì sát thương nào
+      cũng không thể khiến bản thân HP giảm còn 15% trở xuống.
