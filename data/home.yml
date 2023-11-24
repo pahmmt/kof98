@@ -1095,6 +1095,13 @@ fighters:
     soul: tiger
     date: 20231109
 
+  - id: 100184
+    name: Whip XIV
+    type: gank
+    aptitude: 15
+    soul: snake
+    date: 20231124
+
 souls:
   - id: 5000001
     name: Phục Thù
