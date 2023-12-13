@@ -962,6 +962,13 @@ fighters:
     soul: bear
     date: 20221222
 
+  - id: 100167
+    name: Gato
+    type: tank
+    aptitude: 15
+    soul: bear
+    date: 20221223
+
   - id: 100168
     name: Vanessa XIV
     type: dps
@@ -1081,6 +1088,13 @@ fighters:
     soul: turtle
     date: 20231012
 
+  - id: 100187
+    name: Doroles
+    type: tank
+    aptitude: 15
+    soul: snake
+    date: 20231012
+
   - id: 100189
     name: Benimaru XV
     type: tank
@@ -1100,6 +1114,13 @@ fighters:
     type: gank
     aptitude: 15
     soul: snake
+    date: 20231124
+
+  - id: 100190
+    name: Ash XIII
+    type: gank
+    aptitude: 15
+    soul: vacuum
     date: 20231124
 
 souls:
